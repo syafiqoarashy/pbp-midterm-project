@@ -1,0 +1,576 @@
+[
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 1,
+        "fields": {
+            "id_paper": "94",
+            "room": "8",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.00-13.15",
+            "location": "KUANTAN 1-2",
+            "author": "Invited Speaker - Lisa Scharoun, Gregor Mews",
+            "paper": "Designed by Kids for Kids: Design strategies to improve outcomes for children’s health and wellbeing in suburban environments"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 2,
+        "fields": {
+            "id_paper": "94",
+            "room": "8",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.15-13.30",
+            "location": "KUANTAN 1-2",
+            "author": "Invited Speaker - Lisa Scharoun, Gregor Mews",
+            "paper": "Designed by Kids for Kids: Design strategies to improve outcomes for children’s health and wellbeing in suburban environments"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 3,
+        "fields": {
+            "id_paper": "369",
+            "room": "8",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.30-13.45",
+            "location": "KUANTAN 1-2",
+            "author": "Naomira Azalia, Enira Arvanda and Hendrajaya Isnaeni",
+            "paper": "Proxemic as Spatial Strategy on Social Space for Deaf Community"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 4,
+        "fields": {
+            "id_paper": "162",
+            "room": "8",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.45-14.00",
+            "location": "KUANTAN 1-2",
+            "author": "Sekar Narindrasani and Achmad Hery Fuad",
+            "paper": "Pleasurable Experience in Wayfinding"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 5,
+        "fields": {
+            "id_paper": "270",
+            "room": "8",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.00-14.15",
+            "location": "KUANTAN 1-2",
+            "author": "Nadhila Shabrina and Herlily .",
+            "paper": "Communal Spatial Adaptation in Respond to Urban Kampung Vulnerability, Study Case: Kampung Muka, North Jakarta"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 6,
+        "fields": {
+            "id_paper": "262",
+            "room": "8",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.15-14.30",
+            "location": "KUANTAN 1-2",
+            "author": "Annisa Chusnul Muasaroh",
+            "paper": "Street as a Happy Playground: An Inquiry of Children Placemaking in Urban Kampung. Case Study: Warakas, North Jakarta"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 7,
+        "fields": {
+            "id_paper": "141",
+            "room": "8",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.30-14.45",
+            "location": "KUANTAN 1-2",
+            "author": "Raja Ahmad Iskandar Raja Yaacob, Abdul Mutalib Embong, Azelin Mohd Noor, Kais Amir Kadhim and Aizat Akmal A.Mohamad Beddelee",
+            "paper": "Sustaining the Understanding and Practice of Reduce Activity among the Elderly"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 8,
+        "fields": {
+            "id_paper": "368",
+            "room": "8",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.15-15.30",
+            "location": "KUANTAN 1-2",
+            "author": "Desi Rahmawati, Nevine Rafa Kusuma, Enira Arvanda and Hendrajaya Isnaeni",
+            "paper": "Disability in Child-friendly Integrated Public Space"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 9,
+        "fields": {
+            "id_paper": "161",
+            "room": "8",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.30-15.45",
+            "location": "KUANTAN 1-2",
+            "author": "Achmad Soerio Hutomo and Achmad Hery Fuad",
+            "paper": "Engagement and Wellbeing in Public Spaces"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 10,
+        "fields": {
+            "id_paper": "164",
+            "room": "8",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.45-16.00",
+            "location": "KUANTAN 1-2",
+            "author": "Fx Teddy Badai Samodra, Irvansyah and Collinthia Erwindi",
+            "paper": "Environmental Psychology Investigation on Traditional Lifestyle in The Tropical City Housing"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 11,
+        "fields": {
+            "id_paper": "264",
+            "room": "8",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.00-16.15",
+            "location": "KUANTAN 1-2",
+            "author": "Syifa Fadhila and Yulia Nurliani Lukito",
+            "paper": "Surveillance and Architecture, Analyzing the Idea of Eyes on the Street"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 12,
+        "fields": {
+            "id_paper": "167",
+            "room": "8",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.15-16.30",
+            "location": "KUANTAN 1-2",
+            "author": "Satria Rakha Amrullah and Achmad Hery Fuad",
+            "paper": "5 km/h Streetscape: 5 Km/h Architecture As A Way To Identify Streetscape Important Role In Supporting Urban Livability"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 13,
+        "fields": {
+            "id_paper": "163",
+            "room": "8",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.30-16.45",
+            "location": "KUANTAN 1-2",
+            "author": "Muhamad Rendy Abdillah and Achmad Hery Fuad",
+            "paper": "The Application of Kano’s Model in a Public Space"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 14,
+        "fields": {
+            "id_paper": "285",
+            "room": "8",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.45-17.00",
+            "location": "KUANTAN 1-2",
+            "author": "Kezia Esmeralda K Jusuf and Ahmad Gamal",
+            "paper": "Atmospheric Design in Business Success Literature Review"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 15,
+        "fields": {
+            "id_paper": "280",
+            "room": "8",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.00-17.15",
+            "location": "KUANTAN 1-2",
+            "author": "Harry Mufrizon",
+            "paper": "Bollards; the Point-Line Playing Space"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 16,
+        "fields": {
+            "id_paper": "197",
+            "room": "8",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.00-08.15",
+            "location": "KUANTAN 1-2",
+            "author": "Annisa Noor Khilmia Adkhanti and Evawani Ellisa",
+            "paper": "Implication of Taboo in Formation of Vernacular Settlement Patterns"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 17,
+        "fields": {
+            "id_paper": "240",
+            "room": "8",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.15-08.30",
+            "location": "KUANTAN 1-2",
+            "author": "Armia Utami Putri and Evawani Ellisa",
+            "paper": "Unexpected and Informal Events Beneath Pedestrian Bridges in Jakarta"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 18,
+        "fields": {
+            "id_paper": "245",
+            "room": "8",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.30-08.45",
+            "location": "KUANTAN 1-2",
+            "author": "Inka Anggraeni and Herlily",
+            "paper": "Investigating \"Tiny House\" in Urban Kampung: Sustainable Living in Tiny House"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 19,
+        "fields": {
+            "id_paper": "247",
+            "room": "8",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.45-09.00",
+            "location": "KUANTAN 1-2",
+            "author": "Novie Stella Samosir, Herlily . and Kemas Ridwan Kurniawan",
+            "paper": "Food Distribution from Home Industry in Kampung Kota Jakarta: POI Development of Network in Trajectory"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 20,
+        "fields": {
+            "id_paper": "165",
+            "room": "8",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.00-09.15",
+            "location": "KUANTAN 1-2",
+            "author": "Fx Teddy Badai Samodra, Irvansyah and Collinthia Erwindi",
+            "paper": "Model Experiment for Rural Building Performance in The Dry Season of Tropical Environment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 21,
+        "fields": {
+            "id_paper": "290",
+            "room": "8",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.15-09.30",
+            "location": "KUANTAN 1-2",
+            "author": "Paramitha Ramadhaniar and Yulia Nurliani Lukito",
+            "paper": "Collage in Architecture: Its Use as a Design Method and Sustainability of Design Meanings"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 22,
+        "fields": {
+            "id_paper": "169",
+            "room": "8",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.30-09.45",
+            "location": "KUANTAN 1-2",
+            "author": "Muhammad Farhan Amran and Achmad Hery Fuad",
+            "paper": "The Effect of Public Spaces’ Physical Features on Interaction Between Strangers"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 23,
+        "fields": {
+            "id_paper": "348",
+            "room": "8",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.45-10.00",
+            "location": "KUANTAN 1-2",
+            "author": "Ajeng Fajarsari, Elita Nuraeny and Enira Arvanda",
+            "paper": "The Significance of Atmospheric Space on the Performance of Women Who Are Experiencing Menstruation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 24,
+        "fields": {
+            "id_paper": "370",
+            "room": "8",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.00-13.15",
+            "location": "KUANTAN 1-2",
+            "author": "Nisrina Nur Septriyani, Enira Arvanda and Hendrajaya Isnaeni",
+            "paper": "Architecture and The Potential of Bullying Behavior in Elementary School Environment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 25,
+        "fields": {
+            "id_paper": "349",
+            "room": "8",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.15-13.30",
+            "location": "KUANTAN 1-2",
+            "author": "Ruth Amelia Gultom, Elita Nuraeny and Enira Arvanda",
+            "paper": "The Effect of Rhythm in Music and Interior on People’s Movement"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 26,
+        "fields": {
+            "id_paper": "265",
+            "room": "8",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.30-13.45",
+            "location": "KUANTAN 1-2",
+            "author": "Hasna Nurmaraya and Yulia Nurliani Lukito",
+            "paper": "A Place to Remember: Heritage Terrorism in Pasar Johar"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 27,
+        "fields": {
+            "id_paper": "112",
+            "room": "8",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.45-14.00",
+            "location": "KUANTAN 1-2",
+            "author": "Yohannes Firzal",
+            "paper": "Redefining Urban Architecture in the Decentralisation Era"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 28,
+        "fields": {
+            "id_paper": "258",
+            "room": "8",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.00-14.15",
+            "location": "KUANTAN 1-2",
+            "author": "Fachrian Nabil Fauzi and Herlily",
+            "paper": "Kampung Transit-Oriented Development: A Case Study of Kampung Muka, North Jakarta"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 29,
+        "fields": {
+            "id_paper": "354",
+            "room": "8",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.15-14.30",
+            "location": "KUANTAN 1-2",
+            "author": "Anissa Pramesti",
+            "paper": "Woman and the City: Interrogating Jakarta’s Gender Issues and Occupation of Urban Space Through Cinematic Representation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 30,
+        "fields": {
+            "id_paper": "367",
+            "room": "8",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.30-14.45",
+            "location": "KUANTAN 1-2",
+            "author": "Untari Meistuti, Elita Nuraeny S.Ars. M.A. and Enira Arvanda S.T. M.Dipl",
+            "paper": "Effect of Modular Temporal Attribute of Street Vendor in Image of Historical Area"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 31,
+        "fields": {
+            "id_paper": "278",
+            "room": "8",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.45-15.00",
+            "location": "KUANTAN 1-2",
+            "author": "Mutiara Alya and Achmad Hery Fuad",
+            "paper": "Commodified Public Space: The Enforcement of Authority"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 32,
+        "fields": {
+            "id_paper": "282",
+            "room": "8",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.15-15.30",
+            "location": "KUANTAN 1-2",
+            "author": "Dyar Paramitha, Ahmad Gamal and Azrar Hadi",
+            "paper": "Loan To Value (LTV) Ratio Policy And Its Impact to Property Development"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 33,
+        "fields": {
+            "id_paper": "118",
+            "room": "8",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.30-15.45",
+            "location": "KUANTAN 1-2",
+            "author": "Adhika Wahyu Adjisaputri, Ova Candra Dewi, Baskoro Laksitoadi and Mohammad Nanda Widyarta",
+            "paper": "A Comparison Review : Engineered Material Solid-Surface and Granite"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 34,
+        "fields": {
+            "id_paper": "251",
+            "room": "8",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.45-16.00",
+            "location": "KUANTAN 1-2",
+            "author": "Evita Sari, Gabriel Budi Andari and Mochamad Adhiraga Pratama",
+            "paper": "CO2 Emissions from Clean Water Production and Supply Sector in Depok City, Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 35,
+        "fields": {
+            "id_paper": "115",
+            "room": "8",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.00-16.15",
+            "location": "KUANTAN 1-2",
+            "author": "Puti Sri Komala, Ansiha Nur and Silvi Septanisa",
+            "paper": "Real Demand Survey of Water Supply System in Padang City"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 36,
+        "fields": {
+            "id_paper": "131",
+            "room": "8",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.15-16.30",
+            "location": "KUANTAN 1-2",
+            "author": "Okid Parama Astirin, Winny Astuti and Rahning Utomowati",
+            "paper": "Sustainable Campus Community : from Campus to City, Regional and National Betterment of Environment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 37,
+        "fields": {
+            "id_paper": "295",
+            "room": "8",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.30-16.45",
+            "location": "KUANTAN 1-2",
+            "author": "Djoko Hartono, Nurannisa Shaleha, Nyoman Suwartha and Sandyanto Adityosulindro",
+            "paper": "Performance Evaluation and Sludge Estimation of Legong Drinking Water Treatment Plant in Depok City, Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 38,
+        "fields": {
+            "id_paper": "82",
+            "room": "8",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.45-17.00",
+            "location": "KUANTAN 1-2",
+            "author": "Ari Sandhyavitri, Alvon Bin Sepdarizal and Bambang Sujatmoko",
+            "paper": "Pumping Test For The Identification of Groundwater Potential as Water Resources in Mitigating Peatfires"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 39,
+        "fields": {
+            "id_paper": "375",
+            "room": "8",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "17.00-17.15",
+            "location": "KUANTAN 1-2",
+            "author": "Hastin Setiani, Lucy Kurnianti, Sabrina Hikmah Ramadianti, Riri Fitri Sari",
+            "paper": "Development of Metric for Seawater Quality"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 40,
+        "fields": {
+            "id_paper": "",
+            "room": "8",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.15-10.30",
+            "location": "KUANTAN 1-2",
+            "author": "Invited Speaker - Ruth Steiner",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSBCC",
+        "pk": 41,
+        "fields": {
+            "id_paper": "",
+            "room": "8",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.30-10.45",
+            "location": "KUANTAN 1-2",
+            "author": "Invited Speaker - Ruth Steiner",
+            "paper": ""
+        }
+    }
+]

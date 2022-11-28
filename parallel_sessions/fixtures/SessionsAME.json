@@ -1,0 +1,842 @@
+[
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 1,
+        "fields": {
+            "id_paper": "",
+            "room": "1",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.00-13.15",
+            "location": "ANAI 1-2",
+            "author": "Invited Speaker - Jeremy Charmet",
+            "paper": "Lowcost Microfabrication Tool Box"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 2,
+        "fields": {
+            "id_paper": "",
+            "room": "1",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.15-13.30",
+            "location": "ANAI 1-2",
+            "author": "Invited Speaker - Jeremy Charmet",
+            "paper": "Lowcost Microfabrication Tool Box"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 3,
+        "fields": {
+            "id_paper": "319",
+            "room": "1",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.30-13.45",
+            "location": "ANAI 1-2",
+            "author": "Bintang Samodro Wartojo and Mohammad Adhitya",
+            "paper": "Folded Wing Mechanism for Flying Car"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 4,
+        "fields": {
+            "id_paper": "5",
+            "room": "1",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.45-14.00",
+            "location": "ANAI 1-2",
+            "author": "Khairil -, Samsul Bahri - and Nurdin Ali -",
+            "paper": "Effect of Coal Blended on the Physical Properties of Iron Ore Briquette for Direct Reduction Iron"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 5,
+        "fields": {
+            "id_paper": "9",
+            "room": "1",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.00-14.15",
+            "location": "ANAI 1-2",
+            "author": "Fuad Zainuri, Danardono A. Sumarsono Sumarsono, Muhammad Adhitya, Rolan Siregar, Sonki Prasetya and Ghany Heryana",
+            "paper": "PERFORMANCE ANALYSIS OF ELECTRIC VEHICLE POWERTRAIN SYSTEM WITH TWO SPEED TRANSMISSION"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 6,
+        "fields": {
+            "id_paper": "16",
+            "room": "1",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.15-14.30",
+            "location": "ANAI 1-2",
+            "author": "Is Prima Nanda, Hamidreza Ghandvar and Mohd Hasbullah Idris",
+            "paper": "Role of Gd Addition on Machinability of Al-15%Mg2Si In-Situ Composite During Dry Turning"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 7,
+        "fields": {
+            "id_paper": "31",
+            "room": "1",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.30-14.45",
+            "location": "ANAI 1-2",
+            "author": "Agus Pamitran, Sentot Novianto and Ahmad Santoso",
+            "paper": "Intermittent Flow Pattern on Two Phase Flow Boiling with Horizontal Microchannel"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 8,
+        "fields": {
+            "id_paper": "33",
+            "room": "1",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.45-15.00",
+            "location": "ANAI 1-2",
+            "author": "Yanuar, Sealtial Mau, Gunawan and Muhamad Fachreza",
+            "paper": "RHEOLOGICAL CHARACTERISTICS OF NON-NEWTONIAN MUD SLURRY FLOW USING SPIRAL PIPES"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 9,
+        "fields": {
+            "id_paper": "45",
+            "room": "1",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.15-15.30",
+            "location": "ANAI 1-2",
+            "author": "Bayu Ichwana and Radon Dhelika",
+            "paper": "Android Based Wireless Measurement Module For Mechatronic Education Tools"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 10,
+        "fields": {
+            "id_paper": "51",
+            "room": "1",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.30-15.45",
+            "location": "ANAI 1-2",
+            "author": "Lovely Son, Kevin Eldyf Adipta and Mulyadi Bur",
+            "paper": "Analysis of The Static Behaviour of A New Landing Gear Model Based on Four Bar Linkage Mechanism"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 11,
+        "fields": {
+            "id_paper": "52",
+            "room": "1",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.45-16.00",
+            "location": "ANAI 1-2",
+            "author": "Dharmanto Dharmanto, Sugeng Supriadi and Ario Sunar Baskoro",
+            "paper": "Effect of Feed Metal Flow Rate on The Low-Cost Plasma Atomizer to Fabricate 316L Stainless Steel Powder"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 12,
+        "fields": {
+            "id_paper": "65",
+            "room": "1",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.00-16.15",
+            "location": "ANAI 1-2",
+            "author": "Habibie Muhammad Ega, Ahmad Fauzan, Jefri Alfonso Sigalingging and Yulianto Sulistyo Nugroho",
+            "paper": "Improved Design of Multi-Axis Radiation Heat Transfer Apparatus for Research and Educational Purposes"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 13,
+        "fields": {
+            "id_paper": "70",
+            "room": "1",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.15-16.30",
+            "location": "ANAI 1-2",
+            "author": "Sally Cahyati, Daisman P.B. Aji and Duddy Suherman",
+            "paper": "Design and Process Plan of Hydroforming Casing Patch using Virtual Manufacturing Method"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 14,
+        "fields": {
+            "id_paper": "86",
+            "room": "1",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.30-16.45",
+            "location": "ANAI 1-2",
+            "author": "Muhammad Arif Budiyanto, Agus Pamitran and Fahd Naufal Murtado",
+            "paper": "Study on the Performance Analysis on Dual Fuel Diesel Main Engine of Passenger Ship 3200 DWT"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 15,
+        "fields": {
+            "id_paper": "87",
+            "room": "1",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.45-17.00",
+            "location": "ANAI 1-2",
+            "author": "Agus Widyianto, Ario Sunar Baskoro and Gandjar Kiswanto",
+            "paper": "Mechanical Properties and Microstructure of Pulsed Current Gas Tungsten Arc Welding (PC-GTAW) of AISI 304L Butt Joint Weld"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 16,
+        "fields": {
+            "id_paper": "95",
+            "room": "1",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.00-17.15",
+            "location": "ANAI 1-2",
+            "author": "Adrian Ova Triandi, Muhammad Arif Budiyanto and Ova Kurniawan",
+            "paper": "Study on Thermodynamic Cycle of Gas Engine Power Plant 10MW"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 17,
+        "fields": {
+            "id_paper": "107",
+            "room": "1",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.15-17.30",
+            "location": "ANAI 1-2",
+            "author": "Wahyu Sulistiyo and Danardono Agus Sumarsono",
+            "paper": "OPTIMIZATION OF STAIRLIFT DESIGN TO REALIZE A SAFE TRANSPORTATION SYSTEM FOR THE ELDERLY AND DISABILITY WHEN USING STAIRS"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 18,
+        "fields": {
+            "id_paper": "108",
+            "room": "1",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.00-08.15",
+            "location": "ANAI 1-2",
+            "author": "Muhammad Utomo, Dhyah Annur, Talitha Asmaria, Daniel Malau, Ahmad Rahyussalim, Yogi Prabowo, Sugeng Supriadi and Muhamad Amal",
+            "paper": "The Effect of Patellar Groove on Mechanical Performance of Femoral Component"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 19,
+        "fields": {
+            "id_paper": "119",
+            "room": "1",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.15-08.30",
+            "location": "ANAI 1-2",
+            "author": "Felix Fujiana and Yudan Whulanza",
+            "paper": "Testing and Characterization of Thermal Cycler Module in Portable PCR Device"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 20,
+        "fields": {
+            "id_paper": "121",
+            "room": "1",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.30-08.45",
+            "location": "ANAI 1-2",
+            "author": "Rayzi Rizqika, Immanuel Nunut, Jeremy Ranatan and Yudan Whulanza",
+            "paper": "Characterization of Thickness and Exposure Time parameter For UV Photolithography Application with SU-8 Photoresist"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 21,
+        "fields": {
+            "id_paper": "124",
+            "room": "1",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.45-09.00",
+            "location": "ANAI 1-2",
+            "author": "Immanuel Nunut Hutapea, Yudan Whulanza, Rayzi Rizqika and Jeremy Ranatan",
+            "paper": "Characterization of Beeswax Printing for Microchannel Fabrication on a Filter Paper"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 22,
+        "fields": {
+            "id_paper": "128",
+            "room": "1",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.00-09.15",
+            "location": "ANAI 1-2",
+            "author": "Jeremy Ranatan, Rayzi Rizqika, Immanuel Hutapea and Yudan Whulanza",
+            "paper": "Realization of Normally Closed Pneumatic Actuation Microvalves Module in Lab-on-Chip"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 23,
+        "fields": {
+            "id_paper": "153",
+            "room": "1",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.15-09.30",
+            "location": "ANAI 1-2",
+            "author": "A. Suwandi, N. F. Alamsyah, Dede Lia Zariatin, B. Sulaksono and E. Prayogi",
+            "paper": "Simulated Design of Hydraulic Systems for Fishing Deck Machinery Hydraulic Type with FluidSIM Software"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 24,
+        "fields": {
+            "id_paper": "158",
+            "room": "1",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.30-09.45",
+            "location": "ANAI 1-2",
+            "author": "Rolan Siregar Siregar, Mohammad Adhitya Adhitya, Danardono A Sumarsono Sumarsono, Nazaruddin Nazaruddin and G Heryana Heryana",
+            "paper": "Study the brake performance of a passenger car based on the temperature that occurs in each brake unit"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 25,
+        "fields": {
+            "id_paper": "168",
+            "room": "1",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.45-10.00",
+            "location": "ANAI 1-2",
+            "author": "Yudan Whulanza, Rayhan Nasution and Shabrina Fadhilah",
+            "paper": "Characterization of Silver Paste for Heating Electrode in Portable Thermocycler PCR"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 26,
+        "fields": {
+            "id_paper": "172",
+            "room": "1",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.15-10.30",
+            "location": "ANAI 1-2",
+            "author": "Muhammad Hadafi Faturrahman and Henky Suskito Nugroho",
+            "paper": "Model Analysis of Light Vehicle Brake System Monitoring and Maintenance with Cloud-Based Application"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 27,
+        "fields": {
+            "id_paper": "186",
+            "room": "1",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.30-10.45",
+            "location": "ANAI 1-2",
+            "author": "Dedison Gasni, Ikhsanul Fikri and Muhammad Latif",
+            "paper": "Tribological Study of Addition Oleic Acid in Palm and Coconut Oils as Bio-Liubricants"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 28,
+        "fields": {
+            "id_paper": "187",
+            "room": "1",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.45-11.00",
+            "location": "ANAI 1-2",
+            "author": "Budiarso, Helmizar, Warjito, Agus Nuramal, Wahyu Ramdhanu and Dendy Adanta",
+            "paper": "Performance of Breastshot Waterwheel in Run of River Conditions"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 29,
+        "fields": {
+            "id_paper": "188",
+            "room": "1",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.00-11.15",
+            "location": "ANAI 1-2",
+            "author": "Vivek Sharma",
+            "paper": "Optimization and Characterization of Low Cost MR Fluids"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 30,
+        "fields": {
+            "id_paper": "191",
+            "room": "1",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.15-11.30",
+            "location": "ANAI 1-2",
+            "author": "Christian K. Bach, Md Yeam Hossain and Ardiyansyah S. Yatim",
+            "paper": "Improving Testing Methods for Unitary Air Conditioning Equipment (ASHRAE RP-1743)"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 31,
+        "fields": {
+            "id_paper": "199",
+            "room": "1",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.30-11.45",
+            "location": "ANAI 1-2",
+            "author": "Nazaruddin Nazaruddin, Rolan Siregar, Ghany Heryana, M Adhitya and D A Danardono",
+            "paper": "Review of Electric Power Steering Type Column Steering with Booster Motor and Future Research for EV-Bus"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 32,
+        "fields": {
+            "id_paper": "203",
+            "room": "1",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.45-12.00",
+            "location": "ANAI 1-2",
+            "author": "Dendy Adanta, Sanjaya Bs Nasution, Budiarso Budiarso, Warjito Warjito and Ahmad Indra Siswantara",
+            "paper": "Open Flume Turbine Simulation Method Uses Six-Degrees of Freedom Feature"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 33,
+        "fields": {
+            "id_paper": "210",
+            "room": "1",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.00-13.15",
+            "location": "ANAI 1-2",
+            "author": "Felix Dionisius, Aji Syaeful Barkah, Bambang Hijrayanto, Tito Endramawan, Agus Sifa, Casiman Sukardi, Darma Firmansyah Undayat and Badruzzaman Badruzzaman",
+            "paper": "Investigation of Bending Load on Channel Profile through Deep Drawing Manufacturing"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 34,
+        "fields": {
+            "id_paper": "217",
+            "room": "1",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.15-13.30",
+            "location": "ANAI 1-2",
+            "author": "Gunawan, Muhammad Djamallail Malik and Lintang Asmara Kusuma",
+            "paper": "Module Development of Piping System Design with Rule Based Algorithms"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 35,
+        "fields": {
+            "id_paper": "222",
+            "room": "1",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.30-13.45",
+            "location": "ANAI 1-2",
+            "author": "Warjito Warjito, Sanjaya Bs Nasution, Dendy Adanta, Budiarso Budiarso and Ahmad Indra Siswantara",
+            "paper": "Comparison of Open Flume Turbine Performance between Plate and Aerofoil Profile Blade"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 36,
+        "fields": {
+            "id_paper": "223",
+            "room": "1",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.45-14.00",
+            "location": "ANAI 1-2",
+            "author": "Hakan Tandjono, Victor Chai, Leonardo Fabianto and Ridho Irwansyah",
+            "paper": "On the Aerodynamics Drag of Floorball"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 37,
+        "fields": {
+            "id_paper": "224",
+            "room": "1",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.00-14.15",
+            "location": "ANAI 1-2",
+            "author": "Farhan Ajiwaskita, Gunawan and Yanuar",
+            "paper": "Pipe-Routing Optimization using System Engineering Methodology in Ship Engine Room"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 38,
+        "fields": {
+            "id_paper": "242",
+            "room": "1",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.15-14.30",
+            "location": "ANAI 1-2",
+            "author": "Syaiful Syaiful, Nakula Panca Kusuma, Muchammad Muchammad, Retno Wulandari, Nazaruddin Sinaga, Ahmad Indra Siswantara and Myung-Whan Bae",
+            "paper": "Numerical Investigation of Heat Transfer and Pressure Loss of Flow through A Heated Plate Mounted by Perforated Concave Rectangular Winglet Vortex Generators in A Channel"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 39,
+        "fields": {
+            "id_paper": "244",
+            "room": "1",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.30-14.45",
+            "location": "ANAI 1-2",
+            "author": "Larasmoyo Nugroho",
+            "paper": "Multi-phase Missile Guidance for Nonlinear Environment using STT-CAPN guidance and SMC control"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 40,
+        "fields": {
+            "id_paper": "249",
+            "room": "1",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.45-15.00",
+            "location": "ANAI 1-2",
+            "author": "Aries Sulisetyono",
+            "paper": "Computing the Wave Making Resistance of Ship without Transom by Using Tent Function Method"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 41,
+        "fields": {
+            "id_paper": "260",
+            "room": "1",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.15-15.30",
+            "location": "ANAI 1-2",
+            "author": "Wayan Nata Septiadi, I Gusti Agung Ayu Desy Wulandari, Made Ricki Murti, Wayan Ainun Wildan Ula, I Kadek Odik Widiantara, I Wayan Gede Widyantara and David Febraldo",
+            "paper": "Cascade Straight Heat Pipe for Computer Cooling System with Nanofluids"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 42,
+        "fields": {
+            "id_paper": "272",
+            "room": "1",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.30-15.45",
+            "location": "ANAI 1-2",
+            "author": "Fergyanto E. Gunawan",
+            "paper": "The Accuracy of the F Statistic for Structural Health Monitoring"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 43,
+        "fields": {
+            "id_paper": "284",
+            "room": "1",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.45-16.00",
+            "location": "ANAI 1-2",
+            "author": "Daniel Meino Soedira, Raldi Artono Koestoer, Radon Dhelika, Ryan Nur Habibyanto and Altabibi Naufal Syafaq",
+            "paper": "Development of A Low-Cost Plastic Extruder for Plastic Waste"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 44,
+        "fields": {
+            "id_paper": "289",
+            "room": "1",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.00-16.15",
+            "location": "ANAI 1-2",
+            "author": "Ario Sunar Baskoro, Rafdi Hidayat, Agus Widyianto, Danurengga Ubaszti Putra and Mohammad Azwar Amat",
+            "paper": "Optimization of Gas Metal Arc Welding (GMAW) Parameters for Minimum Distortion of T Welded Joints of A36 Mild Steel by Taguchi Method"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 45,
+        "fields": {
+            "id_paper": "293",
+            "room": "1",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.15-16.30",
+            "location": "ANAI 1-2",
+            "author": "Febrina Astarinadya, Harinaldi Harinaldi and Yulianto Sulistyo Nugroho",
+            "paper": "Effect of Natural Ventilation on Visibility in a Laboratory Scale Underground Tunnel Simulation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 46,
+        "fields": {
+            "id_paper": "301",
+            "room": "1",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.30-16.45",
+            "location": "ANAI 1-2",
+            "author": "Brantyopati Wibosono, Ardiyansyah Yatim and Muhammad Idrus Alhamid",
+            "paper": "Design and Construction of Temperature Measurement in Psychrometric Chamber for Split Air Conditioner Testing and Energy Labelling"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 47,
+        "fields": {
+            "id_paper": "312",
+            "room": "1",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.45-17.00",
+            "location": "ANAI 1-2",
+            "author": "Fajar Ari Wandono and Mohammad Adhitya",
+            "paper": "FINITE ELEMENT ANALYSIS FOR COMPOSITE WING STRUCTURE OF THE MARITIME SURVEILLANCE UNMANNED AERIAL VEHICLE"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 48,
+        "fields": {
+            "id_paper": "315",
+            "room": "1",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "17.00-17.15",
+            "location": "ANAI 1-2",
+            "author": "Kayshara Fadillo Lubyana and Mohammad Adhitya",
+            "paper": "Drag Polar Analysis of Flying Car Model with Wind Tunnel Test Method"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 49,
+        "fields": {
+            "id_paper": "317",
+            "room": "1",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "17.15-17.30",
+            "location": "ANAI 1-2",
+            "author": "Rif’at Dzaka Fajriansyah Mulyono and Mohammad Adhitya",
+            "paper": "Analysis of Flying Car Center of Gravity"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 50,
+        "fields": {
+            "id_paper": "372",
+            "room": "1",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "17.30-17.45",
+            "location": "ANAI 1-2",
+            "author": "Yudan Whulanza, Shabrina Fadhilah and Anna Amalyah Agus",
+            "paper": "Design, planning and financial feasibility of cranio-maxillofacial bone implant production in Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 51,
+        "fields": {
+            "id_paper": "318",
+            "room": "5",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.15-15.30",
+            "location": "KUANTAN 3",
+            "author": "Muhammad Naufal Azhar Putera Mastiawan and Mohammad Adhitya",
+            "paper": "Wheel Retraction Mechanism Design of Flying Vehicle"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 52,
+        "fields": {
+            "id_paper": "36",
+            "room": "5",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.30-15.45",
+            "location": "KUANTAN 3",
+            "author": "Agus Pamitran, Ruhama Sidqy and Dimas Setiadi",
+            "paper": "Seawater Ice Slurry for Shrimp Cooling using Scraped Blade Ice Slurry Generator"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 53,
+        "fields": {
+            "id_paper": "333",
+            "room": "5",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.45-16.00",
+            "location": "KUANTAN 3",
+            "author": "Agus Pamitran, Sentot Novianto, Muhammad Reza Fahlevi and Syahdhan Chairman",
+            "paper": "Heat Transfer Coefficient on Two-Phase Flow in Small Tube with Propane Iso-Butane Mixture Refrigerant"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 54,
+        "fields": {
+            "id_paper": "109",
+            "room": "5",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.00-16.15",
+            "location": "KUANTAN 3",
+            "author": "Sunaryo and Aditya Fachry Indianto",
+            "paper": "Environmentally Friendly Ship Recycling Yard Design for General Cargo Ship up to 30.000 DWT and Ship-Sets: Tug and Barge"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 55,
+        "fields": {
+            "id_paper": "275",
+            "room": "5",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.15-16.30",
+            "location": "KUANTAN 3",
+            "author": "Mega Tri Hartono and Radon Dhelika",
+            "paper": "Development A Prototype of Micro Class Underwater ROV (Remotely Operated Vehicle) Based On Low Cost As A Ship-Hull Inspector"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 56,
+        "fields": {
+            "id_paper": "299",
+            "room": "5",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.30-16.45",
+            "location": "KUANTAN 3",
+            "author": "Gatot Prayogo, Ghazian Zhafiri and Sugiharto Sugih",
+            "paper": "Fatigue Strength Evaluation of New Axle Support of the Monorail Bogie Frame"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 57,
+        "fields": {
+            "id_paper": "313",
+            "room": "5",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.45-17.00",
+            "location": "KUANTAN 3",
+            "author": "William Melriz Pardede and Mohammad Adhitya",
+            "paper": "Take Off and Landing Performance Analysis of Flying Car Model using Wind Tunnel Test Method"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 58,
+        "fields": {
+            "id_paper": "321",
+            "room": "5",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "17.00-17.15",
+            "location": "KUANTAN 3",
+            "author": "Maulana Adinegoro and Mohammad Adhitya",
+            "paper": "Mechanical Design of 3 Phase Induction Electric Motor"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 59,
+        "fields": {
+            "id_paper": "322",
+            "room": "5",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "17.15-17.30",
+            "location": "KUANTAN 3",
+            "author": "Raymond Yonathan Hutapea and Mohammad Adhitya",
+            "paper": "Braking Temperature Investigation on Oil Tank Truck for Anticipation of Brake Failure"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsAME",
+        "pk": 60,
+        "fields": {
+            "id_paper": "332",
+            "room": "5",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "17.30-17.45",
+            "location": "KUANTAN 3",
+            "author": "Ario Sunar Baskoro, Muhammad Azwar Amat, Rahadian Dwi Putra, Agus Widyianto and Yala Abrara",
+            "paper": "Investigation of temperature history, porosity and fracture mode on AA1100 using the controlled intermittent wire feeder method"
+        }
+    }
+]

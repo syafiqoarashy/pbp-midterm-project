@@ -1,0 +1,730 @@
+[
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 1,
+        "fields": {
+            "id_paper": "",
+            "room": "4",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.00-13.15",
+            "location": "ARAI",
+            "author": "Shuo-Yan Cuo (Invited Speaker)",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 2,
+        "fields": {
+            "id_paper": "",
+            "room": "4",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.15-13.30",
+            "location": "ARAI",
+            "author": "Shuo-Yan Cuo (Invited Speaker)",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 3,
+        "fields": {
+            "id_paper": "23",
+            "room": "4",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.30-13.45",
+            "location": "ARAI",
+            "author": "Hikaru Sakata, Hironori Sano, Teguh Handoyo and Jun Kondoh",
+            "paper": "Integration of localized surface plasmon resonance and electrochemical sensors for liquid environmental monitoring"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 4,
+        "fields": {
+            "id_paper": "38",
+            "room": "4",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.45-14.00",
+            "location": "ARAI",
+            "author": "Ratna Aisuwarya",
+            "paper": "Implementation of Ziegler-Nichols PID Tuning Method on Stabilizing Temperature of Hot water Dispenser"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 5,
+        "fields": {
+            "id_paper": "120",
+            "room": "4",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.00-14.15",
+            "location": "ARAI",
+            "author": "Ida Bagus Krishna Yoga Utama, Akhmad Faqih and Benyamin Kusumoputro",
+            "paper": "Three Mixture of Odor Classification using Convolutional Neural Network"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 6,
+        "fields": {
+            "id_paper": "125",
+            "room": "4",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.15-14.30",
+            "location": "ARAI",
+            "author": "Theresia Diah Kusumaningrum, Dessy Ana Laila Sari, Akhmad Faqih and Benyamin Kusumoputro",
+            "paper": "The Back-propagation Neural Network Classification of EEG Signal Using Time Frequency Domain Feature Extraction"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 7,
+        "fields": {
+            "id_paper": "148",
+            "room": "4",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.30-14.45",
+            "location": "ARAI",
+            "author": "Ali Pulungan, Lovely Son, Syafii Syafii, Syamsul Huda and Ubaidillah Ubaidillah",
+            "paper": "Semi Active Control of Solar Tracker Using Variable Position of Added Mass Control"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 8,
+        "fields": {
+            "id_paper": "193",
+            "room": "4",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.45-15.00",
+            "location": "ARAI",
+            "author": "Riki Mukhaiyar and Reza Safitri",
+            "paper": "Implementation of Artificial Neural Network: Back Propagation Method on Face Recognition System"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 9,
+        "fields": {
+            "id_paper": "67",
+            "room": "4",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.30-15.45",
+            "location": "ARAI",
+            "author": "Ruki Harwahyu",
+            "paper": "Conserving RACH Energy Usage with Flexible Preamble Allocation for IoT Coexisting with H2H Services"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 10,
+        "fields": {
+            "id_paper": "74",
+            "room": "4",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.45-16.00",
+            "location": "ARAI",
+            "author": "Yukari Shirota, Riri Fitri Sari, Alfan Presekal and Takako Hashimoto",
+            "paper": "Visualization of Time Series Data Change by Statistical Shape Analysis"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 11,
+        "fields": {
+            "id_paper": "92",
+            "room": "4",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.00-16.15",
+            "location": "ARAI",
+            "author": "Eko Suryo Santoso, Muhammad Imam Nashiruddin, Amriane Hidayati and Muhammad Suryanegara",
+            "paper": "NB-IoT Network Planning for Smart Metering services in Jakarta, Depok, Tangerang and Bekasi"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 12,
+        "fields": {
+            "id_paper": "327",
+            "room": "4",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.15-16.30",
+            "location": "ARAI",
+            "author": "Eko Ihsanto, Kalamullah Ramli and Dodi Sudiana",
+            "paper": "Real-Time Classification for Cardiac Arrhythmia ECG Beat"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 13,
+        "fields": {
+            "id_paper": "22",
+            "room": "4",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.30-16.45",
+            "location": "ARAI",
+            "author": "Benny Gandara and Mudrik Alaydrus",
+            "paper": "Analysis of the IEEE 802.15.4 Protocol with Rabbit Encryption Algorithm for Industrial Applications in Oil and Gas Sector"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 14,
+        "fields": {
+            "id_paper": "351",
+            "room": "4",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.45-17.00",
+            "location": "ARAI",
+            "author": "Arif Adi Kusuma and Muhammad Suryanegara",
+            "paper": "Upgrading Mobile Network to 5G: The Technoeconomic Analysis of Main Cities in Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 15,
+        "fields": {
+            "id_paper": "359",
+            "room": "4",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.00-17.15",
+            "location": "ARAI",
+            "author": "Danan Arya Pradana and Mia Rizkinia",
+            "paper": "Hyperspectral Unmixing Using L2,1 Norm and Total Variation for Material Detection on Earth’s Surface"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 16,
+        "fields": {
+            "id_paper": "300",
+            "room": "4",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.15-17.30",
+            "location": "ARAI",
+            "author": "M. Reza Hidayat, Try Anugrah and Achmad Munir",
+            "paper": "ATmega16 Microcontroller-based Automatic Coffee Brewing System using Pour Over V60 Technique"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 17,
+        "fields": {
+            "id_paper": "103",
+            "room": "4",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.30-17.45",
+            "location": "ARAI",
+            "author": "Talitha Asmaria, Dhyah Annur, Muhammad Utomo, Amilia Sari, Daniel Malau, Ahmad Rahyussalim, Yogi Prabowo and Muhamad Amal",
+            "paper": "Validation of 3D Models using Template Matching for Implant Planning"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 18,
+        "fields": {
+            "id_paper": "111",
+            "room": "4",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.45-18.00",
+            "location": "ARAI",
+            "author": "Banu Wirawan Yohanes, Tri Gunawan and Handoko",
+            "paper": "Multiparty Zero-Knowledge Protocol for User Authentication on Android"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 19,
+        "fields": {
+            "id_paper": "114",
+            "room": "4",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "18.00-18.15",
+            "location": "",
+            "author": "Darwison Darwison, Syukri Arief and Hairul Abral",
+            "paper": "Impact of Humidity Associated with Measurement of leakage currents and thermal images of polymer insulator"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 20,
+        "fields": {
+            "id_paper": "97",
+            "room": "4",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.00-08.15",
+            "location": "ARAI",
+            "author": "Lydia Sari, Syah Alam and Indra Surjati",
+            "paper": "Energy Consideration for Wireless Sensor Network"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 21,
+        "fields": {
+            "id_paper": "99",
+            "room": "4",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.15-08.30",
+            "location": "ARAI",
+            "author": "Bastul Wajhi Akramunnas and Mudrik Alaydrus",
+            "paper": "Effects of Substrate Curvature in Performances of Conformal Microstrip Arrays"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 22,
+        "fields": {
+            "id_paper": "123",
+            "room": "4",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.30-08.45",
+            "location": "ARAI",
+            "author": "Teguh Firmansyah, Gunawan Wibisono and Eko Rahardjo",
+            "paper": "Compact UWB Bandpass Filter based on Crossed Dumbbell-Stub with Notch Band using Defected Microstrip Structure"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 23,
+        "fields": {
+            "id_paper": "135",
+            "room": "4",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.45-09.00",
+            "location": "ARAI",
+            "author": "Novizon Novizon, Yudia Meka Seftiani and Moh. Hafizi Ahmad",
+            "paper": "Flashover Phenomenon on 150kV Transmission Line Due to Direct Lightning Strike on the Ground Wire"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 24,
+        "fields": {
+            "id_paper": "138",
+            "room": "4",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.00-09.15",
+            "location": "ARAI",
+            "author": "Fitri Yuli Zulkifli and Try Putra Wibowo",
+            "paper": "ANALYSIS OF CONCRETE INSPECTION RADAR EQUATIONS TO OBTAIN RADAR SYSTEM SPECIFICATIONS"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 25,
+        "fields": {
+            "id_paper": "143",
+            "room": "4",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.15-09.30",
+            "location": "ARAI",
+            "author": "Fitri Yuli Zulkifli and Dian Rusdiyanto",
+            "paper": "A Compact Right Hand Circular Polarization Microstrip Antenna using Inverted-L Shaped Feedline for GPS Receiver"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 26,
+        "fields": {
+            "id_paper": "122",
+            "room": "4",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.30-09.45",
+            "location": "ARAI",
+            "author": "Muhammad Rakha Rafi Bayhaqi, Bety Hayat Susanti and Mohamad Syahral",
+            "paper": "Correcting Block Attack on Reduced NEEVA"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 27,
+        "fields": {
+            "id_paper": "361",
+            "room": "4",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.45-10.00",
+            "location": "ARAI",
+            "author": "Anak Agung Putri Ratna, Naiza Astri Wulandari, Rashelia Radela Noviandriani, Ihsan Ibrahim and Prima Dewi Purnamasari",
+            "paper": "Answer Categorization Method with K-Means for Automatic Short Answer Grading System for Indonesian Language Based on Latent Semantic Analysis"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 28,
+        "fields": {
+            "id_paper": "127",
+            "room": "4",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.15-10.30",
+            "location": "ARAI",
+            "author": "Tri Surawan and Purnomo Sidi Priambodo",
+            "paper": "REVIEW SUPERCAPASITOR USING ACTIVE CARBON ELECTRODE"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 29,
+        "fields": {
+            "id_paper": "133",
+            "room": "4",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.30-10.45",
+            "location": "ARAI",
+            "author": "Alam Rahmatulloh, Irfan Darmawan and Rohmat Gunawan",
+            "paper": "Performance Analysis of Data Transmission on WebSocket for Real-time Communication"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 30,
+        "fields": {
+            "id_paper": "136",
+            "room": "4",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.45-11.00",
+            "location": "ARAI",
+            "author": "Mohammad Heading Nor Ilahi, Bety Hayat Susanti and Mohamad Syahral",
+            "paper": "Collision Attack on 4 Secure PGV Hash Function Schemes based on 4-Round PRESENT-80 with Iterative Differential Approach"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 31,
+        "fields": {
+            "id_paper": "198",
+            "room": "4",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.00-11.15",
+            "location": "ARAI",
+            "author": "Ajib Setyo Arifin and Alaind Fadrian",
+            "paper": "Study on Sustainability of Indonesia 2G Operator"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 32,
+        "fields": {
+            "id_paper": "207",
+            "room": "4",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.15-11.30",
+            "location": "ARAI",
+            "author": "Vika Prasetya Andika and Rinaldy Dalimi",
+            "paper": "Optimization Analysis for Fault Level Reduction with Inter-Tie Transformer in Designing Power Plant Balikpapan Refinery Project"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 33,
+        "fields": {
+            "id_paper": "221",
+            "room": "4",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.30-11.45",
+            "location": "ARAI",
+            "author": "Syafii Syafii, Yona Mayura and Aejelina El Gazaly",
+            "paper": "Characteristics of Lead-Acid Battery Charging and Discharging Against Residential Load in Tropical Area"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 34,
+        "fields": {
+            "id_paper": "236",
+            "room": "4",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.45-12.00",
+            "location": "ARAI",
+            "author": "Muhammad Hanif Nadhif, Andika P Hadiputra, Nindya Aprilia Alief, Yudan Whulanza and Sugeng Supriadi",
+            "paper": "Gait Analysis for Biometric Surveillances Using Kinect™: A Study Case of Axial Skeleton Movements"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 35,
+        "fields": {
+            "id_paper": "139",
+            "room": "4",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.00-13.15",
+            "location": "ARAI",
+            "author": "I Gusti Agung Agastya Tarumawijaya and Benyamin Kusumoputro",
+            "paper": "Data Acquisition for Rocket Control with Aircraft Simulator X-Plane and MATLAB"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 36,
+        "fields": {
+            "id_paper": "146",
+            "room": "4",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.15-13.30",
+            "location": "ARAI",
+            "author": "Rohmat Setiawan and Danardono Sumarsono",
+            "paper": "A Stairlift Monitoring System Based On Internet of Things"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 37,
+        "fields": {
+            "id_paper": "149",
+            "room": "4",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.30-13.45",
+            "location": "ARAI",
+            "author": "Rohmat Gunawan, Alam Rahmatulloh and Irfan Darmawan",
+            "paper": "Performance Evaluation of Query Response Time in The Document Stored NoSQL Database"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 38,
+        "fields": {
+            "id_paper": "196",
+            "room": "4",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.45-14.00",
+            "location": "ARAI",
+            "author": "Riki Mukhaiyar and Syawaludin",
+            "paper": "Security System Design on Feature Information of Biometric Fingeprint using Kronecker Product Operation and Elementary Row Operation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 39,
+        "fields": {
+            "id_paper": "360",
+            "room": "4",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.00-14.15",
+            "location": "ARAI",
+            "author": "Anak Agung Putri Ratna, Rashelia Radela Noviandriani, Lea Santiar, Ihsan Ibrahim and Prima Dewi Purnamasari",
+            "paper": "K-Means Clustering for Answer Categorization on Latent Semantic Analysis Automatic Japanese Short Essay Grading System"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 40,
+        "fields": {
+            "id_paper": "257",
+            "room": "4",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.15-14.30",
+            "location": "ARAI",
+            "author": "Wing Wira A Ramadhan and Tomy Abuzairi",
+            "paper": "Simulation and Analysis of a Buck Converter Based on an Arduino PWM Signal Using a Single Cell Li-Ion Load"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 41,
+        "fields": {
+            "id_paper": "266",
+            "room": "4",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.30-14.45",
+            "location": "ARAI",
+            "author": "Anne Parlina, Hendri Murfi and Kalamullah Ramli",
+            "paper": "Smart City Reseach in Indonesia: A Bibliometric Analysis"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 42,
+        "fields": {
+            "id_paper": "64",
+            "room": "4",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.45-15.00",
+            "location": "ARAI",
+            "author": "Agung Santosa, Asril Jarin, Gunarso, Lyla Ruslana, Muhammad Teduh Uliniansyah, Made Gunawan and Elvira Nurfadhilah",
+            "paper": "A Tool for Making Segmented Speech Corpus for ASR and TTS Modeling"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 43,
+        "fields": {
+            "id_paper": "24",
+            "room": "4",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.15-15.30",
+            "location": "ARAI",
+            "author": "Jawahir Abdul Kholiq Hasan and Mudrik Alaydrus",
+            "paper": "Improving Wireless Power Transfer Performance by Partitioned Shielding"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 44,
+        "fields": {
+            "id_paper": "30",
+            "room": "4",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.30-15.45",
+            "location": "ARAI",
+            "author": "Yusnita Rahayu, M. Fadhlurrahman Hilmi and Huriatul Masdar",
+            "paper": "A Novel Design Retangular UWB Antena Array for Microwave Breast Tumor Detection"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 45,
+        "fields": {
+            "id_paper": "60",
+            "room": "4",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.45-16.00",
+            "location": "ARAI",
+            "author": "Yusnita Rahayu and Septyo Adi Pratama",
+            "paper": "New Design of 60-GHz Quasi-Yagi and Stacked Series Planar Antenna Array for 5G Wireless Application"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 46,
+        "fields": {
+            "id_paper": "20",
+            "room": "4",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.00-16.15",
+            "location": "ARAI",
+            "author": "Arie Pangesti Aji, Catur Apriono and Eko Tjipto Rahardjo",
+            "paper": "Surface Current Analysis of THz Bowtie Antenna-coupled Microbolometer"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 47,
+        "fields": {
+            "id_paper": "75",
+            "room": "4",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.15-16.30",
+            "location": "ARAI",
+            "author": "Hiroshi Inokawa, Amit Banerjee, Durgadevi Elamaran, Hiroaki Satoh and Norihisa Hiromoto",
+            "paper": "Impact of Downscaling on Terahertz Antenna-Coupled Bolometers"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 48,
+        "fields": {
+            "id_paper": "76",
+            "room": "4",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.30-16.45",
+            "location": "ARAI",
+            "author": "Norihisa Hiromoto, Amit Banerjee, Durgadevi Elamaran, Makoto Aoki, Catur Apriono, Hiroaki Satoh, Erik Bruendermann, Eko Rahardjo and Hiroshi Inokawa",
+            "paper": "Room-Temperature Terahertz Antenna-Coupled Microbolometers with Titanium Thermistor and Heater"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 49,
+        "fields": {
+            "id_paper": "85",
+            "room": "4",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.45-17.00",
+            "location": "ARAI",
+            "author": "Syah Alam, Lydia Sari, Indra Surjati, Yuli Kurnia Ningsih, Aida Safitri and Elfi Syukriati",
+            "paper": "Enhancement Bandwidth of Parasitic Microstrip Antenna Using Multiple Feed Line"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 50,
+        "fields": {
+            "id_paper": "304",
+            "room": "4",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "17.00-17.15",
+            "location": "ARAI",
+            "author": "Anggoro Gagah, Alfan Presekal, Yohan Suryanto and Kalamullah Ramli",
+            "paper": "Comparison of Automatic Indonesian Plate Number Recognition Using K-Nearest Neighbour and Neural Network Method"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 51,
+        "fields": {
+            "id_paper": "320",
+            "room": "4",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "17.15-17.30",
+            "location": "ARAI",
+            "author": "Michael Michael, Taufiq Alif Kurniawan, Tomy Abuzairi and Mia Rizkinia",
+            "paper": "Design of Overcharging Protection and Passive Balancing Circuits Using Dioda for Lithium-Ion Battery Management System"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsECE",
+        "pk": 52,
+        "fields": {
+            "id_paper": "380",
+            "room": "4",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "17.30-17.45",
+            "location": "ARAI",
+            "author": "Muhammad Raditya Gumelar and Retno Wigajatri Purnamaningsih",
+            "paper": "The Effect of Ring Radius and Coupling Gap to the Transmission Spectrum of GaN-Based Ring Resonator"
+        }
+    }
+]

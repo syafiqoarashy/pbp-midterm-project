@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block meta %}
+<title>Account Registration</title>
+{% endblock meta %}
+
+{% block content %}
+
+
+<div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-lg">
+      <h1 class="text-center text-2xl font-bold text-[#412D7E] sm:text-3xl">
+        Get started today
+      </h1>
+  
+      <p class="mx-auto mt-2 max-w-md text-center text-gray-500">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati sunt
+        dolores deleniti inventore quaerat mollitia?
+      </p>
+  
+      <form action="" method="POST" class="mt-4 mb-0 space-y-2 rounded-lg p-4 shadow-2xl">
+        {% csrf_token %}
+        <p class="text-2xl mb-4 text-center justify-center font-semibold">Register your account!</p>
+        <div class="flex w-full my-4 border-t border-black"></div>
+        {% for field in form %}
+            <div class="relative mt-2">
+                <p class="">{{ field.label }} <br> {{ field }}</p> 
+    
+                {% for error in field.errors %}
+                    <small style="color: red">{{ error }}</small>
+                {% endfor %}
+            </div>
+        {% endfor %}
+        <button class="block w-full rounded-lg bg-[#412D7E] px-5 py-3 text-sm font-medium text-white" 
+        type="submit">Register</button>
+        <div class="flex items-center justify-center">
+            <p class="text-sm text-gray-500">
+              Already have an account?
+              <a href="{% url 'home:login' %}" class="underline">Sign in</a>
+              or
+              <a href="{% url 'home:landing' %}" class="underline">Go back</a>
+            </p>
+    </div>
+  </div>
+  
+</form>
+
+    {% if messages %}
+        <ul>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+                {% endfor %}
+        </ul>
+    {% endif %}
+
+</div>
+
+{% endblock content %}

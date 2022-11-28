@@ -1,0 +1,506 @@
+[
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 1,
+        "fields": {
+            "id_paper": "88",
+            "room": "5",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.30-13.45",
+            "location": "KUANTAN 3",
+            "author": "Nofriani Fajrah and Fhedriyan Saputra Efendy",
+            "paper": "Analysis of Quality Control Weld Cladding at Cladtek BI-Metal Manufacturing"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 2,
+        "fields": {
+            "id_paper": "129",
+            "room": "5",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.45-14.00",
+            "location": "KUANTAN 3",
+            "author": "Sunaryo ., Ananda Rizkytama Hanura and Fariz Hussein",
+            "paper": "Feasibility Study on the Financial Aspect of Green Ship Recycling Yard Business Model"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 3,
+        "fields": {
+            "id_paper": "132",
+            "room": "5",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.00-14.15",
+            "location": "KUANTAN 3",
+            "author": "Romadhani Ardi, Zulkarnain, Ricko Immanuel and Ghassani Shabrina",
+            "paper": "Integration Model of Green Quality Function Deployment (G-QFD), Kano, with Multiple Objective Fuzzy Goal Programming on Green Product"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 4,
+        "fields": {
+            "id_paper": "156",
+            "room": "5",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.15-14.30",
+            "location": "KUANTAN 3",
+            "author": "Amalia Suzianti, Ayesha Parvati Dewi, Andri Mubarak and Nadhira Dhana Shafira",
+            "paper": "The Readiness of Lithium Battery Technology in Indonesia to Support National Electric Car Program"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 5,
+        "fields": {
+            "id_paper": "157",
+            "room": "5",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.30-14.45",
+            "location": "KUANTAN 3",
+            "author": "Andri Mubarak, Amalia Suzianti, Yoke Arfela Adlan and Nadhira Audi Larasati",
+            "paper": "Biomechanics of Analysis on the Human Gait to Attribute the Energy Floor Design with Inverse Dynamics Model Approach"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 6,
+        "fields": {
+            "id_paper": "71",
+            "room": "5",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.45-15.00",
+            "location": "KUANTAN 3",
+            "author": "Rahmat Nurcahyo, Muhammad Rifai and Muhammad Habiburrahman",
+            "paper": "Designing Container Truck Arrival Schedule Using Truck Turnaround Time Method at Terminal Peti Kemas Selatan PT. Pelabuhan Tanjung Priok"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 7,
+        "fields": {
+            "id_paper": "166",
+            "room": "5",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.15-15.30",
+            "location": "KUANTAN 3",
+            "author": "Dene Herwanto and Amalia Suzianti",
+            "paper": "Investigation of Relevant Factors in Workplace Design of Small and Medium Industries in Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 8,
+        "fields": {
+            "id_paper": "183",
+            "room": "5",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.30-15.45",
+            "location": "KUANTAN 3",
+            "author": "Erlinda Muslim, Syarafina Putri Fitharti and Ghassani Shabrina",
+            "paper": "Strategy to Increase Customer Loyalty on Indonesian Railway"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 9,
+        "fields": {
+            "id_paper": "204",
+            "room": "5",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.45-16.00",
+            "location": "KUANTAN 3",
+            "author": "Derry Askandari, Bambang Purwanggono and Nia Budi Puspitasari",
+            "paper": "Cost of Quality Calculation with Activity-Based Costing Method and Defect Products Analysis PT Griyaton Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 10,
+        "fields": {
+            "id_paper": "206",
+            "room": "5",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.00-16.15",
+            "location": "KUANTAN 3",
+            "author": "Yadrifil Yadrifil, Anindya Alfi Septyanti and Annisa Marlin Masbar Rus",
+            "paper": "Implementation of Lean-DMAIC Method for Reducing Packing defect in a Flour Company"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 11,
+        "fields": {
+            "id_paper": "211",
+            "room": "5",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.15-16.30",
+            "location": "KUANTAN 3",
+            "author": "Henny Santoso, Sri Bramantoro Abdinagoro and Muhtosim Arief",
+            "paper": "The Role of Digital Literacy in Supporting Performance through Innovative Work Behavior: Case on Indonesia’s Telecommunications Industry"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 12,
+        "fields": {
+            "id_paper": "237",
+            "room": "5",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.30-16.45",
+            "location": "KUANTAN 3",
+            "author": "Syndi E F Ginting, Vindy B Ramadhani, Uni P P Tarigan, Grace A, Elisabet Simarmata and Lucya L Saragih",
+            "paper": "Implementation of Lean Service and 5S Methods to Increase The Efficiency of Service Time in Fire Department"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 13,
+        "fields": {
+            "id_paper": "250",
+            "room": "5",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.45-17.00",
+            "location": "KUANTAN 3",
+            "author": "Aisyah Larasati, Apif Miftahul Hajji, Anik Nur Handayani, Nabila Azzahra, Puji Rahmawati and Muhammad Farhan",
+            "paper": "Comparing k-means and x-means Clustering to Profiling Academic Library Patrons"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 14,
+        "fields": {
+            "id_paper": "61",
+            "room": "5",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.00-17.15",
+            "location": "KUANTAN 3",
+            "author": "Rahmat Nurcahyo, Vadhel Iqbal and Muhammad Habiburrahman",
+            "paper": "Mapping The Business Process and Ticket Card Procurement of PT. MRT Jakarta"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 15,
+        "fields": {
+            "id_paper": "325",
+            "room": "5",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.15-17.30",
+            "location": "KUANTAN 3",
+            "author": "Arry Rahmawan Destyanto, Naufal Farras Fajar, Dwi Guna Mandhasiya, Faris Ahmad Mansur, Muhammad Zeid Masyhur, Naufal Allaam Aji and Resha Rafizqi Bramasta",
+            "paper": "Improving Service Level and Utilization of Distribution Using Discrete Event Simulation by Comparing Three Vehicle Routing Problem Algorithm: A Case Study of Drugs Distribution Company"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 16,
+        "fields": {
+            "id_paper": "34",
+            "room": "5",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.30-17.45",
+            "location": "KUANTAN 3",
+            "author": "Hafid Abdullah",
+            "paper": "Analysis of the job satisfaction toward employees performance as an effort to human resources industry development"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 17,
+        "fields": {
+            "id_paper": "57",
+            "room": "5",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.45-18.00",
+            "location": "KUANTAN 3",
+            "author": "Rahmat Nurcahyo, Maga Arsena and Muhammad Habiburrahman",
+            "paper": "Designing Quality Assurance System Using Gap Analysis Method on Automotive Spare Parts Company (Case Study of PT. TPI)"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 18,
+        "fields": {
+            "id_paper": "253",
+            "room": "5",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.00-08.15",
+            "location": "KUANTAN 3",
+            "author": "Danu Syaifullah, Geovano Juliant, Billy Muhamad and Boy Nurtjahyo",
+            "paper": "Analysis of crash frequency model : Study case of Indonesia toll roads"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 19,
+        "fields": {
+            "id_paper": "254",
+            "room": "5",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.15-08.30",
+            "location": "KUANTAN 3",
+            "author": "Boy Nurtjahyo Moch, Margie Ervita and Danu Hadi Syaifullah",
+            "paper": "Assessment Evaluation of Cognitive Factor and Work Stress Factors on Disaster Social Worker’s Productivity in Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 20,
+        "fields": {
+            "id_paper": "267",
+            "room": "5",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.30-08.45",
+            "location": "KUANTAN 3",
+            "author": "Fachransjah Aliunir, Teuku Yuri M. Zagloel and Romadhani Ardi",
+            "paper": "Discrete-Event Simulation and Optimization of Spare Parts Inventory and Preventive Maintenance Integration Model Considering Cooling Down and Machine Dismantling Time Factor"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 21,
+        "fields": {
+            "id_paper": "279",
+            "room": "5",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.45-09.00",
+            "location": "KUANTAN 3",
+            "author": "Fergyanto E. Gunawan",
+            "paper": "Numerical Analysis of General-Vibration-Based Method for Structural Health Monitoring"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 22,
+        "fields": {
+            "id_paper": "287",
+            "room": "5",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.00-09.15",
+            "location": "KUANTAN 3",
+            "author": "Asep Erik Nugraha and Rianita Puspa Sari",
+            "paper": "Identification of Workers Workload using Physiological Workloads Methods in CV.Arindo"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 23,
+        "fields": {
+            "id_paper": "298",
+            "room": "5",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.15-09.30",
+            "location": "KUANTAN 3",
+            "author": "Fiki Two Nando, Elita Amrina and Alfadhlani",
+            "paper": "Prioritizing Design Requirements on Traditional Arrow using Quality Function Deployment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 24,
+        "fields": {
+            "id_paper": "308",
+            "room": "5",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.30-09.45",
+            "location": "KUANTAN 3",
+            "author": "Muhammad Noval Irsyadillah, Cindy Rianti Priadi and Benny Tjahjono",
+            "paper": "Analysis of Number of Fruit Loss in The Fruit Distribution Process: Case Study of Banana Fruit"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 25,
+        "fields": {
+            "id_paper": "357",
+            "room": "5",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.45-10.00",
+            "location": "KUANTAN 3",
+            "author": "Rani Edina Kusumawati, Erlinda Muslim and Danar Nugroho",
+            "paper": "Usability Testing on Touchscreen Based Electronic Kiosk Machine in Convenience Store"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 26,
+        "fields": {
+            "id_paper": "18",
+            "room": "5",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.15-10.30",
+            "location": "KUANTAN 3",
+            "author": "Prima Fithri, Eri Wirdianto and Yola Octaviani",
+            "paper": "Risk assessment confined space in the Ship Repair PT Bandar Abadi Shipbuilders and Dry-Docks Batam"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 27,
+        "fields": {
+            "id_paper": "130",
+            "room": "5",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.30-10.45",
+            "location": "KUANTAN 3",
+            "author": "Aisyah Larasati, Apif Miftahul Hajji, Yuh-Wen Chen, Ellisya Anandya, Adi Tya Wahyu Pratama and Vertic Eridani Budi Darmawan",
+            "paper": "Building Regression Model to Estimate NOX Emission Pollutant of Backhoe Equipment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 28,
+        "fields": {
+            "id_paper": "209",
+            "room": "5",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.45-11.00",
+            "location": "KUANTAN 3",
+            "author": "Agung Sutrisno, Dwi Handayani, Wahyu Caesarendra and Indra Gunawan",
+            "paper": "A Framework of Designing Reliable Disaster Response Operation Using Axiomatic Design"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 29,
+        "fields": {
+            "id_paper": "238",
+            "room": "5",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.00-11.15",
+            "location": "KUANTAN 3",
+            "author": "Lucya L Saragih, Elisabet Simarmata, Grace Aloina, Uni P P Tarigan, Vindy B Ramadhani and Syndi E F Ginting",
+            "paper": "Product Development of Canned Fish using SWOT and Quality Function Deployment (QFD)"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 30,
+        "fields": {
+            "id_paper": "342",
+            "room": "5",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.15-11.30",
+            "location": "KUANTAN 3",
+            "author": "Aryasatya Adyatama, Danu Syaifullah and Boy Moch",
+            "paper": "Evaluating the Role of Cognitive Factors on Hauling Workplace Accidents: Study Case at Central Borneo Coal Mining Company"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 31,
+        "fields": {
+            "id_paper": "344",
+            "room": "5",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.30-11.45",
+            "location": "KUANTAN 3",
+            "author": "Ari Tri Nugraha, Djoko Sihono Gabriel and M. Dachyar",
+            "paper": "Effect of Learning Quality and Business Value Growth on Client and Vendor Relationship Quality"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 32,
+        "fields": {
+            "id_paper": "352",
+            "room": "5",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.45-12.00",
+            "location": "KUANTAN 3",
+            "author": "Muhammad Rasyad, Erlinda Muslim and Andhika Arya Pradana",
+            "paper": "Measurement of Fatigue Eye on Computer Users with Method of Eye Tracking"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 33,
+        "fields": {
+            "id_paper": "154",
+            "room": "5",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.00-13.15",
+            "location": "KUANTAN 3",
+            "author": "Muhammad Iqbal and Amalia Suzianti",
+            "paper": "THE DESIGN OF NEW PRODUCT DEVELOPMENT PROCESS BY EVALUATING THE EXISTING DEVELOPMENT APPROACH"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 34,
+        "fields": {
+            "id_paper": "346",
+            "room": "5",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.15-13.30",
+            "location": "KUANTAN 3",
+            "author": "Muhammad Farhan Fadillah, Erlinda Muslim and Felita Ersalina Samara Pane",
+            "paper": "An Analysis of the Effect of Room Temperature and Light Intensity on Speed of Response, Concentration, and Stress Levels in Elementary School Students"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 35,
+        "fields": {
+            "id_paper": "364",
+            "room": "5",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.30-13.45",
+            "location": "KUANTAN 3",
+            "author": "Yusuf Qaradhawi, Farizal, Muhammad Dachyar and Yudan Whulanza",
+            "paper": "Demand Forecasting of Insecticides Product Using Multi Linear Regression"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIE",
+        "pk": 36,
+        "fields": {
+            "id_paper": "381",
+            "room": "5",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.45-14.00",
+            "location": "KUANTAN 3",
+            "author": "Yadrifil -, Rizky Anugerah Pratama and Annisa Marlin Masbar Rus",
+            "paper": "Improvement Recommendation to Eliminate Waste on The Production Process of Line Laminating Door Component with Value Stream Mapping and Waste Assessment Model Method"
+        }
+    }
+]

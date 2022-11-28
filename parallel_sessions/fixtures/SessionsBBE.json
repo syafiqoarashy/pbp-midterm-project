@@ -1,0 +1,170 @@
+[
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 1,
+        "fields": {
+            "id_paper": "268",
+            "room": "2",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.30-15.45",
+            "location": "SEMPUR",
+            "author": "Davita Kristabel Mandala, Muhamad Sahlan and Ahlan Fauzi",
+            "paper": "Exploration of the Antifungal Potential of Indonesian Propolis from Tetragonula biroi Bee on Candida sp. and Cryptococcus neoformans"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 2,
+        "fields": {
+            "id_paper": "68",
+            "room": "2",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.45-16.00",
+            "location": "SEMPUR",
+            "author": "Isfari Dinika, Bambang Nurhadi, Nanang Masruchin and Gemilang Lara Utama",
+            "paper": "THE ROLES OF Candida tropicalis TOWARDS PEPTIDES AND AMINO ACIDS CHANGES IN CHEESE WHEY FERMENTATION"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 3,
+        "fields": {
+            "id_paper": "117",
+            "room": "2",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.00-16.15",
+            "location": "SEMPUR",
+            "author": "Muhamad Sahlan, Hafizh Fadhullah, Diah Kartika Pratami and Kenny Lischer",
+            "paper": "Physical and Chemical Characterization of Dry Mud Propolis for Natural Scrub Comestic"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 4,
+        "fields": {
+            "id_paper": "208",
+            "room": "2",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.15-16.30",
+            "location": "SEMPUR",
+            "author": "Tania Surya Utami, Rita Arbianti, Cindyara Nayanda, Andi Nuraliyah and Anondho Wijanarko",
+            "paper": "The Effect of Time Cultivation in Production of AA and EPA from Aspergillus oryzae with Three-stage Fermentation Strategy"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 5,
+        "fields": {
+            "id_paper": "379",
+            "room": "2",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.15-17.30",
+            "location": "SEMPUR",
+            "author": "Dianursanti, Pandu Nugroho and Muhamad Bagus Prakasa",
+            "paper": "Comparison of Maceration and Soxhletation Method For Flavonoid Production from Spirulina Platensis as a Sunscreen’s Raw Material"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 6,
+        "fields": {
+            "id_paper": "311",
+            "room": "2",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.30-17.45",
+            "location": "SEMPUR",
+            "author": "Maulida Fitri and Cindy Rianti Priadi",
+            "paper": "The Effect of Inoculum with Acetate Additives on Microbial Communities and Removal of VS and COD on Food Waste Anaerobic Digestion"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 7,
+        "fields": {
+            "id_paper": "160",
+            "room": "2",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.00-08.15",
+            "location": "SEMPUR",
+            "author": "Andiko Prasetyanto, Dwini Normayulisa Putri, Meka Saima Perdani, Muhamad Sahlan and Heri Hermansyah",
+            "paper": "Delignification of Oil Palm Empty Fruit Bunch using Peracetic Acid and Alkaline Peroxide Combined with Ultrasound Method"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 8,
+        "fields": {
+            "id_paper": "283",
+            "room": "2",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.15-08.30",
+            "location": "SEMPUR",
+            "author": "Yuswan Muharam, Muhamad Ruby Mujakki and Aris Romadhon Subkhan",
+            "paper": "Hydrodynamics of transesterification fluid in a stirred batch reactor using computational fluid dynamics"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 9,
+        "fields": {
+            "id_paper": "326",
+            "room": "2",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.30-08.45",
+            "location": "SEMPUR",
+            "author": "Dwini Normayulisa Putri, Ningsi Lick Sangadji, Shitta Aspendira Dharmastuti Adisasmito and Heri Hermansyah",
+            "paper": "Effect of Hydrolysis Time on Bio-succinic Acid Production from Oil Palm Empty Fruit Bunch by Semi Simultaneous Saccharification and Fermentation using Immobilized Bacteria"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 10,
+        "fields": {
+            "id_paper": "341",
+            "room": "2",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.45-09.00",
+            "location": "SEMPUR",
+            "author": "Firyal Tharifa and Cindy Priadi",
+            "paper": "Effect of Magnesium Addition to VFA And PCOD in Hydrolysis Phase of Anaerobic Waste Treatment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 11,
+        "fields": {
+            "id_paper": "343",
+            "room": "2",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.00-09.15",
+            "location": "SEMPUR",
+            "author": "Khansa Luqyana Hapsari and Cindy Rianti Priadi",
+            "paper": "The Effect of Magnesium Addition on VS and COD Reduction in Methanogenesis Stage of Food Waste Anaerobic Digestion"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsBBE",
+        "pk": 12,
+        "fields": {
+            "id_paper": "62",
+            "room": "2",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.15-09.30",
+            "location": "SEMPUR",
+            "author": "Ansiha Nur, Puti Sri Komala and Budhi Primasari",
+            "paper": "Waste Water Treatment of Tofu Industry in Padang Panjang City Using Sequencing Batch Reactor Capacity 0.34 m3/day"
+        }
+    }
+]

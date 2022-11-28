@@ -1,0 +1,675 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block meta %}
+<title>Home</title>
+{% endblock meta %}
+
+{% block content %}
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<script>
+  $(document).ready(function(){
+    let card = (data) => 
+    `
+    <div class="swiper-slide">
+            <blockquote
+              class="flex h-80 flex-col rounded-[2rem] justify-between bg-white p-12"
+            >
+              <div>
+                <div class="flex gap-0.5 text-white">         
+
+                <div class="mt-2">
+                  <h3 class="text-2xl font-bold text-[#FED307] sm:text-3xl">
+                    ${data.fields.username}
+                  </h3>
+
+                  <p class="mt-4 text-lg text-gray-600">
+                    ${data.fields.content}
+                  </p>
+                </div>
+              </div>
+
+              <footer class="mt-8 text-gray-500">${data.fields.institute}</footer>
+            </blockquote>
+          </div>
+
+    `;
+
+  let modal = document.querySelector("#modal")
+  let mobile = document.querySelector("#mobile")
+  let closeButton = document.querySelector("#close_testimonial")
+  let openButton = document.querySelector("#open_testimonial")
+  let mobileNav = document.querySelector("#open_mobile")
+  let closeMobile = document.querySelector("#close_mobile")
+
+  closeButton.addEventListener("click", () =>
+    {
+      modal.classList.remove("flex");
+      modal.classList.add("hidden");
+      reset();
+    });
+
+  closeMobile.addEventListener("click", () =>
+    {
+      mobile.classList.remove("flex");
+      mobile.classList.add("hidden");
+    });
+  
+  openButton.addEventListener("click", () =>
+    {
+      modal.classList.add("flex");
+      modal.classList.remove("hidden");
+    });
+
+  mobileNav.addEventListener("click", () =>
+    {
+      mobile.classList.add("flex");
+      mobile.classList.remove("hidden");
+    });
+
+  function reset(){
+    $("#task_form").trigger("reset");
+  };
+
+  function add_testimonial(e){
+    $("#testimoni").append(card(e));
+  };
+  
+  function show_testimonials(){
+    $.get("{% url 'home:show_data_json' %}", function(e){
+      $.each(e, function(i, result) {
+          add_testimonial(result)
+        });
+      });
+    };
+  
+  $("#task_form").submit((event) => {
+            event.preventDefault();
+            if ($("#username").val() && $("#content").val() && $("#institute").val()) {
+                $.ajax({
+                type: "POST",
+                url: "{% url 'home:add' %}",
+                data: {username: $("#username").val(), content: $("#content").val(), institute: $("#institute").val()},
+                headers: {"X-CSRFToken": document.querySelector("[name=csrfmiddlewaretoken]").value},
+                success: function(result) {
+                    modal.classList.remove("flex");
+                    modal.classList.add("hidden");
+                    reset();
+                    add_testimonial(result);
+                },
+                });
+            } else {
+                alert("Please fill the title/description!");
+            }
+            });
+
+  show_testimonials();
+
+  });
+</script>
+
+<body class="bg-[#412D7E] bg-opacity-100">
+  
+  <div id="modal" tabindex="-1" aria-hidden="true" class="hidden bg-white bg-opacity-50 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-screen md:h-full flex justify-center items-center">
+    <div class="relative p-4 w-full max-w-md h-full md:h-auto">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow">
+            <button id="close_testimonial" type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                <span class="sr-only">Close modal</span>
+            </button>
+            <div class="py-6 px-6 lg:px-8">
+                <h3 class="mb-4 text-2xl font-bold text-gray-900">Your opinion about us is very <strong class="font-extrabold text-[#412D7E]">helpful!
+                </strong></h3>
+                <form method="POST" class="space-y-6" action="#" id="task_form">
+                  {% csrf_token %}
+                    <div>
+                        <label for="username" class="block mb-2 text-sm font-medium text-gray-900">Your name</label>
+                        <input type="username" name="username" id="username" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Matthew Rizky Hartadi" required="">
+                    </div>
+                    <div>
+                        <label for="content" class="block mb-2 text-sm font-medium text-gray-900">Your testimony</label>
+                        <input type="content" name="content" id="content" placeholder="Very nice!" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required="">
+                    </div>
+                    <div>
+                      <label for="institute" class="block mb-2 text-sm font-medium text-gray-900">Your institute</label>
+                      <input type="institute" name="institute" id="institute" placeholder="Universitas Indonesia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required="">
+                  </div>
+                    
+                    <button type="submit" class="w-full text-black bg-[#FED307] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Share your thoughts</button>
+                </form>
+                {% if messages %}
+                    <ul>
+                        {% for message in messages %}
+                            <li class="mt-4 text-center text-sm">{{ message }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div> 
+
+<div id="mobile" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-screen md:h-full flex justify-center items-center">
+  <div class="relative w-full md:top-0 max-w-md h-full md:h-auto">
+      <div class="relative bg-white rounded-lg shadow">
+          <button id="close_mobile" type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+              <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              <span class="sr-only">Close modal</span>
+          </button>
+          <a class="block ml-6 text-white hover:text-[#FED307] font-semibold flex flex-row h-16 md:h-24 gap-2" href="/logged/">
+            <img clas='md:mt-3' src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+            <div class="hidden md:flex text-xl items-center justify-between">
+              <h1 class="font-bold">ACB-</h1>
+              <h1 class="font-medium">ISBE</h1>
+            </div>
+          </a>
+          <div class="py-6 px-6 lg:px-8">
+              <div class="flex flex-col gap-6">
+                <ul class="flex flex-col items-center gap-6 text-lg font-semibold text-[#412D7E]">
+                  <li>
+                    <a
+                      class="text-[#FED307] transition hover:text-[#FED307]"
+                      href="/"
+                    >
+                      Home
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'authors:show_authors' %}"
+                    >
+                      Authors
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'submission:show_submission' %}"
+                    >
+                      Publication
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'events:show_events_general' %}"
+                    >
+                      Event
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'speakers:show_speakers' %}"
+                    >
+                      Speakers
+                    </a>
+                  </li>
+    
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'parallel_sessions:category' %}"
+                    >
+                      Sessions
+                    </a>
+                  </li>
+                </ul>
+                <a class="flex justify-center items-center rounded-md bg-[#FED307] md:h-full px-5 py-2.5 text-lg font-semibold text-white shadow-md shadow-[#EEC501] hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#614E99] transition ease-in-out duration-500" href="{% url 'home:logout' %}">
+                  Logout</a>
+            </div>
+        </div>
+               
+      </div>
+  </div>
+</div> 
+
+  <section>
+    <header aria-label="Site Header" class="sticky top-0 bg-transparent md:pb-4 bg-gradient-to-b from-[#412D7E]/95 to-[#412D7E]/5">
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 md:h-24 items-center justify-between">
+          <div class="flex-1 md:flex md:items-center md:gap-12">
+            <a class="block text-white hover:text-[#FED307] font-semibold flex flex-row h-16 md:h-24 gap-2" href="/">
+              <img clas='md:mt-3' src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+              <div class="hidden md:flex text-xl items-center justify-between">
+                <h1 class="font-bold">ACB-</h1>
+                <h1 class="font-medium">ISBE</h1>
+              </div>
+            </a>
+          </div>
+    
+          <div class="md:flex md:items-center md:gap-12">
+            <nav aria-label="Site Nav" class="hidden lg:block">
+              <ul class="flex items-center gap-6 text-md font-semibold text-white">
+                <li>
+                  <a
+                    class="text-[#FED307] transition hover:text-[#FED307]"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+    
+                <li>
+                  <a
+                    class="transition hover:text-[#FED307]"
+                    href="{% url 'authors:show_authors' %}"
+                  >
+                    Authors
+                  </a>
+                </li>
+    
+                <li>
+                  <a
+                    class="transition hover:text-[#FED307]"
+                    href="{% url 'submission:show_submission' %}"
+                  >
+                    Publication
+                  </a>
+                </li>
+    
+                <li>
+                  <a
+                    class="transition hover:text-[#FED307]"
+                    href="{% url 'events:show_events_general' %}"
+                  >
+                    Event
+                  </a>
+                </li>
+    
+                <li>
+                  <a
+                    class="transition hover:text-[#FED307]"
+                    href="{% url 'speakers:show_speakers' %}"
+                  >
+                    Speakers
+                  </a>
+                </li>
+  
+                <li>
+                  <a
+                    class="transition hover:text-[#FED307]"
+                    href="{% url 'parallel_sessions:category' %}"
+                  >
+                    Sessions
+                  </a>
+                </li>
+              </ul>
+            </nav>
+    
+            <div class="flex items-center gap-4">
+              <div class="sm:flex sm:gap-4">
+                <a
+                  class="hidden lg:block rounded-md bg-[#FED307] md:h-full px-5 md:py-2.5 text-sm font-semibold text-white shadow-md shadow-[#EEC501] hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#614E99] transition ease-in-out duration-500"
+                  href="{% url 'home:logout' %}"
+                >
+                  Logout
+                </a>
+    
+                <!-- <div class="hidden sm:flex">
+                  <a
+                    class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-[#1C3265]"
+                    href="{% url 'home:register' %}"
+                  >
+                    Register
+                  </a>
+                </div>
+              </div> -->
+    
+              <div class="block lg:hidden">
+                <button id="open_mobile"
+                  class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="w-screen h-screen bg-center bg-cover bg-[url({% static 'home/city.jpeg' %})]">
+    <div class="flex flex-col items-center justify-center w-full h-full bg-transparent bg-gradient-to-b from-[#412D7E]/100 via-[#412D7E]/80 to-[#412D7E]/100 py-12">
+      <div class="text-center justify-center">
+        <div class="container px-4 mx-auto">
+          <div class="max-w-4xl mx-auto text-center ">
+            <div class="flex flex-col md:flex-row rounded-xl p-3 md:ml-12 items-center gap-3">
+              <img class=""src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+              <div class="flex flex-col text-md md:text-4xl text-white md:text-left">
+                <h1 class="font-bold">Asian Congress on Biotechnology</h1>
+                <h1 class="font-medium">International Symposium on Biomedical Engineering</h1>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <h2 class="mt-6 mb-3 text-white text-center text-4xl md:text-7xl font-bold">Biotech for Stronger Recovery</h2>
+      <h2 class="text-white mb-12 text-md md:text-xl text-center">Accelerate the advancement of technology and research in biomedical engineering</h2>
+      <h2 class="text-white mb-2 text-md md:text-xl">OCTOBER 2-6, 2022</h2>
+      <div class="flex flex-row mb-2 text-[#FED307] justify-center text-md md:text-xl items-center gap-2">
+        <img class="object-contain h-4 md:h-8" src="{% static 'home/indonesia.png' %}" alt="">
+        <h2 class="">INDONESIA</h2>
+        <h2 class="">•</h2>
+        <h2 class="">MERUSAKA HOTEL BALI</h2>
+      </div>
+      <div class="flex flex-row mb-12 text-[#FED307] justify-center text-md md:text-xl items-center gap-2">
+        <img class="object-contain h-4 md:h-8" src="https://cdn-conference.techinasia.com/uploads/2022/06/icon_VR.png" alt="">
+        <h2 class="">HYBRID</h2>
+      </div>
+      <button type="button" class="text-white bg-[#FED307] shadow-md shadow-[#EEC501] border-4 border-transparent gap-2 hover:bg-transparent hover:border-[#FED307] focus:ring-4 transition ease-in-out duration-500 font-medium rounded-[3rem] text-2xl px-5 py-2.5 text-center inline-flex items-center">
+        <a class="text-white hover:text-[#FED307] transition ease-in-out duration-500" href="#conferenceinfo">GET STARTED</a>
+        <img class="object-contain h-6" src="{% static 'home/arrow_down.svg' %}" alt="">
+    </button>
+    </div>
+  </div>
+  <section class="mt-0 md:mt-8 mb-12 flex flex-col items-center justify-center">
+    <div class="mb-8">
+      <img class="object-contain h-16" src="{% static 'home/teaser.svg' %}" alt="Highlights">
+    </div>
+    <div class="hidden lg:flex flex-row">
+      <iframe width="1050" height="472.5" src="https://www.youtube.com/embed/Uak-nEH1wHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="hidden sm:flex lg:hidden flex-row">
+      <iframe width="600" height="472.5" src="https://www.youtube.com/embed/Uak-nEH1wHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="flex md:hidden flex-row">
+      <iframe width="350" height="250" src="https://www.youtube.com/embed/Uak-nEH1wHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+  <section class="mt-16 md:mt-24 flex items-center justify-center">
+    <div class="flex flex-col justify-center bg-white p-4 md:p-12 rounded-[3rem]  w-11/12 md:w-9/12">
+      <img class="object-contain mb-8 h-16" src="{% static 'home/about.svg' %}" alt="Highlights">
+      <img alt="Conference" src="{% static 'home/conference_stock.jpeg' %}" class="mb-8 shadow-xl h-80 w-full object-cover rounded-xl"/>
+      <p class="">The International Symposium on Biomedical Engineering (ISBE) is an annual event initiated by the Research Center for Biomedical 
+        Engineering, Universitas Indonesia (RCBE UI). The event is organized to improve the communication of science, research, and technology 
+        among students, faculty, and researchers in Indonesia and abroad who study and or have a career in biomedical engineering. 
+        This International Symposium on Biomedical Engineering would be one of the ways to strengthen the biomedical agenda in Indonesia 
+        with international relations.
+        </p>
+        <br>
+      <p class="">
+        The Asian Congress on Biotechnology (ACB) 2022 is an international conference jointly organized by the Asian Federation of Biotechnology 
+        (AFOB) and the Research Center for Biomedical Engineering Universitas Indonesia (RCBE UI). The ACB 2022 will be held in conjunction with 
+        The 7th International Symposium on Biomedical Engineering (ISBE). We aim to provide a platform for researchers and young scientists from 
+        around the world to present novel findings and discuss the future of biotechnology for 2022 and beyond. The meeting will include a variety 
+        of important sessions ranging from applied microbiology, medical biotechnology, nanotechnology, biomaterials/regenerative medicine, synthetic 
+        biology, and more. The theme of this conference is “Biotech for Stronger Recovery” which will underpin the need for collaboration and cooperation 
+        of individuals and industries from a wide range of biochemical backgrounds.
+        </p>
+    </div>
+  </section>
+  <section class="mt-8 mb-4 flex flex-col items-center justify-center">
+    <div class="flex items-center justify-center mt-16 mb-8">
+      <img class="object-contain h-16" src="{% static 'home/conf_inf.svg' %}" alt="Conference Ingo">
+    </div>
+  </section >
+    <section>
+      <div id="conferenceinfo" class="flex flex-wrap items-center justify-center gap-16">
+
+    <article class="group w-80">
+      <img
+        alt="Event Rundown"
+        src="{% static 'home/schedule.jpeg' %}"
+        class="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+      />
+
+      <div class="p-4 text-center">
+        <a href="#">
+          <h3 class="text-4xl mb-4 font-semibold text-white">
+            Event Rundown
+          </h3>
+        </a>
+
+        <p class="mt-2 text-md leading-relaxed text-white">
+          Preview your rundown schedule, containing the date, title, speaker, and 
+            location for each event. You'll be able to interact with certain events.
+        </p>
+      </div>
+    </article>
+
+    <article class="group w-80">
+      <img
+        alt="Keynote"
+        src="{% static 'home/keynote.jpeg' %}"
+        class="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+      />
+
+      <div class="p-4 text-center">
+        <a href="#">
+          <h3 class="flex items-center justify-center text-center text-3xl mb-4 font-semibold text-white">
+            Plenary/Keynote/Invited
+          </h3>
+        </a>
+
+        <p class="mt-2 text-md leading-relaxed text-white">
+          Preview the list of speakers present on the conference, divided 
+            into Plenary Speakers and Keynote Speakers.
+        </p>
+      </div>
+    </article>
+
+    <article class="group w-80">
+      <img
+        alt="Sessions"
+        src="{% static 'home/sessions.jpeg' %}"
+        class="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+      />
+
+      <div class="p-4 text-center">
+        <a href="#">
+          <h3 class="text-4xl mb-4 font-semibold text-white">
+            Parallel Sessions
+          </h3>
+        </a>
+
+        <p class="mt-2 text-md leading-relaxed text-white">
+          Preview the topics for each sessions in the event. This section provides papers related 
+            to the topic based on the date of presentation.
+        </p>
+      </div>
+    </article>
+
+      </div>
+    </section>
+
+    <section class="mt-2 flex flex-col items-center justify-center">
+      <div class="flex items-center justify-center mt-8 mb-8">
+        <img class="object-contain h-16" src="{% static 'home/venuemap.svg' %}" alt="Conference Ingo">
+      </div>
+    </section >
+    <section class="flex justify-center">
+      <img class='object-contain p-8 w-10/12' src="{% static 'home/venue_map.png' %}" alt="Map">
+    </section>
+
+    <section class="flex flex-col items-center justify-center">
+      <div class="flex items-center justify-center mt-8">
+        <img class="object-contain h-16" src="{% static 'home/testimonials.svg' %}" alt="Conference Ingo">
+      </div>
+    </section >
+    <section>
+      
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+<section class="">
+  <div
+    class="mx-auto max-w-[1340px] px-4 py-8 sm:px-6 sm:py-8 lg:mr-0 lg:pl-8 lg:pr-0"
+  >
+    <div class="max-w-7xl items-end justify-between sm:flex sm:pr-6 lg:pr-8">
+
+      <div class="mt-4 flex lg:mt-0">
+        <button
+          class="prev-button rounded-full border bg-white border-current p-3 text-[#FED307] font-semibold focus:bg-black focus:text-black focus:outline-none"
+        >
+          <span class="sr-only">Previous Slide</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 -rotate-180 transform"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
+
+        <button
+          class="next-button ml-3 rounded-full border bg-white border-current p-3 text-[#FED307] font-semibold focus:bg-black focus:text-black focus:outline-none"
+        >
+          <span class="sr-only">Next Slide</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
+
+        <button
+          class=" ml-3 rounded-full border bg-white border-current p-3 text-[#FED307] font-semibold focus:bg-black focus:text-black focus:outline-none"
+        ><a id="open_testimonial">Add your own</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="-mx-6 mt-8 lg:col-span-2 lg:mx-0">
+      <div class="swiper-container !overflow-hidden">
+        <div id="testimoni" class="swiper-wrapper">
+          <!-- <div class="swiper-slide">
+            <blockquote
+              class="flex min-h-80 flex-col rounded-[2rem] justify-between bg-white p-12"
+            >
+              <div>
+                <div class="flex gap-0.5 text-white">         
+
+                <div class="mt-2">
+                  <h3 class="text-2xl font-bold text-[#FED307] sm:text-3xl">
+                    Syafiqo Arashy Octaviano
+                  </h3>
+
+                  <p class="mt-4 text-lg text-gray-600">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam cumque recusandae dolorum porro, quasi sunt
+                    necessitatibus dolorem ab laudantium vel.
+                  </p>
+                </div>
+              </div>
+
+              <footer class="mt-8 text-gray-500">- Universitas Indonesia</footer>
+            </blockquote>
+          </div> -->
+
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const swiper = new Swiper('.swiper-container', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 32,
+      autoplay: {
+        delay: 8000,
+      },
+      navigation: {
+        nextEl: '.next-button',
+        prevEl: '.prev-button',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1.5,
+          centeredSlides: true,
+        },
+        1024: {
+          centeredSlides: false,
+          slidesPerView: 2.25,
+        },
+      },
+    })
+  })
+</script>
+
+    </section>
+
+    <section class="flex flex-col items-center justify-center">
+      <div class="flex items-center justify-center mt-8 mb-8">
+        <img class="object-contain h-16" src="{% static 'home/partners.svg' %}" alt="Conference Ingo">
+      </div>
+      <div class="bg-[#1C0A54] mb-16 p-8 py-16 rounded-[2rem] w-[20rem] md:w-[48rem] lg:w-[72rem] flex justify-center items-center flex-wrap gap-8">
+        <img class="flex object-contain h-16 md:h-32" src="{% static 'home/kemendikbud.png' %}" alt="Kemendikbud">
+        <img class="flex object-contain h-16 md:h-32" src="{% static 'home/ui.png' %}" alt="UI">
+        <img class="flex object-contain h-16 md:h-24" src="{% static 'home/google.png' %}" alt="Google">
+        <img class="flex object-contain h-16 md:h-24" src="{% static 'home/aws.png' %}" alt="AWS">
+        <img class="flex object-contain h-16 md:h-24" src="{% static 'home/gojek.png' %}" alt="Kemendikbud">
+      </div>
+    </section >
+
+    <footer aria-label="Site Footer" class="bg-gray-50 mt-8">
+      <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <div class="flex h-24 justify-center text-teal-600 sm:justify-start">
+            <div class="flex-1 md:flex md:items-center md:gap-12">
+              <a class="block text-[#412D7E] font-semibold justify-center flex flex-row h-24 gap-2" href="/">
+                <img clas='mt-3' src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+                <div class="hidden md:flex text-xl items-center justify-between">
+                  <h1 class="font-bold">ACB-</h1>
+                  <h1 class="font-medium">ISBE</h1>
+                </div>
+              </a>
+            </div>
+          </div>
+    
+          <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+            Copyright &copy; 2022. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer> 
+  </section>
+  
+  
+  
+</body>
+
+{% endblock content %}

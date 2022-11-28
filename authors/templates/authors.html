@@ -1,0 +1,342 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<script>
+  $(document).ready(function(){
+
+  let mobile = document.querySelector("#mobile");
+  let mobileNav = document.querySelector("#open_mobile");
+  let closeMobile = document.querySelector("#close_mobile");
+  let navbar = document.querySelector("#navbar");
+
+  closeMobile.addEventListener("click", () =>
+    {
+      mobile.classList.remove("flex");
+      mobile.classList.add("hidden");
+      navbar.classList.remove("hidden");
+    });
+
+  mobileNav.addEventListener("click", () =>
+    {
+      mobile.classList.add("flex");
+      mobile.classList.remove("hidden");
+      navbar.classList.add("hidden");
+    });
+
+  });
+</script>
+
+<body class="bg-white bg-opacity-100">
+
+<div id="mobile" tabindex="-1" aria-hidden="true" class="hidden z-51 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-screen md:h-full flex justify-center items-center">
+  <div class="relative w-full md:top-0 max-w-md h-full md:h-auto">
+      <div class="relative bg-white rounded-lg shadow">
+          <button id="close_mobile" type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+              <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              <span class="sr-only">Close modal</span>
+          </button>
+          <a class="block ml-6 text-white hover:text-[#FED307] font-semibold flex flex-row h-16 md:h-24 gap-2" href="/">
+            <img clas='md:mt-3' src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+            <div class="hidden md:flex text-xl items-center justify-between">
+              <h1 class="font-bold">ACB-</h1>
+              <h1 class="font-medium">ISBE</h1>
+            </div>
+          </a>
+          <div class="py-6 px-6 lg:px-8">
+              <div class="flex flex-col gap-6">
+                <ul class="flex flex-col items-center gap-6 text-lg font-semibold text-[#412D7E]">
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="/logged/"
+                    >
+                      Home
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="text-[#FED307] transition hover:text-[#FED307]"
+                      href="{% url 'authors:show_authors' %}"
+                    >
+                      Authors
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'submission:show_submission' %}"
+                    >
+                      Publication
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'events:show_events_general' %}"
+                    >
+                      Event
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'speakers:show_speakers' %}"
+                    >
+                      Speakers
+                    </a>
+                  </li>
+    
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'parallel_sessions:category' %}"
+                    >
+                      Sessions
+                    </a>
+                  </li>
+                </ul>
+                <a class="flex justify-center items-center rounded-md bg-[#FED307] md:h-full px-5 py-2.5 text-lg font-semibold text-white shadow-md shadow-[#EEC501] hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#614E99] transition ease-in-out duration-500" href="{% url 'home:logout' %}">
+                  Logout</a>
+            </div>
+        </div>
+               
+      </div>
+  </div>
+</div> 
+
+  <section>
+    <header aria-label="Site Header" id="navbar" class="sticky top-0 bg-transparent bg-[#412D7E] z-50">
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 md:h-24 items-center justify-between">
+          <div class="flex-1 md:flex md:items-center md:gap-12">
+            <a class="block text-white hover:text-[#FED307] font-semibold flex flex-row h-16 md:h-24 gap-2" href="/logged/">
+              <img clas='md:mt-3' src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+              <div class="hidden md:flex text-xl items-center justify-between">
+                <h1 class="font-bold">ACB-</h1>
+                <h1 class="font-medium">ISBE</h1>
+              </div>
+            </a>
+          </div>
+    
+          <div class="md:flex md:items-center md:gap-12">
+            <nav aria-label="Site Nav" class="hidden lg:block">
+              <ul class="flex items-center gap-6 text-md font-semibold text-white">
+                <li>
+                  <a
+                    class="transition hover:text-[#FED307]"
+                    href="/logged/"
+                  >
+                    Home
+                  </a>
+                </li>
+    
+                <li>
+                  <a
+                    class="text-[#FED307] transition hover:text-[#FED307]"
+                    href="{% url 'authors:show_authors' %}"
+                  >
+                    Authors
+                  </a>
+                </li>
+    
+                <li>
+                  <a
+                    class="transition hover:text-[#FED307]"
+                    href="{% url 'submission:show_submission' %}"
+                  >
+                    Publication
+                  </a>
+                </li>
+    
+                <li>
+                  <a
+                    class="transition hover:text-[#FED307]"
+                    href="{% url 'events:show_events_general' %}"
+                  >
+                    Event
+                  </a>
+                </li>
+    
+                <li>
+                  <a
+                    class="transition hover:text-[#FED307]"
+                    href="{% url 'speakers:show_speakers' %}"
+                  >
+                    Speakers
+                  </a>
+                </li>
+  
+                <li>
+                  <a
+                    class="transition hover:text-[#FED307]"
+                    href="{% url 'parallel_sessions:category' %}"
+                  >
+                    Sessions
+                  </a>
+                </li>
+              </ul>
+            </nav>
+    
+            <div class="flex items-center gap-4">
+              <div class="sm:flex sm:gap-4">
+                <a
+                  class="hidden lg:block rounded-md bg-[#FED307] md:h-full px-5 md:py-2.5 text-sm font-semibold text-white shadow-md shadow-[#EEC501] hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#614E99] transition ease-in-out duration-500"
+                  href="{% url 'home:logout' %}"
+                >
+                  Logout
+                </a>
+    
+                <!-- <div class="hidden sm:flex">
+                  <a
+                    class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-[#1C3265]"
+                    href="{% url 'home:register' %}"
+                  >
+                    Register
+                  </a>
+                </div>
+              </div> -->
+    
+              <div class="block lg:hidden">
+                <button id="open_mobile"
+                  class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+<section class="z-0 relative bg-[url({% static 'author_bg.jpg' %})] bg-cover bg-center bg-no-repeat object-fill">
+    <div class="relative px-10 py-20 md:px-16 md:py-32 lg:px-32 lg:py-48">
+    <div class="text-left sm:text-left">
+        <h1 class="text-white font-extrabold text-5xl md:text-6xl lg:text-7xl">
+            Authors
+        </h1>
+    </div>
+</section>
+
+<!-- <p class="text-center my-10 text-5xl font-bold">Authors</p> -->
+
+<form method="get">
+    <p class="mt-10 md:mt-16 mb-1 md:mb-3 mx-12 lg:mx-48 text-m md:text-xl text-gray-500">Search for author(s) by author(s) name</p>
+    <div class="mx-12 gap-y-4 lg:mx-48 flex flex-col justify-center lg:flex-row">
+        
+        <input type="text" name="full_name__icontains" id="id_full_name_icontains" class="mr-6 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Input Author Name">
+        <!-- <input type="text" name="authors__icontains" id="id_authors__icontains" class="mx-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Author(s) by name"> -->
+        <button type="submit" class="inline-flex items-center py-2.5 px-3 text-sm font-medium text-white bg-[#412D7E] rounded-lg hover:ring-offset hover:ring hover:ring-[#412D7E] hover:bg-white hover:text-[#412D7E] transition-all">
+            <svg aria-hidden="true" class="mr-2 -ml-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>Search
+        </button>
+    </div>
+</form>
+
+<div id="rowcontainer" class="flex flex-col justify-center mx-2 lg:mx-48 my-10">
+  
+</div>
+
+<footer aria-label="Site Footer" class="bg-gray-50 mt-8">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <div class="flex h-24 justify-center text-teal-600 sm:justify-start">
+          <div class="flex-1 md:flex md:items-center md:gap-12">
+            <a class="block text-[#412D7E] font-semibold flex flex-row h-24 gap-2" href="/logged/">
+              <img clas='mt-3' src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+              <div class="hidden md:flex text-xl items-center justify-between">
+                <h1 class="font-bold">ACB-</h1>
+                <h1 class="font-medium">ISBE</h1>
+              </div>
+            </a>
+          </div>
+        </div>
+  
+        <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+          Copyright &copy; 2022. All rights reserved.
+        </p>
+      </div>
+    </div>
+</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function()  {
+        refreshAuthors();
+    });
+
+    async function getAuthors() {
+        return fetch("{% url 'authors:show_json' %}").then((res) => res.json())
+    }
+
+    async function refreshAuthors() {
+        document.getElementById("rowcontainer").innerHTML = ""
+        const submission = await getAuthors()
+        let htmlString = ``
+        submission.forEach((item) => {
+            htmlString += `
+            <div class="rounded-xl shadow-md my-3 mx-12 lg:mx-0 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105" style="cursor: pointer" onclick="details(${item.pk})">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl">${item.fields.full_name}</div>
+                        <p class="text-gray-700 text-base">
+                            ${item.fields.email}
+                        </p>
+                        <p class="text-gray-500 text-base text-sm italic">
+                            ${item.fields.organization}
+                        </p>
+                        <p class="text-gray-500 text-base text-sm italic">
+                            ${item.fields.country}
+                        </p>
+                    </div>
+                </div>
+            </div>`
+        })
+        document.getElementById("rowcontainer").innerHTML = htmlString
+    }
+
+    $('form').submit(function(e){
+        e.preventDefault();
+        refreshAuthors();
+        $.ajax
+        ({
+            type: "GET",
+            url: "{% url 'authors:show_authors' %}",
+            data: $('form').serialize(),
+            success: function(data)
+            {
+                console.log(data)
+                refreshAuthors();
+            }
+        });
+    })
+
+    function details(val) {
+        window.location.href = "{% url 'authors:show_details' 0 %}".replace("0", val);
+    }
+
+    refreshAuthors()
+</script>
+
+{% endblock content %}

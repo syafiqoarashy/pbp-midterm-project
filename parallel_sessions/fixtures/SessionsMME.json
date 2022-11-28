@@ -1,0 +1,674 @@
+[
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 1,
+        "fields": {
+            "id_paper": "41",
+            "room": "1",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.30-17.45",
+            "location": "ANAI 1-2",
+            "author": "Ghozali Suprobo, Faris Arief Mawardi, Nokeun Park and Eung Ryul Baek",
+            "paper": "Effect of Cooling Rates during a Double Stage Solution Treatment on the Massive Phase Formation in Ti-6Al-4V alloy"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 2,
+        "fields": {
+            "id_paper": "40",
+            "room": "1",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.45-18.00",
+            "location": "ANAI 1-2",
+            "author": "Desrilia Nursyifaulkhair, Faris Arief Mawardi, Nokeun Park, Eung Ryul Baek and Sungwook Kim",
+            "paper": "Alteration in The Phase Morphology of Ti-6Al-4V Alloy Produced using Directed Energy Deposition"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 3,
+        "fields": {
+            "id_paper": "219",
+            "room": "7",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.00-13.15",
+            "location": "TARUSAN 1-2",
+            "author": "Invited Speaker - Eung Ryul Baek and Ghozali Suprobo",
+            "paper": "Massive Phase Transformation as a New Prospective on Microstructural Design in a Titanium Alloy – a Review"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 4,
+        "fields": {
+            "id_paper": "219",
+            "room": "7",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.15-13.30",
+            "location": "TARUSAN 1-2",
+            "author": "Invited Speaker - Eung Ryul Baek and Ghozali Suprobo",
+            "paper": "Massive Phase Transformation as a New Prospective on Microstructural Design in a Titanium Alloy – a Review"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 5,
+        "fields": {
+            "id_paper": "277",
+            "room": "7",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.30-13.45",
+            "location": "TARUSAN 1-2",
+            "author": "Imam Basori",
+            "paper": "Influence of Manganese on the Recrystallization Characteristics and Texture Development of Cu-29Zn Alloys"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 6,
+        "fields": {
+            "id_paper": "214",
+            "room": "7",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.45-14.00",
+            "location": "TARUSAN 1-2",
+            "author": "Parikin Parikin and Mohammad Dani",
+            "paper": "DETERMINATION OF CUBIC CRYSTAL STRUCTURE OF THE SUPERALLOY FeCrNi STEEL BY USING BRAGG FORMULA ARITHMETIC"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 7,
+        "fields": {
+            "id_paper": "239",
+            "room": "7",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.00-14.15",
+            "location": "TARUSAN 1-2",
+            "author": "Reza Miftahul Ulum, Wahyuaji Narottama Putra and M. Arif Hidayat",
+            "paper": "Review on Gallium-based Particle Synthesis by Ultrasonication for Microfluid Application"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 8,
+        "fields": {
+            "id_paper": "152",
+            "room": "7",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.15-14.30",
+            "location": "TARUSAN 1-2",
+            "author": "Sri Agustina",
+            "paper": "Solvent Effects on the Synthesis of Polymeric Nanoparticles via Block Copolymer Self-Assembly Using Microporous Membranes"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 9,
+        "fields": {
+            "id_paper": "37",
+            "room": "7",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.30-14.45",
+            "location": "TARUSAN 1-2",
+            "author": "Janu Ageng Nugroho, Ghozali Suprobo, Nokeun Park and Eung Ryul Baek",
+            "paper": "Investigation of Dynamic Recrystallization Phenomenon in Drawn Ti-6Al-4V Alloy"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 10,
+        "fields": {
+            "id_paper": "345",
+            "room": "7",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.45-15.00",
+            "location": "TARUSAN 1-2",
+            "author": "Jaka Fajar Fatriansyah, Naufal Gifari Rahmat and Donanta Dhaneswara",
+            "paper": "Study of Zeolite Usage in Thermal Degradation Process of Polypropylene Pyrolysis"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 11,
+        "fields": {
+            "id_paper": "Invited Paper",
+            "room": "7",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.15-15.30",
+            "location": "TARUSAN 1-2",
+            "author": "Erik Heeres (INVITED SPEAKER)",
+            "paper": "Glycerol Valorization to Biobased Chemicals Using Advanced Catalysts"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 12,
+        "fields": {
+            "id_paper": "Invited Paper",
+            "room": "7",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.30-15.45",
+            "location": "TARUSAN 1-2",
+            "author": "Erik Heeres (INVITED SPEAKER)",
+            "paper": "Glycerol Valorization to Biobased Chemicals Using Advanced Catalysts"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 13,
+        "fields": {
+            "id_paper": "14",
+            "room": "7",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.45-16.00",
+            "location": "TARUSAN 1-2",
+            "author": "H Aripin, Nundang Busaeri, Nurul Hiron, Acep Irham Gufroni and Svilen Sabchevski",
+            "paper": "Activated Natural Zeolite Membran for Separating Dissolved Impurities in Coconut Sap"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 14,
+        "fields": {
+            "id_paper": "28",
+            "room": "7",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.00-16.15",
+            "location": "TARUSAN 1-2",
+            "author": "Muhamad Sahlan, Adam Muhammad Fadhan, Diah Kartika Pratami, Heri Hermansyah, Anondho Wijanarko, Kenny Lischer and Kaysa Faradis Mahira",
+            "paper": "Encapsulation of Agarwood Essential Oil with Maltodextrin and Gum Arabic"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 15,
+        "fields": {
+            "id_paper": "147",
+            "room": "7",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.15-16.30",
+            "location": "TARUSAN 1-2",
+            "author": "I Ketut Adi Atmika, I Dewa Gede Ary Subagia and I Gusti Agung Kade Suriadi",
+            "paper": "Study of Mechanical Properties of Hemp Fiber Composites for Electric Bicycle Frames"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 16,
+        "fields": {
+            "id_paper": "100",
+            "room": "7",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.30-16.45",
+            "location": "TARUSAN 1-2",
+            "author": "Bambang Suharno, Nolzha Primadha Ilman, Achmad Shofi and Fajar Nurjaman",
+            "paper": "Study of Low-Grade Nickel Laterite Processing using Palm Shell Charcoal as Reductant"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 17,
+        "fields": {
+            "id_paper": "145",
+            "room": "7",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.45-17.00",
+            "location": "TARUSAN 1-2",
+            "author": "Yuli Husnil, Mochamad Chalid and Evana Yuanita",
+            "paper": "Study on the Effect of Bleaching Treatment on the Mechanical Properties of Kenaf Fibers"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 18,
+        "fields": {
+            "id_paper": "29",
+            "room": "7",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.00-17.15",
+            "location": "TARUSAN 1-2",
+            "author": "Muhamad Sahlan, Muryanto Muryanto, Heri Hermansyah, Anondho Wijanarko, Kenny Lischer, Misri Gozan and Paksi Pujianto",
+            "paper": "Ethanol Production from Oil-palm empty fruit bunch by encapsulated Rhizopus oryzae"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 19,
+        "fields": {
+            "id_paper": "182",
+            "room": "7",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.15-17.30",
+            "location": "TARUSAN 1-2",
+            "author": "Wieke Pratiwi, Gaos Abdul Karim and Titi Rachmawati",
+            "paper": "Local Silica Sand as a substitute for Standard Ottawa Sand in Testing of Cement Mortar"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 20,
+        "fields": {
+            "id_paper": "202",
+            "room": "7",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.30-17.45",
+            "location": "TARUSAN 1-2",
+            "author": "Marcelinus Christwardana, Aniek Sri Handayani, Shirley Savetlana, Riana Herlina Lumingkewas and Mochamad Chalid",
+            "paper": "Micro-fibrillated Cellulose Fabrication from Empty Fruit Bunches of Oil Palm"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 21,
+        "fields": {
+            "id_paper": "371",
+            "room": "7",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.45-18.00",
+            "location": "TARUSAN 1-2",
+            "author": "Juliana Anggono, Bily Budiarto and Suwandi Sugondo",
+            "paper": "The Strength of Polylactic Acid Composites Reinforced with Sugarcane Bagasse and Rice Husk"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 22,
+        "fields": {
+            "id_paper": "59",
+            "room": "7",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.00-08.15",
+            "location": "TARUSAN 1-2",
+            "author": "Ahmad Zakiyuddin, Decky Joesiana Indrani and Sotya Astutiningsih",
+            "paper": "Recyclability of Dental Gypsum Via Calcination"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 23,
+        "fields": {
+            "id_paper": "98",
+            "room": "7",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.15-08.30",
+            "location": "TARUSAN 1-2",
+            "author": "Fendy Rokhmanto",
+            "paper": "Influence of Various Solution Treatment Temperature on Microstructure, Hardness and Elastic Modulus of Ti-6Al-6Mo Alloy for Biomedical Application"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 24,
+        "fields": {
+            "id_paper": "104",
+            "room": "7",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.30-08.45",
+            "location": "TARUSAN 1-2",
+            "author": "Dhyah Annur, Muhammad Utomo, Talitha Asmaria, Daniel Malau, Ahmad Rahyussalim, Yogi Prabowo, Sugeng Supriadi, Bambang Suharno and Muhamad Amal",
+            "paper": "Material Selection Based on Finite Element Method in Customized Iliac Implant"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 25,
+        "fields": {
+            "id_paper": "181",
+            "room": "7",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.45-09.00",
+            "location": "TARUSAN 1-2",
+            "author": "Ahmad Fadli, Feblil Huda, Komalasari Komalasari, Ilham Habib and Arosyidin Arosyidin",
+            "paper": "Response surface methodology study on macroporous hydroxyapatite prepared by protein foaming-consolidation method"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 26,
+        "fields": {
+            "id_paper": "261",
+            "room": "7",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.00-09.15",
+            "location": "TARUSAN 1-2",
+            "author": "Nuzul Ficky Nuswantoro, Dian Juliadmi, Hidayatul Fajri, Menkher Manjas, Djong Hon Tjong, Netti Suharti, Jon Affi and Gunawarman Gunawarman",
+            "paper": "Electrophoretic Deposition Performance of Hydroxyapatite Coating on Titanium Alloys for Orthopedic Implant Application"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 27,
+        "fields": {
+            "id_paper": "263",
+            "room": "7",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.15-09.30",
+            "location": "TARUSAN 1-2",
+            "author": "Hidayatul Fajri, Fuad Ramadhan, Nuzul Ficky Nuswantoro, Dian Juliadmi, Djong Hon Tjong, Menkher Manjas, Jon Affi, Yuli Yetri and Gunawarman Gunawarman",
+            "paper": "Electrophoretic Deposition (EPD) of Natural Hydroxyapatite Coatings on Titanium Ti-29Nb-13Ta-4.6Zr Substrates for Implant Material"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 28,
+        "fields": {
+            "id_paper": "292",
+            "room": "7",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.30-09.45",
+            "location": "TARUSAN 1-2",
+            "author": "Dian Juliadmi, Nuzul Ficky Nuswantoro, Hidayatul Fajri, Irma Yulia Indriyani, Jon Affi, Menkher Manjas, Djong Hon Tjong and Gunawarman Gunawarman",
+            "paper": "The coating of Bovine-Source Hydroxyapatite on Titanium Alloy (Ti-6Al-4V ELI) using Electrophoretic Deposition fo Biomedical Application"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 29,
+        "fields": {
+            "id_paper": "350",
+            "room": "7",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.45-10.00",
+            "location": "TARUSAN 1-2",
+            "author": "Ghiska Ramahdita",
+            "paper": "The Effect of Hydroxyapatite Addition on the Mechanical Properties of Polyvinyl Alcohol/Chitosan Biomaterials for Bone Scaffolds Application"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 30,
+        "fields": {
+            "id_paper": "19",
+            "room": "7",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.15-10.30",
+            "location": "TARUSAN 1-2",
+            "author": "Hafid Abdullah and Sri Bimo Pratomo",
+            "paper": "The use of local raw materials for the manufacturing of import substitution casting products on investment casting technology"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 31,
+        "fields": {
+            "id_paper": "307",
+            "room": "7",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.30-10.45",
+            "location": "TARUSAN 1-2",
+            "author": "Nofrijon Sofyan, Dadan Suhendar, Anne Zulfia and Achmad Subhan",
+            "paper": "Characteristics of Coconut Shell Activated Carbon in LiMn0.7Fe0.3PO4/CNT/C Composite and Its Performance for Lithium Ion Battery Cathode"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 32,
+        "fields": {
+            "id_paper": "32",
+            "room": "7",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.45-11.00",
+            "location": "TARUSAN 1-2",
+            "author": "Soesaptri Oediyani, Sudibyo - and Arifo G. Cahyonegoro",
+            "paper": "Optimization of Electro Metal Electrowinning Nickel Metal Processing Results by Leaching with Acetic Acid and Extraction Using Versatic 10 And Cyanex 272"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 33,
+        "fields": {
+            "id_paper": "21",
+            "room": "7",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.00-11.15",
+            "location": "TARUSAN 1-2",
+            "author": "Komang Widi, Wayan Sujana and Teguh Rahardjo",
+            "paper": "The Comparison Of Nitrogen Atom Solubility In The Formation Of Surface Layer On Stainless Steel And Alloy Steel"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 34,
+        "fields": {
+            "id_paper": "101",
+            "room": "7",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.15-11.30",
+            "location": "TARUSAN 1-2",
+            "author": "Hanuna Haritsa, Muhammad Wira Akira and Anne Zulfia",
+            "paper": "The Role of Al2O3 Particles on Mechanical Properties and Microstructure of Aluminum A356 Composites Produced by Stir Casting Method"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 35,
+        "fields": {
+            "id_paper": "102",
+            "room": "7",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.30-11.45",
+            "location": "TARUSAN 1-2",
+            "author": "Nabila Akmalita Khairul Islam, Nayona Ega Wicaksana and Anne Zulfia",
+            "paper": "Effect of Nano-Al2O3 on Characteristics of Aluminium A356 Matrix Composite Produced by Stir Casting Route"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 36,
+        "fields": {
+            "id_paper": "362",
+            "room": "7",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.00-13.15",
+            "location": "TARUSAN 1-2",
+            "author": "Rahmadi . and Deni Ferdian",
+            "paper": "Effect of Strontium Addition in Graphite Morphology and Nodularization of Cast Iron"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 37,
+        "fields": {
+            "id_paper": "170",
+            "room": "7",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.15-13.30",
+            "location": "TARUSAN 1-2",
+            "author": "Mr Sunoto Mudiantoro, Mr Gerry Methew, Prof. Winarto, Mr M.Kemal and Mr M.Fadzli",
+            "paper": "Surface mechanical properties of tool steel material on the addition of carbon nanotubes with the process of flame spray tungsten carbide coatings"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 38,
+        "fields": {
+            "id_paper": "378",
+            "room": "7",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.30-13.45",
+            "location": "TARUSAN 1-2",
+            "author": "Winarto Winarto, Rini Riastuti and I Nyoman Suarjana",
+            "paper": "Study the effect of welding position and plate thickness to the Mechanical and Microstructural properties of the TIG dissimilar metal welded between Carbon Steel ASTM A36 and Stainless Steel 304 Plates"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 39,
+        "fields": {
+            "id_paper": "215",
+            "room": "7",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.45-14.00",
+            "location": "TARUSAN 1-2",
+            "author": "Eddy S Siradj and Ghiska Ramahdita",
+            "paper": "Evaluation of Austenite Grain Growth in High Nb and Low Nb HSLA Steel"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 40,
+        "fields": {
+            "id_paper": "252",
+            "room": "7",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.00-14.15",
+            "location": "TARUSAN 1-2",
+            "author": "Yudi Nugraha Thaha, Nono Darsono, Satrio Utomo, Djusman Sajuti and Ika Kartika",
+            "paper": "Effects of malonic acid and sucinic acid on corrosion behaviour of Mg-5Zn in (NH3)3PO4 and NaF"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 41,
+        "fields": {
+            "id_paper": "126",
+            "room": "7",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.15-14.30",
+            "location": "TARUSAN 1-2",
+            "author": "Myrna Ariati and Rizki Aldila",
+            "paper": "Die soldering behavior of H13 and Cr-Mo-V Tool steel on die casting process on nitriding-shot peening die surface treatment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 42,
+        "fields": {
+            "id_paper": "175",
+            "room": "7",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.15-15.30",
+            "location": "TARUSAN 1-2",
+            "author": "I.D.G Ary Subagia, Nyoman Sutantra and A. Herman Yuwono",
+            "paper": "Hole Defects Zone in Drilling of Carbon/Basalt/Epoxy Hybrid Composites Using Conventional Drill Machine"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 43,
+        "fields": {
+            "id_paper": "184",
+            "room": "7",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.30-15.45",
+            "location": "TARUSAN 1-2",
+            "author": "Bambang Priyono, Ananta Riezky Bachtiar, Hugo Sihombing, Mohammad Ridho Nugraha, Faizah Faizah, Anne Zulfia Syahrial, Jaka Fajar Fatriansyah and Achmad Subhan",
+            "paper": "Optimizing Performance of ZnO Nanorod and Activated Carbon as A Composite Anode for Lithium-Ion Batteries"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 44,
+        "fields": {
+            "id_paper": "297",
+            "room": "7",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.45-16.00",
+            "location": "TARUSAN 1-2",
+            "author": "Muhammad Luthfi, Jagad Paduraksa, Ariono Verdianto, Yoyok Dwi Setyo Pambudi, Bambang Priyono, Anne Zulfia, Joong Kee Lee and Chairul Hudaya",
+            "paper": "The Effect of Carbon Mass Ratio with Activator on the Characteristics of Biomass-derived Water Hyacinth for Lithium-ion Capacitor"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 45,
+        "fields": {
+            "id_paper": "296",
+            "room": "7",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.00-16.15",
+            "location": "TARUSAN 1-2",
+            "author": "Jagad Paduraksa, Muhammad Luthfi, Ariono Verdianto, Achmad Subhan, Wahyu Bambang Widayatno, Bambang Prihandoko, Evvy Kartini and Chairul Hudaya",
+            "paper": "Preparation of Activated Carbon Derived from Water Hyacinth as Electrode Active Material for Li-Ion Supercapacitor"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 46,
+        "fields": {
+            "id_paper": "185",
+            "room": "7",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.15-16.30",
+            "location": "TARUSAN 1-2",
+            "author": "Bambang Priyono, Mochamad Febby Fitratama, Shania Roulli, Achmad Subhan and Anne Zulfia Syahrial",
+            "paper": "Characterization of LTO/Silicon Oxycarbide with Activated Carbon Addition for Anode of Lithium-ion Batteries"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 47,
+        "fields": {
+            "id_paper": "356",
+            "room": "7",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.30-16.45",
+            "location": "TARUSAN 1-2",
+            "author": "Alfian Ferdiansyah Madsuha, Muhamad Saepudin Wahab, Syukur Daulay, Erlyta Septa Rosa and Akhmad Herman Yuwono",
+            "paper": "Integration of Reduced Graphene Oxide in Platinum-free Counter Electrode of Dye-sensitized Solar Cell"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsMME",
+        "pk": 48,
+        "fields": {
+            "id_paper": "366",
+            "room": "7",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.45-17.00",
+            "location": "TARUSAN 1-2",
+            "author": "Bambang Priyono, Reza Miftahul Ulum and Anne Zulfia Syahrial",
+            "paper": "Optimizing Performance of Li4Ti5O12 (LTO) by Addition of Sn Micro in high loading as Anode for Lithium-Ion Batteries"
+        }
+    }
+]

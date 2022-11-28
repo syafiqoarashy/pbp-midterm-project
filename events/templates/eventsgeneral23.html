@@ -1,0 +1,376 @@
+{% extends 'base.html' %}
+{% load static %}
+
+ {% block content %}
+ <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+ <body>
+  
+  
+  <script>
+    $(document).ready(function(){
+      let mobile = document.querySelector("#mobile");
+      let mobileNav = document.querySelector("#open_mobile");
+      let closeMobile = document.querySelector("#close_mobile");
+      let navbar = document.querySelector("#navbar");
+
+      closeMobile.addEventListener("click", () =>
+        {
+          mobile.classList.remove("flex");
+          mobile.classList.add("hidden");
+          navbar.classList.remove("hidden");
+        });
+
+      mobileNav.addEventListener("click", () =>
+        {
+          mobile.classList.add("flex");
+          mobile.classList.remove("hidden");
+          navbar.classList.add("hidden");
+        });
+  
+    });
+  </script>
+  <body class="bg-white bg-opacity-100">
+    
+    <div id="modal" tabindex="-1" aria-hidden="true" class="hidden bg-white bg-opacity-50 overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full flex justify-center items-center">
+      <div class="relative p-4 w-full max-w-md h-full md:h-auto">
+          <!-- Modal content -->
+          <div class="relative bg-white rounded-lg shadow">
+              <button id="close_testimonial" type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                  <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  <span class="sr-only">Close modal</span>
+              </button>
+              <div class="py-6 px-6 lg:px-8">
+                  <h3 class="mb-4 text-2xl font-bold text-gray-900">Your opinion about us is very <strong class="font-extrabold text-[#412D7E]">helpful!
+                  </strong></h3>
+                  <form method="POST" class="space-y-6" action="#" id="task_form">
+                    {% csrf_token %}
+                      <div>
+                          <label for="username" class="block mb-2 text-sm font-medium text-gray-900">Your name</label>
+                          <input type="username" name="username" id="username" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Matthew Rizky Hartadi" required="">
+                      </div>
+                      <div>
+                          <label for="content" class="block mb-2 text-sm font-medium text-gray-900">Your testimony</label>
+                          <input type="content" name="content" id="content" placeholder="Very nice!" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required="">
+                      </div>
+                      <div>
+                        <label for="institute" class="block mb-2 text-sm font-medium text-gray-900">Your institute</label>
+                        <input type="institute" name="institute" id="institute" placeholder="Universitas Indonesia" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required="">
+                    </div>
+                      
+                      <button type="submit" class="w-full text-black bg-[#FED307] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Share your thoughts</button>
+                  </form>
+                  {% if messages %}
+                      <ul>
+                          {% for message in messages %}
+                              <li class="mt-4 text-center text-sm">{{ message }}</li>
+                          {% endfor %}
+                      </ul>
+                  {% endif %}
+              </div>
+          </div>
+      </div>
+  </div> 
+  
+  <div id="mobile" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-screen md:h-full flex justify-center items-center">
+    <div class="relative w-full md:top-0 max-w-md h-full md:h-auto">
+        <div class="relative bg-white rounded-lg shadow">
+            <button id="close_mobile" type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                <span class="sr-only">Close modal</span>
+            </button>
+            <a class="block ml-6 text-white hover:text-[#FED307] font-semibold flex flex-row h-16 md:h-24 gap-2" href="/logged/">
+              <img clas='md:mt-3' src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+              <div class="hidden md:flex text-xl items-center justify-between">
+                <h1 class="font-bold">ACB-</h1>
+                <h1 class="font-medium">ISBE</h1>
+              </div>
+            </a>
+            <div class="py-6 px-6 lg:px-8">
+                <div class="flex flex-col gap-6">
+                  <ul class="flex flex-col items-center gap-6 text-lg font-semibold text-[#412D7E]">
+                    <li>
+                      <a
+                        class="transition hover:text-[#FED307]"
+                        href="/logged/"
+                      >
+                        Home
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a
+                        class="text-[#FED307] transition hover:text-[#FED307]"
+                        href="{% url 'authors:show_authors' %}"
+                      >
+                        Authors
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a
+                        class="transition hover:text-[#FED307]"
+                        href="{% url 'submission:show_submission' %}"
+                      >
+                        Publication
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a
+                        class="transition hover:text-[#FED307]"
+                        href="{% url 'events:show_events_general' %}"
+                      >
+                        Event
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a
+                        class="transition hover:text-[#FED307]"
+                        href="{% url 'speakers:show_speakers' %}"
+                      >
+                        Speakers
+                      </a>
+                    </li>
+      
+                    <li>
+                      <a
+                        class="transition hover:text-[#FED307]"
+                        href="{% url 'parallel_sessions:category' %}"
+                      >
+                        Sessions
+                      </a>
+                    </li>
+                  </ul>
+                  <a class="flex justify-center items-center rounded-md bg-[#FED307] md:h-full px-5 py-2.5 text-lg font-semibold text-white shadow-md shadow-[#EEC501] hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#614E99] transition ease-in-out duration-500" href="{% url 'home:login' %}">
+                    Login</a>
+              </div>
+          </div>
+                 
+        </div>
+    </div>
+  </div> 
+  
+    <section>
+      <header id="navbar" aria-label="Site Header" class="sticky top-0 bg-transparent bg-[#412D7E] z-50">
+        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+          <div class="flex h-16 md:h-24 items-center justify-between">
+            <div class="flex-1 md:flex md:items-center md:gap-12">
+              <a class="block text-white hover:text-[#FED307] font-semibold flex flex-row h-16 md:h-24 gap-2" href="/logged/">
+                <img clas='md:mt-3' src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+                <div class="hidden md:flex text-xl items-center justify-between">
+                  <h1 class="font-bold">ACB-</h1>
+                  <h1 class="font-medium">ISBE</h1>
+                </div>
+              </a>
+            </div>
+      
+            <div class="md:flex md:items-center md:gap-12">
+              <nav aria-label="Site Nav" class="hidden lg:block">
+                <ul class="flex items-center gap-6 text-md font-semibold text-white">
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="/logged/"
+                    >
+                      Home
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'authors:show_authors' %}"
+                    >
+                      Authors
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'submission:show_submission' %}"
+                    >
+                      Publication
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="text-[#FED307] transition hover:text-[#FED307]"
+                      href="{% url 'events:show_events_general' %}"
+                    >
+                      Event
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'speakers:show_speakers' %}"
+                    >
+                      Speakers
+                    </a>
+                  </li>
+    
+                  <li>
+                    <a
+                      class="transition hover:text-[#FED307]"
+                      href="{% url 'parallel_sessions:category' %}"
+                    >
+                      Sessions
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+      
+              <div class="flex items-center gap-4">
+                <div class="sm:flex sm:gap-4">
+                  <a
+                    class="hidden lg:block rounded-md bg-[#FED307] md:h-full px-5 md:py-2.5 text-sm font-semibold text-white shadow-md shadow-[#EEC501] hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#614E99] transition ease-in-out duration-500"
+                    href="{% url 'home:login' %}"
+                  >
+                    Login
+                  </a>
+      
+                  <!-- <div class="hidden sm:flex">
+                    <a
+                      class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-[#1C3265]"
+                      href="{% url 'home:register' %}"
+                    >
+                      Register
+                    </a>
+                  </div>
+                </div> -->
+      
+                <div class="block lg:hidden">
+                  <button id="open_mobile"
+                    class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4 6h16M4 12h16M4 18h16"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  <div class="container flex items-center justify-center">
+    <nav class="flex border-b border-gray-100 text-sm font-medium text-[#412D7E]">
+      <a href="{% url 'events:show_events_general' %}" class="-mb-px border-b border-transparent p-4 transition hover:text-[#FED307]">
+        22 Sept. 2019
+      </a>
+    
+      <a href="" class="-mb-px border-b border-current p-4 text-[#FED307]">
+        23 Sept. 2019
+      </a>
+    
+      <a href="{% url 'events:show_events_general24' %}" class="-mb-px border-b border-transparent p-4 transition hover:text-[#FED307]">
+        24 Sept. 2019
+      </a>
+    
+      <a href="{% url 'events:show_events_general25' %}" class="-mb-px border-b border-transparent p-4 transition hover:text-[#FED307]">
+        25 Sept. 2019
+      </a>
+    </nav>
+  </div>
+  
+  {% for item in list_item %}
+  <div class="container px-7 pb-2 items-center justify-center">
+    <article class="rounded-xl border border-gray-700 bg-[#412D7E] p-4">
+      <div class="flex items-center">
+    
+        <div class="ml-3">
+          <h3 class="text-lg font-medium text-white" style="font-variant:normal">{{item.program}}</h3>
+    
+          <div class="flow-root">
+            <ul class="-m-1 flex flex-wrap">
+              <li class="p-1 leading-none">
+                <h5 class="text-xs font-medium text-gray-300">{{item.startTime}} - {{item.endTime}} </h5>
+              </li>
+    
+              <li class="p-1 leading-none">
+                <h5 class="text-xs font-medium text-gray-300">{{item.place}}</h5>
+              </li>
+
+              <li class="p-1 leading-none">
+                <h5 class="text-xs font-medium text-gray-300">{{item.speaker.name}} </h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      {% if item.isParallel %}
+        {% for item2 in list_item2 %}
+        <ul class="mt-4 space-y-2">
+          <li>
+            <a
+              href="/parallel_sessions"
+              class="block h-full rounded-lg bg-[#533f8f] hover:bg-[#614e99] border border-700 p-4 hover:border-[#FED307]"
+            >
+              <strong class="font-medium text-white">{{item2.program.title}}</strong>
+      
+              <div class="flow-root">
+                <ul class="-m-1 flex flex-wrap">
+                  <li class="p-1 leading-none">
+                    <h5 class="text-xs font-medium text-gray-300">{{item2.startTime}} - {{item2.endTime}} </h5>
+                  </li>
+        
+                  <li class="p-1 leading-none">
+                    <h5 class="text-xs font-medium text-gray-300">{{item2.place}}</h5>
+                  </li>
+    
+                  <li class="p-1 leading-none">
+                    <h5 class="text-xs font-medium text-gray-300">{{item2.speaker.name}} </h5>
+                  </li>
+                </ul>
+              </div>
+            </a>
+          </li>
+        </ul>
+        {% endfor %}
+      {% endif %}   
+      </article>  
+
+  </div>
+  {% endfor %}
+
+  <footer aria-label="Site Footer" class="bg-gray-50 mt-8">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <div class="flex h-24 justify-center text-teal-600 sm:justify-start">
+          <div class="flex-1 md:flex md:items-center md:gap-12">
+            <a class="block text-[#412D7E] font-semibold flex flex-row h-24 gap-2" href="/logged/">
+              <img clas='mt-3' src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+              <div class="hidden md:flex text-xl items-center justify-between">
+                <h1 class="font-bold">ACB-</h1>
+                <h1 class="font-medium">ISBE</h1>
+              </div>
+            </a>
+          </div>
+        </div>
+  
+        <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+          Copyright &copy; 2022. All rights reserved.
+        </p>
+      </div>
+    </div>
+</footer>
+
+ {% endblock content %}

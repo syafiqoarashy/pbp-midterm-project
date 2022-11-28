@@ -1,0 +1,1472 @@
+[
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 1,
+        "fields": {
+            "id_paper": "3B",
+            "room": "2",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.00-13.15",
+            "location": "SEMPUR",
+            "author": "Kamarza Mulia, Mutiara Primaster Wahyunisa and Elsa Anisa Krisanti",
+            "paper": "Chitosan-Alginate Matrices Loaded with Leaf Extracts of Anredera Cordifolia Steenis as a Gastrointestinal Extended Release Formulation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 2,
+        "fields": {
+            "id_paper": "",
+            "room": "2",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.15-13.30",
+            "location": "SEMPUR",
+            "author": "Yudhisman Imran, Hanslavina Arkeman, Irmiya Rachmiyani and Patwa Amani",
+            "paper": "Correlation between Carotid Intima Media Thickness and Bone Mineral Density In Postmenopausal Women"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 3,
+        "fields": {
+            "id_paper": "36B",
+            "room": "2",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.30-13.45",
+            "location": "SEMPUR",
+            "author": "Aisyah Hanifah and Dewi Tristantini",
+            "paper": "Total Phenolic, UPLC-QTOF-MS Analysis and Antidepressant-like Effect in The Mice Forced Swim Test of Jamu Neuropathic Pain Reducer"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 4,
+        "fields": {
+            "id_paper": "40B",
+            "room": "2",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.45-14.00",
+            "location": "SEMPUR",
+            "author": "Riska Amalia and Dewi Tristantini",
+            "paper": "In vivo Anti-Inflammatory Activity of Anti-Atherosclerotic Herbs Using White Male Rats (Rattus norvegicus)"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 5,
+        "fields": {
+            "id_paper": "41B",
+            "room": "2",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.00-14.15",
+            "location": "SEMPUR",
+            "author": "Riska Amalia and Dewi Tristantini",
+            "paper": "Quercetin Concentration and Total Flavonoid Content of Anti-Atherosclerotic Herbs Using Aluminium Chloride Colorimetric Assay"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 6,
+        "fields": {
+            "id_paper": "42B",
+            "room": "2",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.15-14.30",
+            "location": "SEMPUR",
+            "author": "Dewi Tristantini, M. Rizki Ramadhan and Aisyah Hanifah",
+            "paper": "Shelf Life Estimation of Anti-Atherosclerosis Herbs Using ASLT: Critical Water Content and Sorption Isotherms Model"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 7,
+        "fields": {
+            "id_paper": "38B",
+            "room": "2",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.30-14.45",
+            "location": "SEMPUR",
+            "author": "Retno Wahyu Nurhayati, Rafianto Dwi Cahyo, Gita Pratama, Elizabeth Agustina, Kamila Alawiyah, Radiana Dhewayani Antarianto, Ani Retno Prijanti and Ahmad Jabir Rahyussalim",
+            "paper": "Development of Double Layer Alginate-Chitosan Hydrogels for Human Stem Cell Microencapsulation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 8,
+        "fields": {
+            "id_paper": "39B",
+            "room": "2",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.45-15.00",
+            "location": "SEMPUR",
+            "author": "Retno Wahyu Nurhayati, Wildan Mubarok, Rafianto Dwi Cahyo, Yoshihiro Ojima, Ani Retno Prijanti and Kamila Alawiyah",
+            "paper": "Oil Immersion Technique for Cellular Microencapsulation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 9,
+        "fields": {
+            "id_paper": "22B",
+            "room": "2",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.15-15.30",
+            "location": "SEMPUR",
+            "author": "Muhamad Sahlan, Diah Kartika Pratami, Alif Nadhif Rabbani, Anondho Wijanarko, Heri Hermansyah and Kenny Lischer",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 10,
+        "fields": {
+            "id_paper": "72B",
+            "room": "2",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.30-16.45",
+            "location": "SEMPUR",
+            "author": "Nurul Hidayat, Kori Yati, Elsa Anisa Krisanti and Misri Gozan",
+            "paper": "Extraction and Antioxidant Activity Test of Black Sumatran Incense"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 11,
+        "fields": {
+            "id_paper": "84B",
+            "room": "2",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.45-17.00",
+            "location": "SEMPUR",
+            "author": "Yogi Sentosa, Hannah Natasha Andjani, Kori Yati, Mahdi Jufri and Misri Gozan",
+            "paper": "Determination of LC50 Value of Nicotiana tabacum L. Extract Against Tenebrio molitor and Zophobas morio Larvae"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 12,
+        "fields": {
+            "id_paper": "86B",
+            "room": "2",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.00-17.15",
+            "location": "SEMPUR",
+            "author": "Glory Lamria and Misri Gozan",
+            "paper": "Utilization of Nicotiana Tobacum’s Extract for Mosquito Extermination with Fogging Method Fractionation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 13,
+        "fields": {
+            "id_paper": "87B",
+            "room": "2",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.30-09.45",
+            "location": "SEMPUR",
+            "author": "Hannah Andjani, Yogi Sentosa, Kori Yati, Mahdi Jufri and Misri Gozan",
+            "paper": "Determination of LC50 Value of Nicotiana tabacum L. Extract Against Gryllus bimaculatus Imago and Galleria mellonella Larvae"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 14,
+        "fields": {
+            "id_paper": "30B",
+            "room": "2",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.15-10.30",
+            "location": "SEMPUR",
+            "author": "Andy Noorsaman Sommeng, Rizki Larasati, Mikael Januardi Ginting, Sonya Pebriani, Muhamad Sahlan, Heri Hermansyah and Anondho Wijanarko",
+            "paper": "Extraction, Antioxidant and Bioactive Component Assay of Lionfish Venom Pterois Volitans"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 15,
+        "fields": {
+            "id_paper": "33B",
+            "room": "2",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.30-10.45",
+            "location": "SEMPUR",
+            "author": "Andy Noorsaman Sommeng, Adinda Kemala Eka, Mikael Januardi Ginting, Sonya Pebriani, Muhamad Sahlan, Heri Hermansyah and Anondho Wijanarko",
+            "paper": "The Effect of Ammonium Sulphate Concentration in Protein Isolation of Lionfish (Pterois Volitans) Spines Venom Extract For Antitumor Test"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 16,
+        "fields": {
+            "id_paper": "55B",
+            "room": "2",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.45-11.00",
+            "location": "SEMPUR",
+            "author": "Desak Gede Budi Krisnamurti, Erni H. Purwaningsih, Rani Wardani Hakim, Fira Alyssa Gabriella Sinuraya and Tamara Ey Firsty",
+            "paper": "Uric Acid and Glucose Level in High Fructose High Cholesterol Induced Sprague-Dawley Rats After Therapy with Acalypha indica Linn. Ethanol Extract"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 17,
+        "fields": {
+            "id_paper": "10B",
+            "room": "2",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.00-11.15",
+            "location": "SEMPUR",
+            "author": "Beti Dewi, Marissa Angelina, Sabda Ardiantara, Agung Riyanto Prakoso, Hidayati Desti, Ita Rostina and Tjajani Mirawati Soediro",
+            "paper": "Antiviral Activity of Ceiba pentandra and Eugenia uniflora Leaf Extracts to Dengue Virus Serotype-2 in Huh 7it-1 Cell Line"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 18,
+        "fields": {
+            "id_paper": "79B",
+            "room": "2",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.15-11.30",
+            "location": "SEMPUR",
+            "author": "Nur Widdya Damayanti, Sahlan Muhamad and Lischer Kenny",
+            "paper": "Comparison of Pure Honey (Apis sp and Trigona) and Fake honey compounds in Indonesia using Gas Chromatography-Mass spectrometry (GC-MS)."
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 19,
+        "fields": {
+            "id_paper": "80B",
+            "room": "2",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.30-11.45",
+            "location": "SEMPUR",
+            "author": "Novriantika Lestari, Daniel Amartya, Vivian Soetikno and Melva Louisa",
+            "paper": "Apoptotic Activity Of Alpha-Mangostin In Acetaldehyde-Induced LX2 Hepatic Stellate Cell Lines"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 20,
+        "fields": {
+            "id_paper": "85B",
+            "room": "2",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.45-12.00",
+            "location": "SEMPUR",
+            "author": "Andy Noorsaman Sommeng, Mustika Sari, Mikael Januardi Ginting, Muhamad Sahlan, Heri Hermansyah and Anondho Wijanarko",
+            "paper": "The Influence of Heating Process on Anticancer Activity of Pterois volitans (Red lionfish) Venom Extraction Againts Human Cervical Carcinoma Cell"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 21,
+        "fields": {
+            "id_paper": "89B",
+            "room": "2",
+            "session": "4",
+            "date": "2019-07-25",
+            "time": "11.45-12.01",
+            "location": "SEMPUR",
+            "author": "Aisyah Aminy Maulidina and Siti Farida",
+            "paper": "Treatment of Fatty Pancreas: Acalypha indica Linn. Extract as An Alternative to Simvastatin"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 22,
+        "fields": {
+            "id_paper": "67B",
+            "room": "2",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.00-13.15",
+            "location": "SEMPUR",
+            "author": "Robiatul Adawiyah, Muhamad Sahlan, Sri A. Soekanto, Diah K. Pratami, Faiqueen D.S.F. Adnan, Silvana Saputri, Redita N. Putri and Siti Farida",
+            "paper": "Explore Type and Concentration of Indonesian propolis wax in inhibiting Candida albicans: in vitro study Anti-candidiasis"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 23,
+        "fields": {
+            "id_paper": "70B",
+            "room": "2",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.15-13.30",
+            "location": "SEMPUR",
+            "author": "Andy Noorsaman Sommeng, Muhammad Akbar Buana Tafsili, Mikael Januardi Ginting, Muhamad Sahlan, Heri Hermansyah and Anondho Wijanarko",
+            "paper": "Utilization of Lionfish (Pterois volitans) Venomous Spines with Effective Purification as an Alternative Antiretroviral HIV/AIDS"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 24,
+        "fields": {
+            "id_paper": "7B",
+            "room": "2",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.30-13.45",
+            "location": "SEMPUR",
+            "author": "Angger Waspodo Dias Adrianto, Bambang Tri Hartomo, Nurtami Soedarsono and Elza Ibrahim Auerkari",
+            "paper": "DNA Adduct, Genototoxicity Mechanism of Alkyl Compounds and Associate with Forensic Odontology"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 25,
+        "fields": {
+            "id_paper": "83B",
+            "room": "2",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.45-14.00",
+            "location": "SEMPUR",
+            "author": "Meka Saima Perdani, Muhammad Faturrohman and Heri Hermansyah",
+            "paper": "Oxidation of Extracted Cholesterol from Fatty Food by Using Crude Cholesterol Oxidase Streptomyces sp."
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 26,
+        "fields": {
+            "id_paper": "28B",
+            "room": "2",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.00-14.15",
+            "location": "SEMPUR",
+            "author": "Risqa Rina Darwita, Kevin Setijono and Peter Andreas",
+            "paper": "The Effect of Comparison on the Use of CPP-ACP Containing Propolis and Non Propolis on the Amount of Streptococcus Mutans on Enamel Surface"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 27,
+        "fields": {
+            "id_paper": "29B",
+            "room": "2",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.15-14.30",
+            "location": "SEMPUR",
+            "author": "Nurul Paramita, Imma Fatayati, Syarifah Dewi, Dewi Irawati Soeria Santoso, Neng Tine Kartinah, Trinovita Andraini, Ermita Isfandiary Ibrahim Ilyas, Mariyal Qibtiyah and Sri Yunita",
+            "paper": "The Effect of Hibiscus Sabdariffa Linn. on Oxidative Stress Of Overtraining Rat’s Heart: Study on Malonildialdehid (MDA), Superoxide Dismutase (SOD), Glutathione (GSH), and NADPH Oxidase (Nox2)"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 28,
+        "fields": {
+            "id_paper": "12B",
+            "room": "2",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.30-14.45",
+            "location": "SEMPUR",
+            "author": "Beti Dewi, Edianti Ratningpoeti, Hidayati Desti and Marissa Angelina",
+            "paper": "In vitro and in Silico Study to Evaluate the Effectivity of Quercetrin as Antiviral Drug to Dengue Virus"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 29,
+        "fields": {
+            "id_paper": "13B",
+            "room": "2",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.45-15.00",
+            "location": "SEMPUR",
+            "author": "Dianursanti Dianursanti, Kanya Citta Hani Alifia and Putri Ratna Sari",
+            "paper": "Solvent Extraction of Polyhydroxybutyrate from Spirulina platensis with NaClO for Capsule Ingredients"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 30,
+        "fields": {
+            "id_paper": "31B",
+            "room": "2",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.15-15.30",
+            "location": "SEMPUR",
+            "author": "Muhammad Farhan Fadillah and Erlinda Muslim",
+            "paper": "Ergonomic Evaluation Of Screen Printing Division Garment Industry Small Medium Enterprise With Posture Evaluation Index Using Virtual Environment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 31,
+        "fields": {
+            "id_paper": "31B",
+            "room": "2",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.30-15.45",
+            "location": "SEMPUR",
+            "author": "Muhammad Rasyad and Erlinda Muslim",
+            "paper": "Biomechanical Analyses of Prolonged Handwriting in Left-Handed People When Using Writing Armchair"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 32,
+        "fields": {
+            "id_paper": "78B",
+            "room": "2",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.45-16.00",
+            "location": "SEMPUR",
+            "author": "Isca Amanda and Hasballah Zakaria",
+            "paper": "Development of Diabetic Retinopathy Early Detection and Its Implementation in Android Application"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 33,
+        "fields": {
+            "id_paper": "88B",
+            "room": "2",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.00-16.15",
+            "location": "SEMPUR",
+            "author": "Francheska Chioson and Renann Baldovino",
+            "paper": "Design of a 1-DOF Haptic Feedback Controller for Robotic-assisted Minimally Invasive Surgery"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 34,
+        "fields": {
+            "id_paper": "6B",
+            "room": "2",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.15-16.30",
+            "location": "SEMPUR",
+            "author": "M. Hanif Nadhif, Andika P Hadiputra and Yudan Whulanza",
+            "paper": "Fabrication & Characterization of A Low-Cost Portable Bio-sample Incubator for Urban Areas"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 35,
+        "fields": {
+            "id_paper": "101B",
+            "room": "2",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.30-16.45",
+            "location": "SEMPUR",
+            "author": "Radhi Maladzi and Sugeng Supriadi",
+            "paper": "Comparative Study of Commercial Pedicle Screw Based on Maximum Pull Out Force"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 36,
+        "fields": {
+            "id_paper": "102B",
+            "room": "6",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.15-13.30",
+            "location": "SINAMAR",
+            "author": "Mohamad Fadhil Ardianov, Sugeng Supriadi and Rahyussalim Rahyussalim",
+            "paper": "Evaluating Internal Forces of New Design Modular Megaprosthesis Distal Femur."
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 37,
+        "fields": {
+            "id_paper": "1B",
+            "room": "6",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.30-13.45",
+            "location": "SINAMAR",
+            "author": "Jin Tong, Zibo Gao, Baoguang Wu and Yunhai Ma",
+            "paper": "Research of the Impact Property of the Bionic non-smooth Surface"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 38,
+        "fields": {
+            "id_paper": "91B",
+            "room": "6",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.45-14.00",
+            "location": "SINAMAR",
+            "author": "Sandro Mihradi, Muh Ali Machrus and Andi Mahyuddin",
+            "paper": "On the Development of Affordable 6 Degree-of-Freedom Myoelectric Prosthetic Hand"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 39,
+        "fields": {
+            "id_paper": "95B",
+            "room": "6",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.00-14.15",
+            "location": "SINAMAR",
+            "author": "Misri Gozan, Gian Djohan Junior, Inne Puspita Sari, Meidina Sekar Nadisti, M Rizki Ramadhan, Sheila Nadhifa, Yuswan Muharam, Dewi Tristantini, Budi, Widodo Wahyu Putranto",
+            "paper": "Concept Design Development of Ear Hearing Aids with Feedback Cancellation and Speech Enhancement"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 40,
+        "fields": {
+            "id_paper": "60B",
+            "room": "6",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.15-14.30",
+            "location": "SINAMAR",
+            "author": "Daniel Malau, Muhammad Utomo, Dhyah Annur, Talitha Asmaria, Yogi Prabowo, Ahmad Rahyussalim, Sugeng Supriadi and Muhamad Amal",
+            "paper": "Finite Element Analysis of Porous Stemmed Hip Prosthesis for Children"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 41,
+        "fields": {
+            "id_paper": "37B",
+            "room": "6",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.30-14.45",
+            "location": "SINAMAR",
+            "author": "Ahmad Jabir Rahyussalim, Tri Kurniawati, Nanda Notario Besri and Khairul Hukmi",
+            "paper": "Osteoporotic pedicle screw: review of various types of pedicle screw and cement augmentation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 42,
+        "fields": {
+            "id_paper": "99B",
+            "room": "6",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.45-15.00",
+            "location": "SINAMAR",
+            "author": "Aria Wira Yuda Yuda and Sugeng Supriadi Supriadi.",
+            "paper": "Surface Modification of Ti-alloy Based Bone Implant by Sandblasting"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 43,
+        "fields": {
+            "id_paper": "",
+            "room": "6",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.15-15.30",
+            "location": "SINAMAR",
+            "author": "Invited Speaker ISBE - Husain ismail",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 44,
+        "fields": {
+            "id_paper": "",
+            "room": "6",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.30-15.45",
+            "location": "SINAMAR",
+            "author": "Invited Speaker ISBE - Husain ismail",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 45,
+        "fields": {
+            "id_paper": "",
+            "room": "6",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.45-16.00",
+            "location": "SINAMAR",
+            "author": "Invited Speaker ISBE - Husain ismail",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 46,
+        "fields": {
+            "id_paper": "11B",
+            "room": "6",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.00-16.15",
+            "location": "SINAMAR",
+            "author": "Tresna Priyana Soemardi, A. Suwandi, Cholid Badri, Anwar Ibrahim and Agus Hadian Rahim",
+            "paper": "Mechanical Aspect Analysis of Dental Stone Grade IV Material for Total Hip Replacement Component"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 47,
+        "fields": {
+            "id_paper": "19B",
+            "room": "6",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.15-16.30",
+            "location": "SINAMAR",
+            "author": "Nono Darsono, Murni Handayani, Francisca Pramuji Lestari, Aprilia Erryani and I Nyoman Gede Putrayasa Astawa",
+            "paper": "Effect of Multiwalled Carbon Nanotubes on the Micro-hardness and Corrosion behavior Mg-Zn Alloy Prepared by Powder Metallurgy"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 48,
+        "fields": {
+            "id_paper": "53B",
+            "room": "6",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.30-16.45",
+            "location": "SINAMAR",
+            "author": "Rowi Alfata, Ghiska Ramahdita and Akhmad Herman Yuwono",
+            "paper": "The Effect of Additional Zinc Oxide to Antibacterial Property of Chitosan/collagen-based Scaffold"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 49,
+        "fields": {
+            "id_paper": "56B",
+            "room": "6",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.45-17.00",
+            "location": "SINAMAR",
+            "author": "Gede Bagus Yoga Satriadinatha, Desak Gede Budi Krisnamurti, Siti Farida and Kamarza Mulia",
+            "paper": "Subacute Oral Toxicity Test of Chitosan-alginate Coated Microparticle of Garcinia mangostana Linn Extract"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 50,
+        "fields": {
+            "id_paper": "51B",
+            "room": "6",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.00-17.15",
+            "location": "SINAMAR",
+            "author": "Iwan Setyadi, Suryadi Suryadi, Achmad Fauzi Kamal, Ahmad Jabir Rahyussalim, Bambang Suharno and Sugeng Supriadi",
+            "paper": "Investigation of Microstructure and Hardness Distribution Results of the Development of Sintering and Extrusion Processes on Powder-Based Mg/5CA for Biodegradable Implant Materials"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 51,
+        "fields": {
+            "id_paper": "52B",
+            "room": "6",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.15-17.30",
+            "location": "SINAMAR",
+            "author": "Aprilia Erryani, Franciska Pramuji Lestari and Ika Kartika",
+            "paper": "Caracterization of Mg Alloy Foam via Powder Metallurgy Process"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 52,
+        "fields": {
+            "id_paper": "14B",
+            "room": "6",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.00-08.15",
+            "location": "SINAMAR",
+            "author": "Toto Aminoto, Purnomo Sidi Priambodo and Harry Sudibyo",
+            "paper": "Infrared Optical Imaging For Human Body Medical Analysis"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 53,
+        "fields": {
+            "id_paper": "27B",
+            "room": "6",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.15-08.30",
+            "location": "SINAMAR",
+            "author": "Arif Sugiharto, Ferryanto Ferryanto, Harridhi Dzar Tazakka, Andi Isra Mahyuddin, Agung Wibowo and Sandro Mihradi",
+            "paper": "Static Analysis of an Energy Storage and Return (ESAR) Prosthetic Foot"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 54,
+        "fields": {
+            "id_paper": "32B",
+            "room": "6",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.30-08.45",
+            "location": "SINAMAR",
+            "author": "Rani Edina Kusumawati and Erlinda Muslim",
+            "paper": "Evaluation of Muscle Activity, Posture, Comfort and Efficiency on Using Notebook with Simple Inclines"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 55,
+        "fields": {
+            "id_paper": "34B",
+            "room": "6",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.45-09.00",
+            "location": "SINAMAR",
+            "author": "Dessy Ana Laila Sari, Theresia Diah Kusumaningrum, Akhmad Faqih and Benyamin Kusumoputro",
+            "paper": "Emotion Classification System Based on Non-Linear EEG Signal using Backpropagation Neural Network as Optimization"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 56,
+        "fields": {
+            "id_paper": "45B",
+            "room": "6",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.00-09.15",
+            "location": "SINAMAR",
+            "author": "Farrel M. Fajar and Tomy Abuzairi",
+            "paper": "Study of Skin Conductance Device under Physical and Emotional Stimulation on Sweating and Drying Skin"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 57,
+        "fields": {
+            "id_paper": "43B",
+            "room": "6",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.15-09.30",
+            "location": "SINAMAR",
+            "author": "Gde Pranabhawa Wicaksana and Basari Basari",
+            "paper": "Study on the Design of Bionic Prosthetic Hand Model"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 58,
+        "fields": {
+            "id_paper": "2B",
+            "room": "6",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.30-09.45",
+            "location": "SINAMAR",
+            "author": "La Febry Andira Rose Cynthia, Hasballah Zakaria, Tati Latifah R Mengko and Adre Mayza",
+            "paper": "Analysis of qEEG Parameters of Vascular Cognitive Impairment Patients Undergoing Sound Wave Therapy"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 59,
+        "fields": {
+            "id_paper": "4B",
+            "room": "6",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.45-10.00",
+            "location": "SINAMAR",
+            "author": "M. Hanif Nadhif, Andika P Hadiputra, Nindya Aprilia Alief, Yudan Whulanza and Sugeng Supriadi",
+            "paper": "Gait Analysis for Alzheimer's Disease Therapies Using Kinect™: A Preliminary Report"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 60,
+        "fields": {
+            "id_paper": "",
+            "room": "6",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.15-10.30",
+            "location": "SINAMAR",
+            "author": "Invited Speaker ISBE - Azhar Zam",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 61,
+        "fields": {
+            "id_paper": "",
+            "room": "6",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.30-10.45",
+            "location": "SINAMAR",
+            "author": "Invited Speaker ISBE - Azhar Zam",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 62,
+        "fields": {
+            "id_paper": "",
+            "room": "6",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.45-11.00",
+            "location": "SINAMAR",
+            "author": "Invited Speaker ISBE - Azhar Zam",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 63,
+        "fields": {
+            "id_paper": "46B",
+            "room": "6",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.00-11.15",
+            "location": "SINAMAR",
+            "author": "Muhammad Utomo, Yudan Whulanza and Gandjar Kiswanto",
+            "paper": "Maskless Visible-Light Photolithography of Copper Microheater for Dynamic Microbioreactor"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 64,
+        "fields": {
+            "id_paper": "54B",
+            "room": "6",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.15-11.30",
+            "location": "SINAMAR",
+            "author": "Iwan C. Setiadi, Aulia M.T. Nasution and Theodore Gautama Chandra",
+            "paper": "A New LED-Based Multispectral Imaging System for Blood and Melanin Content Estimation: The Validation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 65,
+        "fields": {
+            "id_paper": "58B",
+            "room": "6",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.30-11.45",
+            "location": "SINAMAR",
+            "author": "Adhi Harmoko Saputro and Irfan Sriyono Putro",
+            "paper": "Prediction System based on Visible Near Infrared Imaging for Predicting Honey Electrical Conductivity"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 66,
+        "fields": {
+            "id_paper": "59B",
+            "room": "6",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.45-12.00",
+            "location": "SINAMAR",
+            "author": "Ibnu Roihan, Raldi Artono Koestoer and William Jerrel Iskandar",
+            "paper": "Prototype Low-cost Portable Electrocardiogram (ECG) Based on Arduino-Uno with Bluetooth Feature"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 67,
+        "fields": {
+            "id_paper": "71B",
+            "room": "6",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "12.00-12.15",
+            "location": "SINAMAR",
+            "author": "Rosalind F. Margeritha and Tomy Abuzairi",
+            "paper": "Study of High Frequency Pulse Width Modulation on the Irradiance of Dental LED"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 68,
+        "fields": {
+            "id_paper": "20B",
+            "room": "6",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.00-13.15",
+            "location": "SINAMAR",
+            "author": "Robi Sinambela, Bambang Tri Hartomo, Yurnadi Hanafi Midoen, Nurtami Soedarsono, Ferry Pergamus Gultom and Elza Ibrahim Auerkari",
+            "paper": "Effect Of P21(C98A) Polymorphism On The Risk Of Head And Neck Squamous Cell Carcinoma In An Indonesian Population"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 69,
+        "fields": {
+            "id_paper": "23B",
+            "room": "6",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.15-13.30",
+            "location": "SINAMAR",
+            "author": "Bambang Tri Hartomo, Angger Waspodo, Fanni Kusuma Djati and Elza Ibrahim Auerkari",
+            "paper": "Review Of Epigenetics : Their Relationship to Dental Anthropology and Forensic Odontology"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 70,
+        "fields": {
+            "id_paper": "24B",
+            "room": "6",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.30-13.45",
+            "location": "SINAMAR",
+            "author": "Anggia Nurwulan Kusno Putri, Steven Arianto, Rizky Priambodo, Yulia Ariani and Damayanti Rusli Sjarif",
+            "paper": "Mutation Analysis of Exon 8 of the Iduronate-2-Sulfatase Gene in Mucopolysaccharidosis Type II Patients in Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 71,
+        "fields": {
+            "id_paper": "68B",
+            "room": "6",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.45-14.00",
+            "location": "SINAMAR",
+            "author": "Kusmardi Kusmardi, Aryo Tedjo and Yurnadi",
+            "paper": "Photoelectrochemical Measurement of Epstein-Barr Virus DNA in Peripheral Blood Serum of Nasopharyngeal Carcinoma Patients"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 72,
+        "fields": {
+            "id_paper": "69B",
+            "room": "6",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.00-14.15",
+            "location": "SINAMAR",
+            "author": "Retno Widyawati, Budiningsih Siregar and Kusmardi Kusmardi",
+            "paper": "Decrease Expressions of ARID1A in Non-atypical, Atypical Endometriosis Cyst and Ovarian Clear Cell Carcinoma as a Biomarker of Malignancy Transformations"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 73,
+        "fields": {
+            "id_paper": "9B",
+            "room": "6",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.15-14.30",
+            "location": "SINAMAR",
+            "author": "Angger Waspodo Dias Adrianto, Bambang Tri Hartomo and Elza Ibrahim Auerkari",
+            "paper": "Prevalence of 3 cusp of maxillary second molars in an Indonesian population as a support for forensic identification"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 74,
+        "fields": {
+            "id_paper": "16B",
+            "room": "6",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.30-14.45",
+            "location": "SINAMAR",
+            "author": "Dita Aditianingsih, Besthadi Sukmono, Erika Sasha Adiwongso and Chaidir Arif Mochtar",
+            "paper": "Effect of Pre-incisional Ultrasound-guided Quadratus Lumborum Block on Perioperative Analgesia and Inflammatory Responses in Transperitoneal Laparoscopic Nephrectomy: A Single-Blinded, Randomised Control Trial"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 75,
+        "fields": {
+            "id_paper": "21B",
+            "room": "6",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.15-15.30",
+            "location": "SINAMAR",
+            "author": "Bambang Tri Hartomo, Nurtami Soedarsono, Elza Ibrahim Auerkari and Angger Waspodo",
+            "paper": "Review Of Biomolecular Analysis For Age Estimation In Forensic Odontology Identification"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 76,
+        "fields": {
+            "id_paper": "35B",
+            "room": "6",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.30-15.45",
+            "location": "SINAMAR",
+            "author": "Radiana Dhewayani Antarianto, Aa Ayu Prima Dewi, Adrian Pragiwaksana and Jeanne Adiwinata Pawitan",
+            "paper": "Decellularization of Liver Cubes using Multiple Site Syringe Injection for Generating Native Liver Scaffold"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 77,
+        "fields": {
+            "id_paper": "62B",
+            "room": "6",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.45-16.00",
+            "location": "SINAMAR",
+            "author": "Andhea Pradhita, Nurhuda Sahar, Muharram Natadisastra, Wa Ode Dzulhulaifah and Rosalina Thuffi",
+            "paper": "GnRH receptor expression and endometrial cell proliferation of Macaca nemestrina after administration of GnRH agonist in controlled ovarian stimulation procedures"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 78,
+        "fields": {
+            "id_paper": "63B",
+            "room": "6",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.00-16.15",
+            "location": "SINAMAR",
+            "author": "Nurhda Sahar, Rosalina Thuffi, Dwi Ari Pudjianto, Muharam Natadisastra, Ninik Mudjihartini, Andhea Pradhita and Kusmardi Kusmardi",
+            "paper": "High Progesterone Levels on the Day of hCG Administration in Controlled Ovarian Hyperstimulation Procedures Reduce the Expression of Progesterone Receptors in the Endometrium Macaca nemestrina"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 79,
+        "fields": {
+            "id_paper": "65B",
+            "room": "6",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.15-16.30",
+            "location": "SINAMAR",
+            "author": "Nindya Permata Bunda Surya Utami and Siti Farida",
+            "paper": "The Centella asiatica as a Potential Plaque Stabilizer: Future Preventive Therapy for Cardiovascular Disease"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 80,
+        "fields": {
+            "id_paper": "82B",
+            "room": "6",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.30-16.45",
+            "location": "SINAMAR",
+            "author": "Melva Louisa, Franciscus D Suyatna, Septelia Inawati Wanandi, Puji Bs Asih and Din Syafruddin",
+            "paper": "Intrahepatic Transport of Primaquine with OCT1: an in vitro study in HepG2 cells"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 81,
+        "fields": {
+            "id_paper": "93B",
+            "room": "6",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "16.45-17.00",
+            "location": "SINAMAR",
+            "author": "Reganedgary Jonlean, Rani Wardani Hakim, Desak Gede Budi Krisnamurti and Erni Hernawati Purwaningsih",
+            "paper": "The Effect of Acalypha indica L. Root’s Ethanolic Extract on Old Male Sprague-Dawley Rats’ Malondialdehyde Levels and Cognitive Function"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 82,
+        "fields": {
+            "id_paper": "47B",
+            "room": "10",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.00-08.15",
+            "location": "BATANDANG",
+            "author": "Voltaire Dupo, Francis Belista, Vernicka de Sagun, Renann Baldovino, Alexander Abad, Jade Dungao and Nilo Bugtai",
+            "paper": "Electromagnetic Shielding to Improve EMC of a Robotic Medical Device"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 83,
+        "fields": {
+            "id_paper": "48B",
+            "room": "10",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.15-08.30",
+            "location": "BATANDANG",
+            "author": "Voltaire Dupo, Francis Belista, Vernicka de Sagun, Renann Baldovino, Jade Dungao, Alexander Abad and Nilo Bugtai",
+            "paper": "A Cost-effective Method of Assessing Practicability of Electromagnetic Shielding Materials"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 84,
+        "fields": {
+            "id_paper": "50B",
+            "room": "10",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.30-08.45",
+            "location": "BATANDANG",
+            "author": "Theodore Gautama Chandra, Aulia M. T. Nasution and Iwan Cony Setiadi",
+            "paper": "Melanoma and Nevus Classification Based on Asymmetry, Border, Color and GLCM Texture Parameters Using Deep Learning Algorithm"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 85,
+        "fields": {
+            "id_paper": "61B",
+            "room": "10",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.45-09.00",
+            "location": "BATANDANG",
+            "author": "Dwi Esti Kusumandari, Muhamad Agung Suhendra, Muhammad Ilham Rizqyawan, Artha Ivonita Simbolon, Arjon Turnip, Prabu Wardono and Adriani Rizka",
+            "paper": "Effect of Sundanese Music on Daytime Sleep Quality based on EEG Signal"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 86,
+        "fields": {
+            "id_paper": "49B",
+            "room": "10",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.00-09.15",
+            "location": "BATANDANG",
+            "author": "Manuel De la Sen",
+            "paper": "Some preliminaries related to transmission and transition matrices in epidemic models and some ad-hoc properties"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 87,
+        "fields": {
+            "id_paper": "44B",
+            "room": "10",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.15-09.30",
+            "location": "BATANDANG",
+            "author": "Nicholas and Tomy Abuzairi",
+            "paper": "Electrohydrodynamic Drying Process on Amoxicillin Medical Powder with High Voltage DC"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 88,
+        "fields": {
+            "id_paper": "8B",
+            "room": "10",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.30-09.45",
+            "location": "BATANDANG",
+            "author": "Henry Hendarwin and Sastra Kusuma Wijaya",
+            "paper": "EEG Data Acquisition System 32 Channels with Relative Power Ratio and Brain Symetry Index based on Raspberry Pi"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 89,
+        "fields": {
+            "id_paper": "18B",
+            "room": "10",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.45-10.00",
+            "location": "BATANDANG",
+            "author": "Meirista Wulandari, Basari Basari and Dadang Gunawan",
+            "paper": "Evaluation of Wavelet Transform Preprocessing with Deep Learning Aimed at Palm Vein Recognition Application"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 90,
+        "fields": {
+            "id_paper": "57B",
+            "room": "10",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.15-10.30",
+            "location": "BATANDANG",
+            "author": "Andy Noorsaman Sommeng, Indriani Pratiwi, Mikael Januardi Ginting, Muhamad Sahlan, Heri Hermansyah and Anondho Wijanarko",
+            "paper": "The Effect of Heating Process on Protein Isolation of Lionfish (Pterois volitans) Spines Venom Extract and Antioxidant Activity Assay"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 91,
+        "fields": {
+            "id_paper": "64B",
+            "room": "10",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.30-10.45",
+            "location": "BATANDANG",
+            "author": "Akhmad Herman Yuwono, Ghiska Ramahdita, Muhammad Aldi Mu'Lanuddin, Alyssa Adyandra and Gifrandy Gustiraharjo",
+            "paper": "The Study of Zinc Oxide Incorporation into Hydroxyapatite/Chitosan Scaffold for Bone Tissue Engineering"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 92,
+        "fields": {
+            "id_paper": "73B",
+            "room": "10",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.45-11.00",
+            "location": "BATANDANG",
+            "author": "Dianursanti Dianursanti and Desya Pramadhanti",
+            "paper": "Effect of Increasing Reaction Temperature on Quality of VCO and Microalgae Spirulina platensis-Based Anti-bacterial Soap"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 93,
+        "fields": {
+            "id_paper": "74B",
+            "room": "10",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.00-11.15",
+            "location": "BATANDANG",
+            "author": "Maria Fransisca and Dianursanti Dianursanti",
+            "paper": "The Effect of Adding Microalgae Spirulina platensis in Making Antibacterial Film-Formed Soap For Hospital"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 94,
+        "fields": {
+            "id_paper": "75B",
+            "room": "10",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.15-11.30",
+            "location": "BATANDANG",
+            "author": "Siti Fauziyah Rahman and Yori Rachmia Riva",
+            "paper": "Dental resin composite: A Review"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 95,
+        "fields": {
+            "id_paper": "98B",
+            "room": "10",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.30-11.45",
+            "location": "BATANDANG",
+            "author": "Muhammad Adli Pratama, Ghiska Ramahdita and Akhmad Herman Yuwono",
+            "paper": "The Effect of Silver Nitrate Addition on Antibacterial Properties of Bone Scaffold Chitosan-Hydroxyapatite"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 96,
+        "fields": {
+            "id_paper": "81B",
+            "room": "10",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.45-12.00",
+            "location": "BATANDANG",
+            "author": "Meka Saima Perdani, Mohammad Didy Juliansyah and Heri Hermansyah",
+            "paper": "Immobilization of Cholesterol Oxidase in Chitosan-Magnetite Material for Biosensor Application"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 97,
+        "fields": {
+            "id_paper": "92B",
+            "room": "10",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "12.00-12.15",
+            "location": "BATANDANG",
+            "author": "Faris Bari Issains, Achmad Fauzi Trinanda, Alif Muhammad Basyir, Abel Benaya, Akhmad Herman Yuwono and Ghiska Ramahdita",
+            "paper": "Extraction of Collagen Type-I from Fish Skin (Channa striata) and Synthesis of Biopolymer for Wound Dressing"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 98,
+        "fields": {
+            "id_paper": "66B",
+            "room": "10",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.00-13.15",
+            "location": "BATANDANG",
+            "author": "Anggraini Barlian, Hermawan Judawisastra, Ahmad Ridwan and Antonia Ratih",
+            "paper": "Differentiation of Human Wharton’s Jelly Mesenchymal Stem Cells on Biomaterial-based Scaffold for Cartilage Tissue Engineering"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 99,
+        "fields": {
+            "id_paper": "76B",
+            "room": "10",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.15-13.30",
+            "location": "BATANDANG",
+            "author": "Normalina Sandora, Retno Wahyu Nurhayati, Suwarti Suwarti, Raisa Nauli and Zakiya Choiriyah",
+            "paper": "Brief Comparative Study on the Isolation and Culture Methods of Human Keratinocyte from Skin Tissue"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 100,
+        "fields": {
+            "id_paper": "15B",
+            "room": "10",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.30-13.45",
+            "location": "BATANDANG",
+            "author": "Gita Pratama, Budi Wiweko, Normalina Sandora, Evanti Kusumawardhani, Deniswari Rahayu, Kamila Puspita and Mirta Reksodiputro",
+            "paper": "Cito-Compability Analysis of Mesenchymal Stem Cells in Platelet Rich Fibrin Matrix (PRFM) for Tissue Regeneration"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 101,
+        "fields": {
+            "id_paper": "25B",
+            "room": "10",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.45-14.00",
+            "location": "BATANDANG",
+            "author": "Franciska Pramuji Lestari, Sofia Martha, Aprilia Erryani, Yudi Nugraha Thaha and Ika Kartika",
+            "paper": "In Vitro Corrosion of Quaternary Mg Alloy Foam by Addition of Zn"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 102,
+        "fields": {
+            "id_paper": "98B",
+            "room": "10",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.00-14.15",
+            "location": "BATANDANG",
+            "author": "Muhammad Adli Pratama, Ghiska Ramahdita and Akhmad Herman Yuwono",
+            "paper": "The Effect of Silver Nitrate Addition on Antibacterial Properties of Bone Scaffold Chitosan-Hydroxyapatite"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 103,
+        "fields": {
+            "id_paper": "90B",
+            "room": "10",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.15-14.30",
+            "location": "BATANDANG",
+            "author": "Putri Ratna Sari, Dianursanti Dianursanti and Kanya Citta Hani Alifia.",
+            "paper": "Application of Spirulina platensis with cross linker CaCl2 for making hard capsule shell"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 104,
+        "fields": {
+            "id_paper": "96B",
+            "room": "10",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.30-14.45",
+            "location": "BATANDANG",
+            "author": "Ahmad Nabil Faiz Hidayat, Sri Harjanto, Ahmad Zakiyudin and Oknovia Susanti.",
+            "paper": "Degradation Characteristics of Mg-1,6Gd Alloy at Low Thickness Reduction of Warm Rolling"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsISBE",
+        "pk": 105,
+        "fields": {
+            "id_paper": "100B",
+            "room": "10",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.45-15.00",
+            "location": "BATANDANG",
+            "author": "Akhmad Herman Yuwono, Ghiska Ramahdita, Muhammad Aldi Mu'Lanuddin, Alyssa Adyandra and Gifrandy Gustiraharjo.",
+            "paper": "The Study of Zinc Oxide Addition into Hydroxyapatite/Chitosan Scaffold for Bone Tissue Engineering Application"
+        }
+    }
+]

@@ -1,0 +1,470 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block meta %}
+<title>Home</title>
+{% endblock meta %}
+
+{% block content %}
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <header aria-label="Site Header" class="top-0 shadow-xl bg-white">
+    <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-24 items-center justify-between">
+        <div class="flex-1 md:flex md:items-center md:gap-12">
+          <a class="block text-[#412D7E] hover:text-[#FED307] font-semibold flex flex-row h-24 gap-2" href="/">
+            <img clas='mt-3' src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+            <div class="hidden md:flex text-xl items-center justify-between">
+              <h1 class="font-bold">ACB-</h1>
+              <h1 class="font-medium">ISBE</h1>
+            </div>
+          </a>
+        </div>
+  
+        <div class="md:flex md:items-center md:gap-12">
+          <nav aria-label="Site Nav" class="hidden lg:block">
+            <ul class="flex items-center gap-6 text-md font-normal text-[#412D7E]">
+              <li>
+                <a
+                  class="text-[#FED307] transition hover:text-[#FED307]"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="transition hover:text-[#FED307]"
+                  href="/"
+                >
+                  Authors
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="transition hover:text-[#FED307]"
+                  href="/"
+                >
+                  Publication
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="transition hover:text-[#FED307]"
+                  href="/"
+                >
+                  Event
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="transition hover:text-[#FED307]"
+                  href="/"
+                >
+                  Speakers
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="transition hover:text-[#FED307]"
+                  href="/"
+                >
+                  Sessions
+                </a>
+              </li>
+            </ul>
+          </nav>
+  
+          <div class="flex items-center gap-4">
+            <div class="sm:flex sm:gap-4">
+              <a
+                class="rounded-md bg-[#412D7E] h-full px-5 py-2.5 text-sm font-medium text-white shadow"
+                href="{% url 'home:login' %}"
+              >
+                Login
+              </a>
+  
+              <div class="hidden sm:flex">
+                <a
+                  class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-[#1C3265]"
+                  href="{% url 'home:register' %}"
+                >
+                  Register
+                </a>
+              </div>
+            </div>
+  
+            <div class="block lg:hidden">
+              <button
+                class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section
+
+  class="z-0 relative bg-[url({% static 'home/banner.jpeg' %})] bg-cover bg-center bg-no-repeat"
+>
+  <div class="z-0 absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
+
+  <div
+    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+  >
+    <div class="max-w-xl text-left sm:text-left">
+      <h1 class="text-3xl font-extrabold sm:text-5xl">
+        A Digital
+
+        <strong class="block font-extrabold text-[#412D7E]">
+          Proceeding Web.
+        </strong>
+      </h1>
+
+      <p class="mt-4 max-w-lg sm:text-xl font-medium sm:leading-relaxed">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
+        tenetur fuga ducimus numquam ea!
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-4 text-center">
+        <a
+          href="#information"
+          class="block w-full rounded bg-[#412D7E] px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#68256C] focus:outline-none focus:ring active:bg-[#872D8C] sm:w-auto"
+        >
+          Get Started
+        </a>
+
+        <a
+          href="#about"
+          class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-[#412D7E] shadow hover:text-[#68256C] focus:outline-none focus:ring active:text-[#872D8C] sm:w-auto"
+        >
+          Learn More
+        </a>
+      </div>
+    </div>
+</section>
+</div>
+<section>
+  <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+      <div
+        class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full"
+      >
+        <img
+          alt="Party"
+          src="{% static 'home/conference_stock.jpeg' %}"
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+      </div>
+
+      <div id='about' class="lg:py-24">
+        <h2 class="text-3xl font-bold sm:text-4xl">What do we do<strong class="font-extrabold text-[#412D7E]">?
+          </strong></h2>
+
+        <p class="mt-4 text-gray-600">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
+          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
+          veniam tempora deserunt? Molestiae eius quidem quam repellat.
+        </p>
+
+        <a
+          href="#information"
+          class="mt-8 inline-flex items-center rounded border border-[#412D7E] bg-[#412D7E] px-8 py-3 text-white hover:bg-[#68256C] hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+        >
+          <span class="text-sm font-medium"> Get Started </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>    
+</div>
+  <div class="text-3xl font-bold flex flex-shrink items-center justify-center">
+    <div class="flex w-24 border-t border-black"></div>
+    <span class="flex shrink mx-4 text-center">Conference Info</span>
+    <div class="flex w-24 border-t border-black"></div>
+  </div>
+  <div class="bg-[#FED307] my-4">
+    <div id='information' class="flex items-center flex-row flex-text-2xl text-black justify-center gap-4 p-8 mx-20">
+      <article class="bg-white basis-1/3 overflow-hidden rounded-lg border border-gray-100 shadow-sm">
+        <img
+          alt="Office"
+          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+          class="h-56 w-full object-cover"
+        />
+  
+        <div class="p-4 sm:p-6">
+          <a href="#">
+            <h3 class="text-lg font-semibold text-gray-900">
+              Event Rundown
+            </h3>
+          </a>
+  
+          <p class="mt-2 text-sm leading-relaxed text-gray-500">
+            Preview your rundown schedule, containing the date, title, speaker, and 
+            location for each event. You'll be able to interact with certain events.
+          </p>
+          
+          <div class='mt-4 sm:mt-8'>
+            <a
+            href="#"
+            class="text-sm font-medium inline-flex items-center rounded-md bg-[#412D7E] px-8 py-3 text-white shadow-lg transition hover:bg-[#68256C] focus:outline-none focus:ring"
+          >
+            Find out more &rarr;
+            </span>
+            </a>
+          </div>
+          
+        </div>
+  
+      </article>
+      <article class="bg-white basis-1/3 overflow-hidden rounded-lg border border-gray-100 shadow-sm">
+        <img
+          alt="Office"
+          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+          class="h-56 w-full object-cover"
+        />
+  
+        <div class="p-4 sm:p-6">
+          <a href="#">
+            <h3 class="text-lg font-semibold text-gray-900">
+              Plenary/Keynote/Invited
+            </h3>
+          </a>
+  
+          <p class="mt-2 text-sm leading-relaxed text-gray-500">
+            Preview the list of speakers present on the conference, divided 
+            into Plenary Speakers and Keynote Speakers.
+
+          </p>
+  
+          <div class='mt-4 sm:mt-8'>
+            <a
+            href="#"
+            class="text-sm font-medium inline-flex items-center rounded-md bg-[#412D7E] px-8 py-3 text-white shadow-lg transition hover:bg-[#68256C] focus:outline-none focus:ring"
+          >
+            Find out more &rarr;
+            </span>
+            </a>
+          </div>
+  
+        </div>
+      </article>
+      <article class="bg-white basis-1/3 overflow-hidden rounded-lg border border-gray-100 shadow-sm">
+        <img
+          alt="Office"
+          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+          class="h-56 w-full object-cover"
+        />
+  
+        <div class="p-4 sm:p-6">
+          <a href="#">
+            <h3 class="text-lg font-semibold text-gray-900">
+              Parallel Sessions
+            </h3>
+          </a>
+  
+          <p class="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3">
+            Preview the topics for each sessions in the event. This section provides papers related 
+            to the topic based on the date of presentation.
+          </p>
+  
+          <div class='mt-4 sm:mt-8'>
+            <a
+            href="#"
+            class="text-sm font-medium inline-flex items-center rounded-md bg-[#412D7E] px-8 py-3 text-white shadow-lg transition hover:bg-[#68256C] focus:outline-none focus:ring"
+          >
+            Find out more &rarr;
+            </span>
+            </a>
+          </div>
+  
+        </div>
+      </article>
+  </div>
+  </div>
+
+
+  <div class="text-3xl font-bold flex flex-shrink items-center justify-center">
+    <div class="flex w-24 border-t border-black"></div>
+    <span class="flex shrink mx-4 text-center">Venue Map</span>
+    <div class="flex w-24 border-t border-black"></div>
+  </div>
+  <section class="flex justify-center">
+    <img class='object-contain p-8 w-10/12' src="{% static 'home/venue_map.png' %}" alt="Map">
+  </section>
+  
+  <div class="text-3xl font-bold flex flex-shrink items-center justify-center">
+    <div class="flex w-24 border-t border-black"></div>
+    <span class="flex shrink mx-4 text-center">Testimonials</span>
+    <div class="flex w-24 border-t border-black"></div>
+  </div>
+
+  <div id="carouselExampleControls" class="carousel slide relative p-8" data-bs-ride="carousel">
+    <div class="carousel-inner relative w-full overflow-hidden" id="testimoni">
+      <!-- testimonial card
+      <div class="carousel-item active relative float-left w-full">
+        <div class="mx-auto max-w-screen px-4 py-8">
+          <section class="rounded-lg bg-[#FED307]">
+              <div class="max-w-screen-xl px-4 py-4 mx-auto text-center lg:py-16 lg:px-6">
+                  <figure class="max-w-screen-md mx-auto">
+                      <svg class="h-12 mx-auto mb-3 text-gray-4000" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
+                      </svg> 
+                      <blockquote>
+                          <p class="text-2xl font-medium text-gray-900">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+                      </blockquote>
+                      <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                          <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                              <div class="pr-3 font-medium text-gray-900">Matthew Rizky Hartadi</div>
+                              <div class="pl-3 text-sm font-light text-gray-500">Universitas Indonesia</div>
+                          </div>
+                      </figcaption>
+                  </figure>
+              </div>
+          </section>
+        </div>
+      </div>
+
+      testimonial card 
+      <div class="carousel-item active relative float-left w-full">
+        <div class="mx-auto max-w-screen px-4 py-8">
+          <section class="rounded-lg bg-[#FED307]">
+              <div class="max-w-screen-xl px-4 py-4 mx-auto text-center lg:py-16 lg:px-6">
+                  <figure class="max-w-screen-md mx-auto">
+                      <svg class="h-12 mx-auto mb-3 text-gray-4000" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
+                      </svg> 
+                      <blockquote>
+                          <p class="text-2xl font-medium text-gray-900">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+                      </blockquote>
+                      <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                          <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                              <div class="pr-3 font-medium text-gray-900">Matthew Rizky Hartadi</div>
+                              <div class="pl-3 text-sm font-light text-gray-500">Universitas Indonesia</div>
+                          </div>
+                      </figcaption>
+                  </figure>
+              </div>
+          </section>
+        </div>
+      </div> -->
+
+    </div>
+    <div class="px-80">
+      <button
+      class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+      type="button"
+      data-bs-target="#carouselExampleControls"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+      type="button"
+      data-bs-target="#carouselExampleControls"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    
+  </div>
+  
+  <footer aria-label="Site Footer" class="bg-gray-50 mt-8">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <div class="flex h-24 justify-center text-teal-600 sm:justify-start">
+          <div class="flex-1 md:flex md:items-center md:gap-12">
+            <a class="block text-[#412D7E] font-semibold flex flex-row h-24 gap-2" href="/">
+              <img clas='mt-3' src="{% static 'home/acb_isbe.png' %}" alt="ACB-ISBE">
+              <div class="hidden md:flex text-xl items-center justify-between">
+                <h1 class="font-bold">ACB-</h1>
+                <h1 class="font-medium">ISBE</h1>
+              </div>
+            </a>
+          </div>
+        </div>
+  
+        <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+          Copyright &copy; 2022. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>  
+</body>
+
+<script>
+  $(document).ready(function(){
+    let card = (data) =>
+    `
+    <div class="carousel-item active relative float-left w-full">
+        <div class="mx-auto max-w-screen px-4 py-8">
+          <section class="h-64 rounded-lg bg-[#FED307]">
+              <div class="max-w-screen-xl px-4 py-4 mx-auto text-center justify-center items-center lg:py-16 lg:px-6">
+                  <figure class="max-w-screen-md mx-auto">
+                      <svg class="h-12 mx-auto mb-3 text-gray-4000" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
+                      </svg> 
+                      <blockquote>
+                          <p class="text-2xl font-medium text-gray-900">${data.fields.content}</p>
+                      </blockquote>
+                      <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                          <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                              <div class="pr-3 font-medium text-gray-900">${data.fields.username}</div>
+                              <div class="pl-3 text-sm font-light text-gray-500">${data.fields.institute}</div>
+                          </div>
+                      </figcaption>
+                  </figure>
+              </div>
+          </section>
+        </div>
+      </div>
+    `
+
+  function add_testimonial(e){
+    $("#testimoni").append(card(e));
+  };
+  
+  function show_testimonials(){
+    $.get("{% url 'home:show_data_json' %}", function(e){
+      $.each(e, function(i, result) {
+          add_testimonial(result)
+        });
+      });
+    };
+  
+
+  show_testimonials();
+
+  });
+  
+</script>
+{% endblock content %}

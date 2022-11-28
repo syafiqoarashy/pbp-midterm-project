@@ -1,0 +1,92 @@
+[
+    {
+        "model": "submission.track",
+        "pk": 1,
+        "fields": {
+            "id": "1",
+            "symposium": "SCE",
+            "title": "International Symposium on Sustainable and Clean Energy"
+        }
+    },
+    {
+        "model": "submission.track",
+        "pk": 2,
+        "fields": {
+            "id": "2",
+            "symposium": "IT",
+            "title": "International Symposium on Infrastructure, and transport"
+        }
+    },
+    {
+        "model": "submission.track",
+        "pk": 3,
+        "fields": {
+            "id": "3",
+            "symposium": "AME",
+            "title": "International Symposium on Advances in Mechanical Engineering"
+        }
+    },
+    {
+        "model": "submission.track",
+        "pk": 4,
+        "fields": {
+            "id": "4",
+            "symposium": "BBE",
+            "title": "International Symposium on Biotechnology and Bioprocess Engineering"
+        }
+    },
+    {
+        "model": "submission.track",
+        "pk": 5,
+        "fields": {
+            "id": "5",
+            "symposium": "CPE",
+            "title": "International Symposium on Chemical Process and Engineering"
+        }
+    },
+    {
+        "model": "submission.track",
+        "pk": 6,
+        "fields": {
+            "id": "6",
+            "symposium": "SBCC",
+            "title": "International Symposium on Sustainable Building, City, and Community"
+        }
+    },
+    {
+        "model": "submission.track",
+        "pk": 7,
+        "fields": {
+            "id": "7",
+            "symposium": "ECE",
+            "title": "International Symposium on Electrical and Computer Engineering"
+        }
+    },
+    {
+        "model": "submission.track",
+        "pk": 8,
+        "fields": {
+            "id": "8",
+            "symposium": "MME",
+            "title": "International Symposium on Metallurgy and Materials Engineering"
+        }
+    },
+    {
+        "model": "submission.track",
+        "pk": 9,
+        "fields": {
+            "id": "9",
+            "symposium": "IE",
+            "title": "International Symposium on Industrial Engineering"
+        }
+    },
+    {
+        "model": "submission.track",
+        "pk": 10,
+        "fields": {
+            "id": "10",
+            "symposium": "ISBE",
+            "title": "International Symposium on Biomedical Engineering"
+        }
+    }
+]

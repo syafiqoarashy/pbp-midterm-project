@@ -1,0 +1,324 @@
+[
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 1,
+        "fields": {
+            "id_paper": "42",
+            "room": "8",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.45-11.00",
+            "location": "KUANTAN 1-2",
+            "author": "Petrus Aldo Siahaan, Tri Tjahjono and Guritnaningsih",
+            "paper": "A Proposed Method to Understand the Behavior of Elementary Students’ School Travel Mode Choice Based on Active Transportation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 2,
+        "fields": {
+            "id_paper": "55",
+            "room": "8",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.00-11.15",
+            "location": "KUANTAN 1-2",
+            "author": "Andyka Kusuma, Tri Tjahjono and Ahmad Septiawan",
+            "paper": "The Indonesia High Speed Train Traveler Preference Analysis"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 3,
+        "fields": {
+            "id_paper": "288",
+            "room": "8",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.15-11.30",
+            "location": "KUANTAN 1-2",
+            "author": "Furry Ayu Agustiyani and Tri Tjahjono",
+            "paper": "Determinant Variables That Affect Severity of Pedestrian Accidents in The City of Magelang"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 4,
+        "fields": {
+            "id_paper": "218",
+            "room": "8",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.30-11.45",
+            "location": "KUANTAN 1-2",
+            "author": "Sondy Pandapotan and Jachrizal Sumabrata",
+            "paper": "Analysis of The Pedestrian Path Toward Duren Kalibata Train Station as a Part of The Transit Development Area"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 5,
+        "fields": {
+            "id_paper": "334",
+            "room": "8",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.45-12.00",
+            "location": "KUANTAN 1-2",
+            "author": "Elita Amrina and Lavita Berti",
+            "paper": "A Multi Criteria Model for Evaluating Sustainable Transportation System"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 6,
+        "fields": {
+            "id_paper": "134",
+            "room": "9",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.00-13.15",
+            "location": "OMBILIN 1",
+            "author": "Norma Kinasih, Charlos Stevanus, Iman Nugraha, Aprizal Alamsyah, Adi Cifriadi, Thomas Wijaya and Dadi Maspanger",
+            "paper": "The Development of Natural Rubber Composite Based Canal Blocking to Sustain Peatland Environment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 7,
+        "fields": {
+            "id_paper": "140",
+            "room": "9",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.15-13.30",
+            "location": "OMBILIN 1",
+            "author": "Sunaryo, Abdurrasyid Lubis and Muhammad Bagja Ramadhan",
+            "paper": "Increasing The Safety of Traditional shipping Using Formal Safety Assessment Approach"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 8,
+        "fields": {
+            "id_paper": "159",
+            "room": "9",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.30-13.45",
+            "location": "OMBILIN 1",
+            "author": "Nazaruddin N, Danardono D A, Adhitya M, Rolan Siregar and Ghany Heryana",
+            "paper": "Review of Electric Power Steering Type Column Steering with Booster Motor and Future Research for EV-Bus"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 9,
+        "fields": {
+            "id_paper": "174",
+            "room": "9",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.45-14.00",
+            "location": "OMBILIN 1",
+            "author": "Hari Nurjaman, Suwito, Christ Marbun, Irawanto and Martinus Fau",
+            "paper": "Structural Assessment of Rental Housing Flat Lere in Palu Affected by Palu Earthquake on September 28, 2018"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 10,
+        "fields": {
+            "id_paper": "286",
+            "room": "9",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.00-14.15",
+            "location": "OMBILIN 1",
+            "author": "Sigit Sutikno, Ilvi Rahmi Amalia, Ari Sandhyavitri, Heru Widodo and Tri Handoko Seto",
+            "paper": "Application of Weather Modification Technology for Peatlands Fires Mitigation in Riau, Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 11,
+        "fields": {
+            "id_paper": "365",
+            "room": "9",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.15-15.30",
+            "location": "OMBILIN 1",
+            "author": "Alexander Paz, Daniel Emaasit, Hanns de la Fuente-Mella and Yudan Whulanza",
+            "paper": "A Comprehensive System For Management Roadway Infrastructure"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 12,
+        "fields": {
+            "id_paper": "365",
+            "room": "9",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.30-15.45",
+            "location": "OMBILIN 1",
+            "author": "Alexander Paz, Daniel Emaasit, Hanns de la Fuente-Mella and Yudan Whulanza",
+            "paper": "A Comprehensive System For Management Roadway Infrastructure"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 13,
+        "fields": {
+            "id_paper": "310",
+            "room": "9",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.45-16.00",
+            "location": "OMBILIN 1",
+            "author": "Tuesta Refaningati",
+            "paper": "Analysis of Characteristics and Efficiency of Smart Locker System (Study Case: Jabodetabek)"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 14,
+        "fields": {
+            "id_paper": "15",
+            "room": "9",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.00-16.15",
+            "location": "OMBILIN 1",
+            "author": "Nunik Madyaningarum, Mohammed Ali Berawi and Yarianto Sugeng Budi Susilo",
+            "paper": "Strategic Project Planning Solution Model in the Radioactive Minerals Processing Pilot Plant Construction"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 15,
+        "fields": {
+            "id_paper": "347",
+            "room": "9",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.15-16.30",
+            "location": "OMBILIN 1",
+            "author": "Alvinsyah Muslihun and Rizky Mulyono",
+            "paper": "A Comparison of \"Rail Factor\" on User Preference in Selecting Mode of Travel for City with and without Mass Transport Service"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 16,
+        "fields": {
+            "id_paper": "27",
+            "room": "9",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.30-16.45",
+            "location": "OMBILIN 1",
+            "author": "Ni Luh Putu Shinta Eka Setyarini and Leksmono Suryo Putranto",
+            "paper": "Key Factors to Become Succesful Road Safety Auditor"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 17,
+        "fields": {
+            "id_paper": "89",
+            "room": "9",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.45-17.00",
+            "location": "OMBILIN 1",
+            "author": "Primawaty Silaen, Ari Sandhyavitri and Muhammad Ikhsan",
+            "paper": "CRITICAL SUCCESS MITIGATION OF CONTRACTOR’S PERFORMANCE OF WORK ON LONGSEGMENT POLICYOF NATIONAL ROADS PRESERVATION (Case of study : Preservation of National Roads in Riau Province)"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 18,
+        "fields": {
+            "id_paper": "7",
+            "room": "9",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.00-17.15",
+            "location": "OMBILIN 1",
+            "author": "Hari Nurjaman, Lutfi Faizal, Nyoman Suaryana, Yudhi Dharmawan and Suwito Suwito",
+            "paper": "THE EXPERIMENTAL STUDIES TO DEVELOP PRECAST AND PRESTRESSED CONCRETE SYSTEM FOR RIGID PAVEMENT IN INDONESIA"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 19,
+        "fields": {
+            "id_paper": "79",
+            "room": "9",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.15-17.30",
+            "location": "OMBILIN 1",
+            "author": "Ari Sandhyavitri, Sigit Sutikno, Rizki Sahputra, Rayhul Amri and Heru Widodo",
+            "paper": "The Roles of Net-Work Analyses in Optimizing the Number and Locations of Fire Brigade Posts in Mitigating Peatfires"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 20,
+        "fields": {
+            "id_paper": "358",
+            "room": "9",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.30-17.45",
+            "location": "OMBILIN 1",
+            "author": "Rully Andhika Karim and Yusuf Latief",
+            "paper": "Conceptual Framework of Development of Quality Culture in Indonesian Construction Company"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 21,
+        "fields": {
+            "id_paper": "",
+            "room": "9",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.45-18.00",
+            "location": "OMBILIN 1",
+            "author": "",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 22,
+        "fields": {
+            "id_paper": "",
+            "room": "8",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.15-10.30",
+            "location": "KUANTAN 1-2",
+            "author": "Invited Speaker - Ruth Steiner",
+            "paper": ""
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsIT",
+        "pk": 23,
+        "fields": {
+            "id_paper": "",
+            "room": "8",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.30-10.45",
+            "location": "KUANTAN 1-2",
+            "author": "Invited Speaker - Ruth Steiner",
+            "paper": ""
+        }
+    }
+]

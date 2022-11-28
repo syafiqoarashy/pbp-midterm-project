@@ -1,0 +1,562 @@
+[
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 1,
+        "fields": {
+            "id_paper": "26",
+            "room": "3",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.00-13.15",
+            "location": "OMBILIN 2-3",
+            "author": "Masato Tominaga, Shumpei Ototani and Raden Darmawan (Invited Speaker)",
+            "paper": "Effect of Connection Type in Series and Parallel on Electric Power Generation of Mud Microbial Fuel Cell"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 2,
+        "fields": {
+            "id_paper": "26",
+            "room": "3",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.15-13.30",
+            "location": "OMBILIN 2-3",
+            "author": "Masato Tominaga, Shumpei Ototani and Raden Darmawan (Invited Speaker)",
+            "paper": "Effect of Connection Type in Series and Parallel on Electric Power Generation of Mud Microbial Fuel Cell"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 3,
+        "fields": {
+            "id_paper": "35",
+            "room": "3",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.30-13.45",
+            "location": "OMBILIN 2-3",
+            "author": "Andre Fahriz Perdana Harahap, Azhar Aditya Rahman, Isni Nur Sadrina, Ahmad Muhaimin Roslan and Misri Gozan",
+            "paper": "Optimization of pretreatment conditions for microwave assisted alkaline delignification of empty fruit bunch by response surface methodology"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 4,
+        "fields": {
+            "id_paper": "39",
+            "room": "3",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "13.45-14.00",
+            "location": "OMBILIN 2-3",
+            "author": "Elsa Anisa Krisanti, Nugrahirani Hijrianti and Kamarza Mulia",
+            "paper": "Preparation and Evaluation of Alginate-Chitosan Matrices Loaded with Red Ginger Oleoresin Using Ionotropic Gelation Method"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 5,
+        "fields": {
+            "id_paper": "43",
+            "room": "3",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.00-14.15",
+            "location": "OMBILIN 2-3",
+            "author": "Ilham Ardatul Putra, Yani Faozani Alli and Didin Mujahidin",
+            "paper": "ESTERIFICATION OF POLIOXY-BASED SURFACTANT UTILIZING AZEOTROPE TECHNIQUE FOR CHEMICAL FLOODING APPLICATION"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 6,
+        "fields": {
+            "id_paper": "46",
+            "room": "3",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.15-14.30",
+            "location": "OMBILIN 2-3",
+            "author": "Eva Fathul Karamah, Linggar Anindita, Devita Amelia, Eny Kusrini and Setijo Bismo",
+            "paper": "Tofu industrial wastewater treatment with ozonation and the adsorption method using natural zeolite"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 7,
+        "fields": {
+            "id_paper": "77",
+            "room": "3",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.30-14.45",
+            "location": "OMBILIN 2-3",
+            "author": "Mursyidah Umar, Dike Putra and Lazuardhy Futur",
+            "paper": "Re-design Waterflood Pattern by Utilizing the Tracers Test Technique and Interwell Streamline Simulator"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 8,
+        "fields": {
+            "id_paper": "78",
+            "room": "3",
+            "session": "1",
+            "date": "2019-07-23",
+            "time": "14.45-15.00",
+            "location": "OMBILIN 2-3",
+            "author": "Ruspenda",
+            "paper": "Technical and Economical Feasilibity Utilization of Exhaust Gas from Oil Wells Venting System in Y Offshore Platform"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 9,
+        "fields": {
+            "id_paper": "80",
+            "room": "3",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.15-15.30",
+            "location": "OMBILIN 2-3",
+            "author": "Melanie Cornelia and Sanny Yan",
+            "paper": "UTILIZATION OF DATE PALM (Phoenix dactylifera L.) IN MAKING OF LOW FAT PUMPKIN (Cucurbita moschata Duchesne) ICE CREAM Melanie Cornelia1) Sanny2)"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 10,
+        "fields": {
+            "id_paper": "83",
+            "room": "3",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.30-15.45",
+            "location": "OMBILIN 2-3",
+            "author": "Reni Desmiarti and Trianda Yenni",
+            "paper": "Phenol adsorption from aqueous solution by coconut shell-based activated carbon"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 11,
+        "fields": {
+            "id_paper": "90",
+            "room": "3",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "15.45-16.00",
+            "location": "OMBILIN 2-3",
+            "author": "Hira Meidia, Danial Irfachsyad and Dennis Gunawan",
+            "paper": "Simulation Study of Structural Properties of Colloidal Suspensions"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 12,
+        "fields": {
+            "id_paper": "144",
+            "room": "3",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.15-16.30",
+            "location": "OMBILIN 2-3",
+            "author": "Mas Ayu Elita Hafizah, Ahmad Luthfi Mahar and Azwar Manaf",
+            "paper": "The Role of Anionic Surfactant to The Particle Size Reduction of Polyaniline"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 13,
+        "fields": {
+            "id_paper": "151",
+            "room": "3",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.30-16.45",
+            "location": "OMBILIN 2-3",
+            "author": "Andy Noorsaman Sommeng, Fristy Rizcky Nurzaneal, Mikael Januardi Ginting, Sonya Pebriani, Muhamad Sahlan, Heri Hermansyah and Anondho Wijanarko",
+            "paper": "Sensitivity Analysis of Gas Distribution Pipeline Risk Assessment Methodology in Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 14,
+        "fields": {
+            "id_paper": "155",
+            "room": "3",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "16.45-17.00",
+            "location": "OMBILIN 2-3",
+            "author": "Ahmad Fadli, Amun Amri, Esty Octiana Sari, Deden Saprudin and Sukoco Sukoco",
+            "paper": "Superparamagnetic nanoparticles with mesoporous structure prepared through hydrothermal technique"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 15,
+        "fields": {
+            "id_paper": "216",
+            "room": "3",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.00-17.15",
+            "location": "OMBILIN 2-3",
+            "author": "Rachman Surachman and Sutrasno Kartohardjono",
+            "paper": "Tofu Wastewater Treatment through Coagulation-Flocculation and Membrane Processes"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 16,
+        "fields": {
+            "id_paper": "243",
+            "room": "3",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.15-17.30",
+            "location": "OMBILIN 2-3",
+            "author": "Muthia Elma, Aptar E Lestari, Sadidan Rabiah, Erdina L. A. Rampun, Aulia Rahma and Amalia E. Pratiwi",
+            "paper": "Performance of Mesoporous Silica Membrane Using Organo Catalyst for Water Desalination"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 17,
+        "fields": {
+            "id_paper": "17",
+            "room": "3",
+            "session": "2",
+            "date": "2019-07-23",
+            "time": "17.30-17.45",
+            "location": "OMBILIN 2-3",
+            "author": "Alkifli Adnan and Sutrasno Kartohardjono",
+            "paper": "Effects of working fluids on cryogenic power generation through two stages organic Rankine cycle"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 18,
+        "fields": {
+            "id_paper": "225",
+            "room": "3",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.00-08.15",
+            "location": "OMBILIN 2-3",
+            "author": "Abdul Wahid and Denis Yanuardi",
+            "paper": "Economic Analysis of Model Predictive Control on Dimethyl Ether Purification Process"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 19,
+        "fields": {
+            "id_paper": "226",
+            "room": "3",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.15-08.30",
+            "location": "OMBILIN 2-3",
+            "author": "Nida Fathia and Sutrasno Kartohardjono",
+            "paper": "Effect of Trans-Membrane-Pressure on Tofu Industry Wastewater Treatment through Ultrafiltration and Reverse Osmosis Processes"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 20,
+        "fields": {
+            "id_paper": "227",
+            "room": "3",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.30-08.45",
+            "location": "OMBILIN 2-3",
+            "author": "Luthfia Shofi Albi and Sutrasno Kartohardjono",
+            "paper": "The Combined Process of Coagulation-Flocculation and Membrane Separation to Treat Wastewater from Tofu Industry"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 21,
+        "fields": {
+            "id_paper": "233",
+            "room": "3",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.45-09.00",
+            "location": "OMBILIN 2-3",
+            "author": "Marlon Jr. Mopon, Georgette Anne Battad, Jericho Estacio and Junel Lawrence Indiongco",
+            "paper": "Development of a CuFe2O4 – reduced graphene oxide-based electrochemical sensor for malathion detection"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 22,
+        "fields": {
+            "id_paper": "271",
+            "room": "3",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.00-09.15",
+            "location": "OMBILIN 2-3",
+            "author": "Catharina Candra Pratita and Sutrasno Kartohardjono",
+            "paper": "The Effect of Gas Flow Rate on NOx Gas Absorption in Hollow Fibre Membrane Module"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 23,
+        "fields": {
+            "id_paper": "273",
+            "room": "3",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.15-09.30",
+            "location": "OMBILIN 2-3",
+            "author": "Mohamad Sofwan Rizky and Sutrasno Kartohardjono",
+            "paper": "The effect of Fiber Number in Hollow Fiber Membrane Module for NOx Absorption"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 24,
+        "fields": {
+            "id_paper": "274",
+            "room": "3",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.30-09.45",
+            "location": "OMBILIN 2-3",
+            "author": "Clarissa Merry and Sutrasno Kartohardjono",
+            "paper": "Effect of Absorbent Concentration on NOx Absorption in Hollow Fiber Membrane Module"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 25,
+        "fields": {
+            "id_paper": "276",
+            "room": "3",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.45-10.00",
+            "location": "OMBILIN 2-3",
+            "author": "Irfan Danu Rahatwan and Praswasti P. D. K. Wulan",
+            "paper": "Techno-economic Analysis of Pilot Scale Carbon Nanotube Production from LPG with Fe-Co-Mo/MgO Catalyst in Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 26,
+        "fields": {
+            "id_paper": "281",
+            "room": "3",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.15-10.30",
+            "location": "OMBILIN 2-3",
+            "author": "Yuswan Muharam, Hamzah Hamzah and Muhammad Audry Ramadhany",
+            "paper": "Numerical simulation of carbon dioxide absorption by MEA solution with super mini ring contactor"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 27,
+        "fields": {
+            "id_paper": "306",
+            "room": "3",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.30-10.45",
+            "location": "OMBILIN 2-3",
+            "author": "Joshua Siallagan and Bambang Susanto",
+            "paper": "Analysis of NiMoP/γ-Al2O3 Catalyst Preparation with Impregnation and Microwave Polyol Methods for Bio-Jet Production"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 28,
+        "fields": {
+            "id_paper": "309",
+            "room": "3",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.45-11.00",
+            "location": "OMBILIN 2-3",
+            "author": "Bambang Heru Susanto, Achmad Anggawirya Alimin and Yusran Fachry Reza",
+            "paper": "Bioavtur hydroprocessing conversion study from vegetable oil"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 29,
+        "fields": {
+            "id_paper": "314",
+            "room": "3",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.00-11.15",
+            "location": "OMBILIN 2-3",
+            "author": "Nico Nathanael, Asep Saputra and Adam Bawono",
+            "paper": "Feasibility Study of City Gas Network in Summarecon Serpong"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 30,
+        "fields": {
+            "id_paper": "316",
+            "room": "3",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.15-11.30",
+            "location": "OMBILIN 2-3",
+            "author": "Asep Handaya Saputra and Ibrahim Irwan",
+            "paper": "Feasibility Study of CNG Trucking System from Duri to Padang"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 31,
+        "fields": {
+            "id_paper": "324",
+            "room": "3",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.30-11.45",
+            "location": "OMBILIN 2-3",
+            "author": "Eva Fathul Karamah, Syafrizal Ibnu Saif, Sergie Purnama and Devita Amelia",
+            "paper": "Disinfection of Escherichia coli using a combination of ozonation and ultrasound cavitation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 32,
+        "fields": {
+            "id_paper": "328",
+            "room": "3",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.45-12.00",
+            "location": "OMBILIN 2-3",
+            "author": "Etin Rohmatin, Dita Amalia Wijanarko, Kenny Lischer, Anondho Wijanarko and Muhamad Sahlan",
+            "paper": "Production and Composition Identification of Sea Cucumber Jelly from Holothuria Scabra"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 33,
+        "fields": {
+            "id_paper": "329",
+            "room": "3",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.00-13.15",
+            "location": "OMBILIN 2-3",
+            "author": "Muhamad Sahlan, Anondho Wijanarko and Kenny Lischer",
+            "paper": "Scale-Up Production Simulation of Tooth Gel Containing Casein Phophopeptide – Amorphous Calcium Phosphate (CPP-ACP) and Propolis to Inhibit Teeth Demineralization"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 34,
+        "fields": {
+            "id_paper": "330",
+            "room": "3",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.15-13.30",
+            "location": "OMBILIN 2-3",
+            "author": "Yuliusman, Maretha Putri Ayu, Afdhal Hanafi and Azmia Rizka Nafisah",
+            "paper": "Activated carbon preparation from durian peel wastes using chemical and physical activation"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 35,
+        "fields": {
+            "id_paper": "331",
+            "room": "3",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.30-13.45",
+            "location": "OMBILIN 2-3",
+            "author": "Yuliusman, Maretha Putri Ayu, Afdhal Hanafi and Azmia Rizka Nafisah",
+            "paper": "Adsorption of carbon monoxide and hydrocarbon components in motor vehicle exhaust emission using magnesium oxide loaded on durian peel activated carbon"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 36,
+        "fields": {
+            "id_paper": "335",
+            "room": "3",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.45-14.00",
+            "location": "OMBILIN 2-3",
+            "author": "Yuliusman Yuliusman, Fadel Al Farouq, Samson Patar Sipangkar, Mufiid Fatkhurrahman and Salma Putri Amaliani",
+            "paper": "Adsorption of CO Gas and Cigarette Smoke Using NiO-Modified Metal Activated Carbon"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 37,
+        "fields": {
+            "id_paper": "336",
+            "room": "3",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.00-14.15",
+            "location": "OMBILIN 2-3",
+            "author": "Yuliusman Yuliusman, Mufiid Fatkhurrahman, Samson Patar, Fadel Al, Salma Amaliani and Nasruddin Nasruddin",
+            "paper": "Modified Activated Carbon Using NiO for Natural Gas Storage"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 38,
+        "fields": {
+            "id_paper": "337",
+            "room": "3",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.15-14.30",
+            "location": "OMBILIN 2-3",
+            "author": "Yuliuman Yuliusman, Salma Amaliani Putri, Fadel Al Farouq, Samson Patar Sipangkar and Mufiid Fatkhurrahman",
+            "paper": "Technology Development of Adsorption Cigarette Smoke Using Modified Activated Carbon with MgO from Waste Biomass of Durian Shell"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 39,
+        "fields": {
+            "id_paper": "220",
+            "room": "3",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.30-14.45",
+            "location": "OMBILIN 2-3",
+            "author": "Batara Triargi Sabarudin and Sutrasno Kartohardjono",
+            "paper": "Combination of Coagulation-Flocculation and Membrane Processes for Tofu Wastewater Treatment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsCPE",
+        "pk": 40,
+        "fields": {
+            "id_paper": "93",
+            "room": "3",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.45-15.00",
+            "location": "OMBILIN 2-3",
+            "author": "Nurhayati Ciptasari, Adri Nora, Lutviasari Nuraini, Lusiana, Nono Darsono and Muhamad Amal",
+            "paper": "Effect of Cobalt Content on the Structural Properties of Zirconia Prepared by Sol-Gel Method"
+        }
+    }
+]

@@ -1,0 +1,352 @@
+[
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 1,
+        "fields": {
+            "id_paper": "58",
+            "room": "9",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.00-08.15",
+            "location": "OMBILIN 1",
+            "author": "Iqbal Yamin, Bambang Sugiarto, Setia Abikusna and Dhimas Andianto",
+            "paper": "Analysis of Utilization of Low Grade Bioethanol and Oxygenated Additives to COV and Exhaust Gas Emissions at Motor Makara"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 2,
+        "fields": {
+            "id_paper": "63",
+            "room": "9",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.15-08.30",
+            "location": "OMBILIN 1",
+            "author": "Fransiskus Adian, Bambang Sugiarto, Cahyo Setyo Wibowo, Davigara Dwika Primayandi, Reza Hargiyanto and Hardi Krisnanto",
+            "paper": "Comparison of the Effect of 10% Ethanol Addition in 88 and 98 Gasoline RON on Motorcycle Engine Performance"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 3,
+        "fields": {
+            "id_paper": "66",
+            "room": "9",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.30-08.45",
+            "location": "OMBILIN 1",
+            "author": "Dyah Arum Wulandari, Euis Djubaedah and Nasruddin",
+            "paper": "Water Adsorption Behavior of Indonesian Natural Zeolite Based On NaOH Treatment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 4,
+        "fields": {
+            "id_paper": "69",
+            "room": "9",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "8.45-09.00",
+            "location": "OMBILIN 1",
+            "author": "Euis Djubaedah, Dyah Arum Wulandari, Nasruddin Yusuf and Yuni Krisnandi",
+            "paper": "Surface area modification of natural zeolite through NaCl Counterbalanced treatment to applied in adsorption thermal energy strorage system"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 5,
+        "fields": {
+            "id_paper": "137",
+            "room": "9",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.00-09.15",
+            "location": "OMBILIN 1",
+            "author": "Erwin Susanto Sadirsan, Aprillia Ika Warsanti and Mila Viendyasari",
+            "paper": "IMPACT, IMPLEMENTATION AND UTILIZATION OF PARIS AGREEMENTS FOR THE ENERGY SECTOR IN INDONESIA"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 6,
+        "fields": {
+            "id_paper": "194",
+            "room": "9",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.15-09.30",
+            "location": "OMBILIN 1",
+            "author": "Wisnu Ramadhan, Nugroho Adi Sasongko and Danur Lambang Pristiandaru",
+            "paper": "Comparative Study of Battery Technology for Vehicle Industry in Indonesia : A Life Cycle Assessment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 7,
+        "fields": {
+            "id_paper": "228",
+            "room": "9",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.30-09.45",
+            "location": "OMBILIN 1",
+            "author": "Abdul Wahid, Dwi Ratna Mustafida and Yuli Amalia Husnil",
+            "paper": "Exergy Analysis of Coal-Fired Power Plants in Ultra Supercritical Technology versus Integrated Gasification Combined Cycle"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 8,
+        "fields": {
+            "id_paper": "338",
+            "room": "9",
+            "session": "3",
+            "date": "2019-07-24",
+            "time": "9.45-10.00",
+            "location": "OMBILIN 1",
+            "author": "Muhamad Agus Farhan and Widodo Purwanto",
+            "paper": "The Potential Utilization Options of Small-Scale Associated Gas Flaring on The Upstream Process Production Offshore Platform. Techno-Economic Assessment"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 9,
+        "fields": {
+            "id_paper": "2",
+            "room": "9",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.15-10.30",
+            "location": "OMBILIN 1",
+            "author": "Rossi Wahyuni and Prameswari Julianda",
+            "paper": "BUSINESS FEASIBILITY ANALYSIS OF JARAK PAGAR MATERIALS IN BIODIESEL INDUSTRIES"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 10,
+        "fields": {
+            "id_paper": "373",
+            "room": "9",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.30-10.45",
+            "location": "OMBILIN 1",
+            "author": "Caesario Cornelis and Farizal",
+            "paper": "Two Steps Optimization of Natural Gas Power Generation Location and Pipe Supply System"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 11,
+        "fields": {
+            "id_paper": "8",
+            "room": "9",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "10.45-11.00",
+            "location": "OMBILIN 1",
+            "author": "Ghany Heryana and Mohammad Adhitya",
+            "paper": "PLUG IN HYBRID ELECTRIC VEHICLE POWER CONSUMPTION ANALYSIS IN TROPICAL AREA"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 12,
+        "fields": {
+            "id_paper": "10",
+            "room": "9",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.00-11.15",
+            "location": "OMBILIN 1",
+            "author": "Dhany Harmeidy Barus and Rinaldy Dalimi",
+            "paper": "A Review of Indonesia Grid Code Adaptation toward Variable Renewable Energy Penetration"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 13,
+        "fields": {
+            "id_paper": "25",
+            "room": "9",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.15-11.30",
+            "location": "OMBILIN 1",
+            "author": "J Hidayat and Bambang Sugiarto",
+            "paper": "REVIEW ON EFFECT BIODIESEL BLEND ON THE GROWTH OF DEPOSIT IN COMBUSTION CHAMBER"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 14,
+        "fields": {
+            "id_paper": "44",
+            "room": "9",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.30-11.45",
+            "location": "OMBILIN 1",
+            "author": "Nyayu Aisyah, Nasruddin Nasruddin, Muhammad Idrus Alhamid and Arnas Lubis",
+            "paper": "Thermodynamic and Environmental Analysis of High Temperature Heat Pump by using HCFO-1224yd(Z) and HCFO-1233zd(E)"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 15,
+        "fields": {
+            "id_paper": "229",
+            "room": "9",
+            "session": "4",
+            "date": "2019-07-24",
+            "time": "11.45-12.00",
+            "location": "OMBILIN 1",
+            "author": "Heri Suyanto, Erlina Erlina and Mohammad Hafidz",
+            "paper": "Study Operation Strategy of the STT – PLN 4MW/8MWh Battery Energy Storage System in Regency Bima West Nusa Tenggara"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 16,
+        "fields": {
+            "id_paper": "231",
+            "room": "9",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.00-13.15",
+            "location": "OMBILIN 1",
+            "author": "Muhammad Arif Budiyanto, Muhammad Hanzalah Huzaifi and Simon Juanda Sirait",
+            "paper": "Study on The Estimation of CO2 Emission in a Container Port Based on Modality Movement in The Terminal Area"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 17,
+        "fields": {
+            "id_paper": "232",
+            "room": "9",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.15-13.30",
+            "location": "OMBILIN 1",
+            "author": "Rina Irawati and Heri Suyanto",
+            "paper": "System methodology Smart Grid Reference Framework"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 18,
+        "fields": {
+            "id_paper": "255",
+            "room": "9",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.30-13.45",
+            "location": "OMBILIN 1",
+            "author": "Kayyis Ibadurrohman, Irma Gusniani, Djoko M Hartono and Nyoman Suwartha",
+            "paper": "The Potential Analysis of Food Waste Management using Bioconversion of The Organic Waste by The Black Soldier Fly (Hermetia illucens) Larvae in The Cafeteria of The Faculty of Engineering, Universitas Indonesia"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 19,
+        "fields": {
+            "id_paper": "269",
+            "room": "9",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "13.45-14.00",
+            "location": "OMBILIN 1",
+            "author": "Tri Widjaja, Siti Nurkhamidah, Ali Altway, Toto Iswanto, Bayu Gusdyarto and Faisal Fahbi Ilham",
+            "paper": "Performance of Biogas Production from Coffee Pulp Waste using Semi-Continue Anaerobic Reactor"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 20,
+        "fields": {
+            "id_paper": "294",
+            "room": "9",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.00-14.15",
+            "location": "OMBILIN 1",
+            "author": "Nike Dwi Wahyuningsih, Nyoman Suwartha, Djoko M Hartono and Mochamad Adhiraga Pratama",
+            "paper": "Evaluating Roof Type Variations Effect on the Quality of Rainwater Runoff in Rainwater Harvesting Systems"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 21,
+        "fields": {
+            "id_paper": "305",
+            "room": "9",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.15-14.30",
+            "location": "OMBILIN 1",
+            "author": "Arnan Kuncoro and Widodo Wahyu Purwanto",
+            "paper": "Analysis of Energy-Water Nexus Palm Oil Biodiesel Production in Riau Using Life Cycle Assessment and Water Footprint Methods"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 22,
+        "fields": {
+            "id_paper": "230",
+            "room": "9",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.30-14.45",
+            "location": "OMBILIN 1",
+            "author": "Muhammad Arif Budiyanto, Simon Juanda Sirait and Muhammad Hanzalah Huzaifi",
+            "paper": "Study on the Carbon Emission Evaluation in a Container Port Based on Energy Consumption Data"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 23,
+        "fields": {
+            "id_paper": "302",
+            "room": "9",
+            "session": "5",
+            "date": "2019-07-24",
+            "time": "14.45-15.00",
+            "location": "OMBILIN 1",
+            "author": "Taufan Cahyo Widodo, Ardiyansyah Yatim and Muhammad Idrus Alhamid",
+            "paper": "Design and Construction of Air Flow Measurement Device in Psychrometric Chamber for Air Conditioner Split Type Testing Energy Labeling"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 24,
+        "fields": {
+            "id_paper": "49",
+            "room": "9",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.15-15.30",
+            "location": "OMBILIN 1",
+            "author": "Nico Nathanael, Asep Handaya Saputra and Adam Nur Bawono",
+            "paper": "Feasibility Study of City Gas Network in Summarecon Serpong"
+        }
+    },
+    {
+        "model": "parallel_sessions.SessionsSCE",
+        "pk": 25,
+        "fields": {
+            "id_paper": "340",
+            "room": "9",
+            "session": "6",
+            "date": "2019-07-24",
+            "time": "15.30-15.45",
+            "location": "OMBILIN 1",
+            "author": "Abdul Wahid and Herdhi Hermawan",
+            "paper": "Development Analysis of the use of Solar Energy (Solar PV) to meet the increase in electricity demand in South Sulawesi from 2019 to 2025"
+        }
+    }
+]
