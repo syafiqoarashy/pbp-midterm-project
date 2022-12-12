@@ -10,6 +10,7 @@ from django.http import HttpResponseRedirect, JsonResponse
 from django.urls import reverse
 from django.http import HttpResponse
 from django.core import serializers
+from django.views.decorators.csrf import csrf_exempt
 
 @login_required(login_url='/login/')
 def landing_logged(request):
