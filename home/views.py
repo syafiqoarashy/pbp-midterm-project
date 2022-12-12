@@ -36,6 +36,7 @@ def render_test(request):
     }   
     return render(request, "test_index.html", context)
 
+@csrf_exempt
 def login_user(request):
     if request.method == 'POST':
         username = request.POST.get('username')
@@ -49,6 +50,7 @@ def login_user(request):
     context = {}
     return render(request, 'login.html', context)
 
+@csrf_exempt
 def register(request):
     form = UserCreationForm()
 
