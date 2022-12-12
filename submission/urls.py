@@ -7,4 +7,5 @@ urlpatterns = [
     path('', show_submission, name='show_submission'),
     path('details/<str:id>', show_details_by_id, name='show_details_by_id'),
     path('json/', show_json, name='show_json'),
+    path('json_flutter/', show_json_flutter, name='show_json_flutter'),
 ]

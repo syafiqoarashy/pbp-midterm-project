@@ -26,3 +26,7 @@ def show_details_by_id(request, id):
 @login_required(login_url= "/login/")
 def show_json(request):
     return HttpResponse(serializers.serialize("json", submission_filter.qs), content_type="application/json")
+
+def show_json_flutter(request):
+    submission_data = Submission.objects.all()
+    return HttpResponse(serializers.serialize("json", submission_data), content_type="application/json")
