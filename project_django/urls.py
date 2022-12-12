@@ -24,6 +24,7 @@ urlpatterns = [
     path('authors/', include('authors.urls')),
     path('events/', include('events.urls')),
     path('speakers/', include('speakers.urls')),
+    path('auth/', include('auth.urls')),
 ]
 
 # TODO: Implement Routings Here
